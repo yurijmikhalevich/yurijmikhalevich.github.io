@@ -1,0 +1,966 @@
+<!doctype html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: February 18, 2024 --><html lang="en-us" dir="ltr"
+      data-wc-theme-default="system">
+  
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="Hugo Blox Builder 0.2.0" />
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Yurij Mikhalevich" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="photo-rich tech blog" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://mikhalevi.ch/" />
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://mikhalevi.ch/css/themes/purple.min.css" />
+  
+
+  
+  
+    
+    <link href="https://mikhalevi.ch/dist/wc.min.css" rel="stylesheet" />
+  
+
+  
+    
+    <link href="https://mikhalevi.ch/css/custom.min.b700aec0141a2e70fad4540fa56cab156144e422bfc43cd0411670169b651186.css" rel="stylesheet" />
+  
+
+  <script>
+     
+    window.hbb = {
+       defaultTheme: document.documentElement.dataset.wcThemeDefault,
+       setDarkTheme: () => {
+        document.documentElement.classList.add("dark");
+        document.documentElement.style.colorScheme = "dark";
+      },
+       setLightTheme: () => {
+        document.documentElement.classList.remove("dark");
+        document.documentElement.style.colorScheme = "light";
+      }
+    }
+
+    console.debug(`Default Hugo Blox Builder theme is ${window.hbb.defaultTheme}`);
+
+    if ("wc-color-theme" in localStorage) {
+      localStorage.getItem("wc-color-theme") === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+    } else {
+      window.hbb.defaultTheme === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      if (window.hbb.defaultTheme === "system") {
+        window.matchMedia("(prefers-color-scheme: dark)").matches ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      }
+    }
+  </script>
+
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function () {
+      
+      let checkboxes = document.querySelectorAll('li input[type=\'checkbox\'][disabled]');
+      checkboxes.forEach(e => {
+        e.parentElement.parentElement.classList.add('task-list');
+      });
+
+      
+      const liNodes = document.querySelectorAll('.task-list li');
+      liNodes.forEach(nodes => {
+        let textNodes = Array.from(nodes.childNodes).filter(node => node.nodeType === 3 && node.textContent.trim().length > 1);
+        if (textNodes.length > 0) {
+          const span = document.createElement('label');
+          textNodes[0].after(span);  
+          span.appendChild(nodes.querySelector('input[type=\'checkbox\']'));
+          span.appendChild(textNodes[0]);
+        }
+      });
+    });
+  </script>
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-149478752-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-149478752-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="https://mikhalevi.ch/media/icon_hu22f15536e9918e9e849189ceda99d382_340250_32x32_fill_lanczos_center_3.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://mikhalevi.ch/media/icon_hu22f15536e9918e9e849189ceda99d382_340250_16x16_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" sizes="300x300" type="image/png" href="https://mikhalevi.ch/media/icon_hu22f15536e9918e9e849189ceda99d382_340250_300x300_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://mikhalevi.ch/" />
+
+  
+
+  
+    
+    
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:image" content="https://mikhalevi.ch/media/icon_hu22f15536e9918e9e849189ceda99d382_340250_512x512_fill_lanczos_center_3.png" />
+  <meta name="twitter:title" content="Yurij Mikhalevich" />
+  <meta name="twitter:description" content="photo-rich tech blog" />
+  <meta name="twitter:site" content="@theyurij" />
+  <meta name="twitter:creator" content="@theyurij" />
+
+  <meta property="og:site_name" content="Yurij Mikhalevich" />
+  <meta property="og:url" content="https://mikhalevi.ch/" />
+  <meta property="og:title" content="Yurij Mikhalevich" />
+  <meta property="og:description" content="photo-rich tech blog" />
+  <meta property="og:image" content="https://mikhalevi.ch/media/icon_hu22f15536e9918e9e849189ceda99d382_340250_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:locale" content="en-us" />
+
+  
+    
+      <meta property="og:updated_time" content="2024-01-28T00:00:00&#43;00:00" />
+    
+  
+
+  
+
+  <title>Yurij Mikhalevich</title>
+
+  
+  
+  
+  
+  <style>
+    @font-face {
+      font-family: 'Inter var';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(https://mikhalevi.ch/dist/font/Inter.var.woff2) format("woff2");
+    }
+  </style>
+
+  
+  <link rel="alternate" href="https://mikhalevi.ch/rss.xml" title="Yurij Mikhalevich" type="application/rss+xml" />
+  
+  
+    
+  
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link type="text/css" rel="stylesheet" href="/dist/lib/katex/katex.min.505d5f829022bb7b4f24dfee0aa1141cd7bba67afe411d1240335f820960b5c3.css" integrity="sha256-UF1fgpAiu3tPJN/uCqEUHNe7pnr&#43;QR0SQDNfgglgtcM=" />
+  
+  
+  <script defer src="/dist/lib/katex/katex.min.dc84b296ec3e884de093158f760fd9d45b6c7abe58b5381557f4e138f46a58ae.js" integrity="sha256-3ISyluw&#43;iE3gkxWPdg/Z1Ftser5YtTgVV/ThOPRqWK4="></script>
+  
+  
+  
+  
+  <script defer src="/js/katex-renderer.0d99234398222967acfc659035cc2c269fbae1a3f942642d1da3d4e4a7463027.js" integrity="sha256-DZkjQ5giKWes/GWQNcwsJp&#43;64aP5QmQtHaPU5KdGMCc="></script>
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  <script
+    defer
+    src="https://mikhalevi.ch/js/hugo-blox-en.min.078b219c8a98772427f102269cf46781e83e9f861633c0aaed4bcc882179e8ed.js"
+    integrity="sha256-B4shnIqYdyQn8QImnPRngeg&#43;n4YWM8Cq7UvMiCF56O0="
+  ></script>
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+  <body class="dark:bg-gray-800 dark:text-white-800 page-wrapper" id="top">
+    <div id="page-bg"></div>
+    <div class="page-header ">
+      
+      
+      
+        
+        
+        
+          <div class="absolute right-0 top-0 m-3 bg-primary-100 dark:bg-primary-700 rounded-full p-2 z-10">
+  <div class="h-[24px] w-[24px]">
+    <button class="theme-toggle" accesskey="t" title="" aria-label="Display preferences">
+      <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" class="dark:hidden">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+      </svg>
+      <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+           fill="none" stroke="white" stroke-width="2" stroke-linecap="round"
+           stroke-linejoin="round" class=" dark:block [&:not(dark)]:hidden">
+        <circle cx="12" cy="12" r="5"></circle>
+        <line x1="12" y1="1" x2="12" y2="3"></line>
+        <line x1="12" y1="21" x2="12" y2="23"></line>
+        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+        <line x1="1" y1="12" x2="3" y2="12"></line>
+        <line x1="21" y1="12" x2="23" y2="12"></line>
+        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+      </svg>
+    </button>
+  </div>
+</div>
+
+        
+      
+    </div>
+    <div class="page-body  my-10">
+      
+
+
+
+
+
+
+
+<div class="flex flex-col items-center space-y-2">
+  
+  <a href="/">
+      <img alt="Yurij Mikhalevich" class="aspect-square rounded-full bg-zinc-100 object-cover dark:bg-zinc-800" data-nimg="1" decoding="async"
+                                                      height="60" loading="lazy"
+                                                      src="/author/yurij-mikhalevich/avatar_hu1e000e9c50a9eca951db9b54a3873359_284455_200x200_fill_q85_h2_lanczos_center.webp"
+                                                      style="color: transparent; background: linear-gradient(37.000000deg, #423a35b3, #423a3500 75%),linear-gradient(127.000000deg, #b4a491b3, #b4a49100 75%),linear-gradient(217.000000deg, #927062b3, #92706200 75%),linear-gradient(307.000000deg, #a08e76b3, #a08e7600 75%); background-size: cover; background-repeat: no-repeat;"
+                                                      width="60">
+    </a>
+  
+  <div class="font-normal tracking-widest">
+    <a href="/">YURIJ MIKHALEVICH</a>
+  </div>
+</div>
+
+<div class="flex flex-col items-center mt-4">
+  <div class="max-w-2xl mx-auto text-center prose prose-slate dark:prose-invert">
+    Builds the future at <a href="https://lightning.ai" target="_blank">Lightning AI</a>,
+    creator of the <a href="https://github.com/move-fast-and-break-things" target="_blank">Move Fast and Break Things community of software engineers</a>,
+    <a href="https://community.deeplearning.ai/" target="_blank">DeepLearning.AI</a> mentor,
+    creator of <a href="https://github.com/yurijmikhalevich/rclip" target="_blank">rclip</a>, writes about
+    <a href="https://mikhalevi.ch/tag/tech/" class="">tech</a>,
+    <a href="https://mikhalevi.ch/tag/software-engineering/" class="">software engineering</a>,
+    <a href="https://mikhalevi.ch/tag/books/" class="">books</a>,
+    <a href="https://mikhalevi.ch/tag/what-to-watch/" class="">what to watch</a>,
+    and <a href="https://mikhalevi.ch/tag/beyond/" class="">beyond</a>,
+    practices <a href="https://mikhalevi.ch/tag/creative-writing/" class="">creative writing</a>
+    and captures moments through <a href="https://mikhalevi.ch/tag/photography/" class="">photography</a></div>
+</div>
+
+<div class="flex flex-col items-center mt-4">
+  <div class="max-w-xxl mx-auto text-center prose prose-slate dark:prose-invert">
+    
+
+    
+
+    
+      Grab the <a href="https://mikhalevi.ch/rss.xml">RSS feed</a> to get future posts
+    
+  </div>
+</div>
+
+
+
+
+
+
+<div class="flex flex-col items-center">
+
+  <div class="container px-8 mx-auto max-w-screen-lg xl:px-5 py-5 lg:py-8">
+  <div class="grid gap-10 md:grid-cols-2 lg:gap-10">
+
+
+  
+  
+  
+
+
+
+<div class="group cursor-pointer">
+
+  
+  
+  <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
+
+    <a
+      class="relative block aspect-video"
+      href="/into-the-night/">
+
+      <img alt="Into the Night"
+           class="object-cover transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="437" loading="lazy" src="/into-the-night/featured_hu825a7db99107c60e9f6ff66f3ae6634f_641415_166a3bd101e02ae09bdd97043a0a9cb3.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent; background: linear-gradient(37.000000deg, #232426b3, #23242600 75%),linear-gradient(217.000000deg, #9333eab3, #9333ea00 75%); background-size: cover; background-repeat: no-repeat;"
+           width="655"></a>
+  </div>
+  
+  <div class="">
+    <a href="/into-the-night/">
+      <div class="flex justify-between mt-3">
+        <div class="items-center text-gray-500 dark:text-gray-400">
+          <time class="truncate text-sm" datetime="2019-11-26">November 26, 2019</time>
+        </div>
+        <div class="flex gap-3">
+          
+          <span
+            class="inline-block text-xs font-medium tracking-wider mt-1 uppercase text-primary-600 dark:text-primary-300">Creative Writing</span>
+          
+        </div>
+      </div>
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-1 dark:text-white"><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Into the Night</span>
+      </h2>
+      <div class="grow">
+        <p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400">
+          Mike, the hedgehog, was out late evening looking for food. It was getting dark too fast, almost like someone was playing a trick on him. He was afraid of the darkness.</p>
+      </div>
+    </a>
+  </div>
+</div>
+
+  
+  
+
+
+
+<div class="group cursor-pointer">
+
+  
+  
+  <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
+
+    <a
+      class="relative block aspect-video"
+      href="/alita-battle-angel/">
+
+      <img alt="Alita: Battle Angel"
+           class="object-cover transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="437" loading="lazy" src="/alita-battle-angel/featured_hu43054b6854a8de26bb8c4e10d6d54451_340396_ac3ff306c7281e08aa95aa01885c457e.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent; background: linear-gradient(37.000000deg, #511f18b3, #511f1800 75%),linear-gradient(127.000000deg, #9f3522b3, #9f352200 75%),linear-gradient(217.000000deg, #aba9a5b3, #aba9a500 75%),linear-gradient(307.000000deg, #b29065b3, #b2906500 75%); background-size: cover; background-repeat: no-repeat;"
+           width="655"></a>
+  </div>
+  
+  <div class="">
+    <a href="/alita-battle-angel/">
+      <div class="flex justify-between mt-3">
+        <div class="items-center text-gray-500 dark:text-gray-400">
+          <time class="truncate text-sm" datetime="2019-11-15">November 15, 2019</time>
+        </div>
+        <div class="flex gap-3">
+          
+          <span
+            class="inline-block text-xs font-medium tracking-wider mt-1 uppercase text-primary-600 dark:text-primary-300">What to Watch</span>
+          
+        </div>
+      </div>
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-1 dark:text-white"><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Alita: Battle Angel</span>
+      </h2>
+      <div class="grow">
+        <p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400">
+          TL;DR: 7/10. Alita is an OK movie. Stunning visual, a few good actors, and a fine story.
+Being familiar with some live-action anime adaptations (awful Netflix’s Death Note comes to mind immediately), I haven’t been expecting much from this one.</p>
+      </div>
+    </a>
+  </div>
+</div>
+
+  
+  
+
+
+
+<div class="group cursor-pointer">
+
+  
+  
+  <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
+
+    <a
+      class="relative block aspect-video"
+      href="/on-learning-languages/">
+
+      <img alt="On Learning Languages"
+           class="object-cover transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="437" loading="lazy" src="/on-learning-languages/featured_hu0b9fc4767aa12bce605c0d4578bfebe7_248657_f602c3d2ea8b4a8c64da2ef156d2fc0a.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent; background: linear-gradient(37.000000deg, #38302bb3, #38302b00 75%),linear-gradient(127.000000deg, #c04e41b3, #c04e4100 75%),linear-gradient(217.000000deg, #b8b3a2b3, #b8b3a200 75%),linear-gradient(307.000000deg, #b5986cb3, #b5986c00 75%); background-size: cover; background-repeat: no-repeat;"
+           width="655"></a>
+  </div>
+  
+  <div class="">
+    <a href="/on-learning-languages/">
+      <div class="flex justify-between mt-3">
+        <div class="items-center text-gray-500 dark:text-gray-400">
+          <time class="truncate text-sm" datetime="2019-11-13">November 13, 2019</time>
+        </div>
+        <div class="flex gap-3">
+          
+          <span
+            class="inline-block text-xs font-medium tracking-wider mt-1 uppercase text-primary-600 dark:text-primary-300">Beyond</span>
+          
+        </div>
+      </div>
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-1 dark:text-white"><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">On Learning Languages</span>
+      </h2>
+      <div class="grow">
+        <p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400">
+          A continuation of my previous post, “Why do I write?”.
+I’m excited about learning languages.
+Learning new languages is an incredibly useful exercise for your brain that expands your horizons, familiarizes you with different cultures, with different ways of thinking.</p>
+      </div>
+    </a>
+  </div>
+</div>
+
+  
+  
+
+
+
+<div class="group cursor-pointer">
+
+  
+  
+  <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
+
+    <a
+      class="relative block aspect-video"
+      href="/why-do-i-write/">
+
+      <img alt="Why Do I Write?"
+           class="object-cover transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="491" loading="lazy" src="/why-do-i-write/featured_hu8b2b3c46acb57a06939419350d618cef_410986_01a514d32ca29d7e3f90f4a0e1849340.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent; background: linear-gradient(37.000000deg, #d1c0a7b3, #d1c0a700 75%),linear-gradient(109.000000deg, #33383db3, #33383d00 75%),linear-gradient(181.000000deg, #cc5339b3, #cc533900 75%),linear-gradient(253.000000deg, #139153b3, #13915300 75%),linear-gradient(325.000000deg, #de9e46b3, #de9e4600 75%); background-size: cover; background-repeat: no-repeat;"
+           width="655"></a>
+  </div>
+  
+  <div class="">
+    <a href="/why-do-i-write/">
+      <div class="flex justify-between mt-3">
+        <div class="items-center text-gray-500 dark:text-gray-400">
+          <time class="truncate text-sm" datetime="2019-11-10">November 10, 2019</time>
+        </div>
+        <div class="flex gap-3">
+          
+          <span
+            class="inline-block text-xs font-medium tracking-wider mt-1 uppercase text-primary-600 dark:text-primary-300">Beyond</span>
+          
+        </div>
+      </div>
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-1 dark:text-white"><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Why Do I Write?</span>
+      </h2>
+      <div class="grow">
+        <p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400">
+          I write this blog to improve my English. Simple as that.
+I’m a native Russian speaker, heavily invested in learning English, C1 level certified. For a few recent years, I’ve been consuming all media - movies, shows, books, articles, etc.</p>
+      </div>
+    </a>
+  </div>
+</div>
+
+  
+  
+
+
+
+<div class="group cursor-pointer">
+
+  
+  
+  <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
+
+    <a
+      class="relative block aspect-video"
+      href="/the-red-turtle/">
+
+      <img alt="The Red Turtle"
+           class="object-cover transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="655" loading="lazy" src="/the-red-turtle/featured_hu0fa5c81ea2ae356ee1248a182b779653_1295498_e5013fc2cda54bc7fd3f62e31bad94ea.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent; background: linear-gradient(37.000000deg, #9d9da4b3, #9d9da400 75%),linear-gradient(82.000000deg, #6e8e94b3, #6e8e9400 75%),linear-gradient(127.000000deg, #a28977b3, #a2897700 75%),linear-gradient(172.000000deg, #957362b3, #95736200 75%),linear-gradient(217.000000deg, #556770b3, #55677000 75%),linear-gradient(262.000000deg, #677688b3, #67768800 75%),linear-gradient(307.000000deg, #877991b3, #87799100 75%),linear-gradient(352.000000deg, #6b847bb3, #6b847b00 75%); background-size: cover; background-repeat: no-repeat;"
+           width="437"></a>
+  </div>
+  
+  <div class="">
+    <a href="/the-red-turtle/">
+      <div class="flex justify-between mt-3">
+        <div class="items-center text-gray-500 dark:text-gray-400">
+          <time class="truncate text-sm" datetime="2019-11-03">November 3, 2019</time>
+        </div>
+        <div class="flex gap-3">
+          
+          <span
+            class="inline-block text-xs font-medium tracking-wider mt-1 uppercase text-primary-600 dark:text-primary-300">What to Watch</span>
+          
+        </div>
+      </div>
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-1 dark:text-white"><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">The Red Turtle</span>
+      </h2>
+      <div class="grow">
+        <p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400">
+          TL;DR: 10/10. Unique and captivating, visually stunning, beautiful wordless story about the existential loneliness, relationships, family, generations, life, love, aspirations, desires, understanding, - people.
+The movie “The Red Turtle” is neither your average cartoon nor anime.</p>
+      </div>
+    </a>
+  </div>
+</div>
+
+  
+  
+
+
+
+<div class="group cursor-pointer">
+
+  
+  
+  <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
+
+    <a
+      class="relative block aspect-video"
+      href="/arrival/">
+
+      <img alt="Arrival"
+           class="object-cover transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="437" loading="lazy" src="/arrival/featured_hue291410a05086dde0e1dedccc68a1307_207196_64b05dc5515d66dd526f369e0d043a3c.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent; background: linear-gradient(37.000000deg, #4a5463b3, #4a546300 75%),linear-gradient(97.000000deg, #9a9690b3, #9a969000 75%),linear-gradient(157.000000deg, #737983b3, #73798300 75%),linear-gradient(217.000000deg, #9b8c78b3, #9b8c7800 75%),linear-gradient(277.000000deg, #7c8287b3, #7c828700 75%),linear-gradient(337.000000deg, #857b74b3, #857b7400 75%); background-size: cover; background-repeat: no-repeat;"
+           width="655"></a>
+  </div>
+  
+  <div class="">
+    <a href="/arrival/">
+      <div class="flex justify-between mt-3">
+        <div class="items-center text-gray-500 dark:text-gray-400">
+          <time class="truncate text-sm" datetime="2019-10-31">October 31, 2019</time>
+        </div>
+        <div class="flex gap-3">
+          
+          <span
+            class="inline-block text-xs font-medium tracking-wider mt-1 uppercase text-primary-600 dark:text-primary-300">What to Watch</span>
+          
+        </div>
+      </div>
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-1 dark:text-white"><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Arrival</span>
+      </h2>
+      <div class="grow">
+        <p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400">
+          TL;DR: 9/10. Nice science fiction movie about the importance of clear communication and mutual understanding in the context of learning a language. Drama &amp; love substory included.
+The movie tells the aliens’ arrival story, but it’s not your typical “aliens” invasion.</p>
+      </div>
+    </a>
+  </div>
+</div>
+
+  
+  
+
+
+
+<div class="group cursor-pointer">
+
+  
+  
+  <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
+
+    <a
+      class="relative block aspect-video"
+      href="/the-humans-by-matt-haig/">
+
+      <img alt="The Humans by Matt Haig"
+           class="object-cover transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="437" loading="lazy" src="/the-humans-by-matt-haig/featured_hu6e9e8d4eff470cafa331733f0bf5909a_134400_efdfd6f8e4d624ea35512dd0ecb9b45e.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent; background: linear-gradient(37.000000deg, #5e4d39b3, #5e4d3900 75%),linear-gradient(109.000000deg, #aaabadb3, #aaabad00 75%),linear-gradient(181.000000deg, #8a6e50b3, #8a6e5000 75%),linear-gradient(253.000000deg, #a0876bb3, #a0876b00 75%),linear-gradient(325.000000deg, #6c8894b3, #6c889400 75%); background-size: cover; background-repeat: no-repeat;"
+           width="655"></a>
+  </div>
+  
+  <div class="">
+    <a href="/the-humans-by-matt-haig/">
+      <div class="flex justify-between mt-3">
+        <div class="items-center text-gray-500 dark:text-gray-400">
+          <time class="truncate text-sm" datetime="2019-10-13">October 13, 2019</time>
+        </div>
+        <div class="flex gap-3">
+          
+          <span
+            class="inline-block text-xs font-medium tracking-wider mt-1 uppercase text-primary-600 dark:text-primary-300">Books</span>
+          
+        </div>
+      </div>
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-1 dark:text-white"><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">The Humans by Matt Haig</span>
+      </h2>
+      <div class="grow">
+        <p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400">
+          TL;DR: 6.5/10. Great start, excellent adventure, great humor (mostly concentrated in the first half of the book), very well written, but an unrealistic and much weaker ending.
+Human is a real bipedal life form of midrange intelligence, living a largely deluded existence on a small, waterlogged planet in a very lonely corner of the universe.</p>
+      </div>
+    </a>
+  </div>
+</div>
+
+  
+  
+
+
+
+<div class="group cursor-pointer">
+
+  
+  
+  <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
+
+    <a
+      class="relative block aspect-video"
+      href="/the-sky-above-the-woods-was-the-color-purple/">
+
+      <img alt="The Sky Above the Woods Was the Color Purple"
+           class="object-cover transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="437" loading="lazy" src="/the-sky-above-the-woods-was-the-color-purple/featured_hu9dfb0377d22e0cadee013cf0e047e90a_674302_2c6e9f3d8ff1cd3ec7ad53ce691cb25e.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent; background: linear-gradient(37.000000deg, #342136b3, #34213600 75%),linear-gradient(217.000000deg, #9333eab3, #9333ea00 75%); background-size: cover; background-repeat: no-repeat;"
+           width="655"></a>
+  </div>
+  
+  <div class="">
+    <a href="/the-sky-above-the-woods-was-the-color-purple/">
+      <div class="flex justify-between mt-3">
+        <div class="items-center text-gray-500 dark:text-gray-400">
+          <time class="truncate text-sm" datetime="2019-10-06">October 6, 2019</time>
+        </div>
+        <div class="flex gap-3">
+          
+          <span
+            class="inline-block text-xs font-medium tracking-wider mt-1 uppercase text-primary-600 dark:text-primary-300">Photography</span>
+          
+        </div>
+      </div>
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-1 dark:text-white"><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">The Sky Above the Woods Was the Color Purple</span>
+      </h2>
+      <div class="grow">
+        <p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400">
+          Warming yourself up with the delicious hot tea under the Milky Way at the top of the crag, after a short hike up through the dark mountain forest, is a special treat.</p>
+      </div>
+    </a>
+  </div>
+</div>
+
+  
+
+    </div>
+</div>
+
+
+  
+<nav class="mt-1">
+  <ul class="container mx-auto flex justify-center">
+    
+    <li class="p-5"><a class="page-link" href="/page/3/">&laquo; Previous</a></li>
+    
+    
+  </ul>
+</nav>
+
+
+
+</div>
+
+
+    </div>
+    <div class="page-footer">
+      
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

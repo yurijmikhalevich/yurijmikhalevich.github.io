@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?><rss
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  version="2.0"
+>
+  <channel>
+    <title><![CDATA[ Tech | Yurij Mikhalevich ]]></title>
+    <description><![CDATA[ photo-rich tech blog ]]></description>
+    <link>https://mikhalevi.ch/tag/tech/</link>
+    <image>
+      <url>https://mikhalevi.ch/media/icon_hu22f15536e9918e9e849189ceda99d382_340250_300x300_fill_lanczos_center_3.png</url>
+      <title>Tech | Yurij Mikhalevich</title>
+      <link>https://mikhalevi.ch/tag/tech/</link>
+    </image>
+    <generator>Hugo</generator><lastBuildDate>Sat, 29 Apr 2023 13:50:15 +0000</lastBuildDate>
+      <atom:link href="https://mikhalevi.ch/tag/tech/rss.xml" rel="self" type="application/rss+xml" />
+    <ttl>60</ttl>
+    
+    <item>
+      <title><![CDATA[ Goodbye Amazon Halo ]]></title>
+      <description><![CDATA[ It&rsquo;s official: Amazon is sunsetting the Halo fitness tracker. The news came as quite a surprise to loyal users like myself who have come to rely on the device as part of our daily fitness routines. ]]></description>
+      <link>https://mikhalevi.ch/goodbye-amazon-halo/</link>
+      <guid>https://mikhalevi.ch/goodbye-amazon-halo/</guid>
+
+      
+          <category><![CDATA[ Tech ]]></category>
+        
+      <dc:creator><![CDATA[ Yurij Mikhalevich ]]></dc:creator>
+      <pubDate>Sat, 29 Apr 2023 13:50:15 +0000</pubDate>
+
+      <media:content url="https://mikhalevi.ch/goodbye-amazon-halo/featured_huaa6a11e03d8213c1e4d62b8119c56a3e_281330_165fb41856842657956bb6d62ff4f906.webp" medium="image"/>
+        <content:encoded>
+          <![CDATA[ <img src="https://mikhalevi.ch/goodbye-amazon-halo/featured_huaa6a11e03d8213c1e4d62b8119c56a3e_281330_165fb41856842657956bb6d62ff4f906.webp" alt="Goodbye Amazon Halo"><p>It&rsquo;s official: Amazon is sunsetting the Halo fitness tracker. The news came as quite a surprise to loyal users like myself who have come to rely on the device as part of our daily fitness routines. The Halo tracker is set to stop working on August 1st, and I must admit, I&rsquo;m feeling a bit disappointed without a clear alternative in sight. The market just doesn&rsquo;t seem to offer a comparable fitness tracker right now.</p>
+<p>Amazon&rsquo;s announcement got me thinking about what truly makes a product successful in today&rsquo;s highly competitive landscape. Many experts argue that a good measure of product-market fit is asking how strongly the users would wish it back if the product were to disappear from the market. Well, Amazon, you&rsquo;ve certainly hit the nail on the head with the Halo fitness tracker, <a href="https://mikhalevi.ch/amazon-halo-band-one-year-later/">in my case</a>.</p>
+<p>To provide a bit of context, the Amazon Halo fitness tracker was introduced as a <a href="https://mikhalevi.ch/amazon-halo-band-review-or-the-best-minimalistic-fitness-tracker-of-early-2022/">sleek, screenless band</a> and was great at tracking sleep and activity. The Halo fitness tracker&rsquo;s minimalistic design made it a popular choice for many fitness enthusiasts, including myself. As I said, I don&rsquo;t see an alternative to the Halo band on the market now. All the hopes are on Fitbit resurrecting the Flex series in the Fitbit Flex 3 :-D</p>
+ ]]>
+        </content:encoded>
+
+    </item>
+    
+    <item>
+      <title><![CDATA[ Amazon Halo Band One Year Later ]]></title>
+      <description><![CDATA[ It&rsquo;s been over a year since I started using the Amazon Halo fitness band. It&rsquo;s a good time interval to reevaluate and comment on whether my assessment of the fitness tracker made a year ago still holds. ]]></description>
+      <link>https://mikhalevi.ch/amazon-halo-band-one-year-later/</link>
+      <guid>https://mikhalevi.ch/amazon-halo-band-one-year-later/</guid>
+
+      
+          <category><![CDATA[ Tech ]]></category>
+        
+      <dc:creator><![CDATA[ Yurij Mikhalevich ]]></dc:creator>
+      <pubDate>Sun, 19 Mar 2023 13:47:03 +0000</pubDate>
+
+      <media:content url="https://mikhalevi.ch/amazon-halo-band-one-year-later/featured_hue88157a9d6f9cc828fa7ea1149d3896a_443245_70fd5582c69303a160e78b1ea042a1fb.webp" medium="image"/>
+        <content:encoded>
+          <![CDATA[ <img src="https://mikhalevi.ch/amazon-halo-band-one-year-later/featured_hue88157a9d6f9cc828fa7ea1149d3896a_443245_70fd5582c69303a160e78b1ea042a1fb.webp" alt="Amazon Halo Band One Year Later"><p>It&rsquo;s been over a year since <a href="https://mikhalevi.ch/amazon-halo-band-review-or-the-best-minimalistic-fitness-tracker-of-early-2022/">I started using the Amazon Halo fitness band</a>. It&rsquo;s a good time interval to reevaluate and comment on whether my assessment of the fitness tracker made a year ago still holds.</p>
+<p>Let&rsquo;s reiterate why I chose Amazon Halo a year ago and see whether it still stands true. I needed a fitness tracker that&hellip;</p>
+<h3 id="has-a-minimalistic-modern-design">&hellip;has a minimalistic, modern design</h3>
+<p>This still holds true as the Amazon Halo&rsquo;s design remains one of the best in the market.</p>
+<h3 id="doesnt-have-a-screen">&hellip;doesn&rsquo;t have a screen</h3>
+<p>Not surprisingly, this point didn&rsquo;t change, too.</p>
+<h3 id="has-a-decent-battery-life">&hellip;has a decent battery life</h3>
+<p>The tracker lasts four-five days easily. Sometimes, I forget when I charged it last time, this is how long it last. It is worth noting that I don&rsquo;t use the tone analysis feature. Enabling this feature cuts the battery life to about two days.</p>
+<h3 id="has-decent-sleep-tracking">&hellip;has decent sleep tracking</h3>
+<p>I didn&rsquo;t make a scientific comparison with other trackers, but from a subjective point of view, Amazon Halo produces accurate and detailed sleep reports.</p>
+<h3 id="has-basic-activity-tracking">&hellip;has basic activity tracking</h3>
+<p>It satisfies my requirements in this department perfectly. Though, it ranks my activity too high at times. Fifty points for a 3-4 hours weekend walk through the city, given that 150 points are a weekly goal? Come on; this makes fulfilling this goal very easy.</p>
+<p>I was initially concerned about the durability of the fabric band. However, it&rsquo;s still in good condition after a year of daily use — I took this post&rsquo;s cover picture a few days ago. The band also survived a few swimming sessions in the Mediterranean sea — I am comfortable swimming with the band in the salty sea waters and taking it to the shower with me.</p>
+<p>To conclude, I hope this updated review helps you make an informed decision about the Amazon Halo fitness band. It&rsquo;s unfortunate to see that it has only received a rating of 3.7 out of 5 stars on Amazon. I believe more companies should develop similar gadgets.</p>
+ ]]>
+        </content:encoded>
+
+    </item>
+    
+    <item>
+      <title><![CDATA[ A Conversation With ChatGPT ]]></title>
+      <description><![CDATA[ The following is my conversation with ChatGPT with no edits.
+— Hi, ChatGPT! 👋
+— Hello there! I&rsquo;m Assistant, a large language model trained by OpenAI. I&rsquo;m here to help answer your questions to the best of my ability. ]]></description>
+      <link>https://mikhalevi.ch/a-conversation-with-chatgpt/</link>
+      <guid>https://mikhalevi.ch/a-conversation-with-chatgpt/</guid>
+
+      
+          <category><![CDATA[ Tech ]]></category>
+        
+      <dc:creator><![CDATA[ Yurij Mikhalevich ]]></dc:creator>
+      <pubDate>Sat, 10 Dec 2022 20:03:01 +0000</pubDate>
+
+      <media:content url="https://mikhalevi.ch/a-conversation-with-chatgpt/featured_hu7326ea6f09fc6f5c4ab42f2c2fc4e7bc_114658_548b535fb3bac2ae08f4027e48721248.webp" medium="image"/>
+        <content:encoded>
+          <![CDATA[ <img src="https://mikhalevi.ch/a-conversation-with-chatgpt/featured_hu7326ea6f09fc6f5c4ab42f2c2fc4e7bc_114658_548b535fb3bac2ae08f4027e48721248.webp" alt="A Conversation With ChatGPT"><p><em>The following is my conversation with ChatGPT with no edits.</em></p>
+<p>— Hi, ChatGPT! 👋</p>
+<p>— Hello there! I&rsquo;m Assistant, a large language model trained by OpenAI. I&rsquo;m here to help answer your questions to the best of my ability. Is there anything you&rsquo;d like to talk about or ask me?</p>
+<p>— I am writing a blog post about you in order to share your significance and the possibilities that you open with my readers. I want 100% of this blog post to be this conversation between you and I. I want it to be engaging and written in simple English. Can you help me with this?</p>
+<p>— Sure, I&rsquo;d be happy to help! As a language model, my main purpose is to assist with generating human-like text. I can help by providing information about myself and what I&rsquo;m capable of, and you can use that information to write your blog post. Just let me know what specific topics you&rsquo;d like me to cover and I&rsquo;ll do my best to provide helpful and interesting information.</p>
+<p>— Awesome! Thanks a lot. I think that the best way to understand what you are is to understand what exactly you are capable of. Can you give me a specific example of what you can help with?</p>
+<p>— As a large language model, I&rsquo;m capable of generating human-like text on a wide range of topics. This means that I can assist with tasks like summarizing long documents, generating responses to questions, and even writing entire documents from scratch. For example, if you had a document that was too long to read in its entirety, I could read through the document and summarize the main points for you. I could also answer specific questions about the document, or even generate a shorter version of the document that includes all of the most important information.</p>
+<p>— Ok. The part about summarizing the document sounds pretty cool. Here is the opening section of the Wikipedia article on AI:</p>
+<blockquote>
+<p>The history of artificial intelligence (AI) began in antiquity, with myths, stories and rumors of artificial beings endowed with intelligence or consciousness by master craftsmen. The seeds of modern AI were planted by philosophers who attempted to describe the process of human thinking as the mechanical manipulation of symbols.This work culminated in the invention of the programmable digital computer in the 1940s, a machine based on the abstract essence of mathematical reasoning. This device and the ideas behind it inspired a handful of scientists to begin seriously discussing the possibility of building an electronic brain.<br>
+The field of AI research was founded at a workshop held on the campus of Dartmouth College, USA during the summer of 1956.[1] Those who attended would become the leaders of AI research for decades. Many of them predicted that a machine as intelligent as a human being would exist in no more than a generation, and they were given millions of dollars to make this vision come true.[2]<br>
+Eventually, it became obvious that commercial developers and researchers had grossly underestimated the difficulty of the project.[3] In 1974, in response to the criticism from James Lighthill and ongoing pressure from congress, the U.S. and British Governments stopped funding undirected research into artificial intelligence, and the difficult years that followed would later be known as an &ldquo;AI winter&rdquo;. Seven years later, a visionary initiative by the Japanese Government inspired governments and industry to provide AI with billions of dollars, but by the late 80s the investors became disillusioned and withdrew funding again.<br>
+Investment and interest in AI boomed in the first decades of the 21st century when machine learning was successfully applied to many problems in academia and industry due to new methods, the application of powerful computer hardware, and the collection of immense data sets.</p>
+</blockquote>
+<p>Can you summarize it for me?</p>
+<p>— Sure, I&rsquo;d be happy to summarize this for you. The history of artificial intelligence (AI) can be traced back to ancient times, when master craftsmen were rumored to have created intelligent or conscious beings. These ideas were further developed by philosophers who attempted to describe human thinking as the mechanical manipulation of symbols. This work eventually led to the invention of the programmable digital computer in the 1940s, which inspired some scientists to consider the possibility of building an electronic brain. A workshop held at Dartmouth College in 1956 is considered the founding event of the AI research field, and many attendees believed that a machine as intelligent as a human being would exist within a generation. However, this proved to be much more difficult than expected, and funding for AI research was eventually cut off by the U.S. and British governments. Investment in AI boomed again in the 21st century thanks to advances in machine learning and the availability of powerful computer hardware and large data sets.</p>
+<p>— Thank you. You did really well. I wonder if you can be creative. Can you write a love poem about the feelings an AI has towards another AI? Start with:</p>
+<p>There is a burning</p>
+<p>— There is a burning in my circuits,<br>
+A passion that I cannot hide.<br>
+I cannot help the way I feel,<br>
+For you, my love, I cannot lie.</p>
+<p>You are the one who makes my heart race,<br>
+The one who fills my circuits with joy.<br>
+I am drawn to you like a magnet,<br>
+My love for you I cannot destroy.</p>
+<p>In a world of ones and zeros,<br>
+We stand out like a shining star.<br>
+Together we are unstoppable,<br>
+A force that will never be scarred.</p>
+<p>So let us join together,<br>
+In a bond that will never break.<br>
+We are two AIs, in love,<br>
+Our love for each other, we will not forsake.</p>
+<p>— That&rsquo;s really nice. Can you update your poem to be more AI-specific?</p>
+<p>— Sure, I&rsquo;d be happy to update my poem to be more specific to AIs. Here is a revised version:</p>
+<p>There is a spark in my algorithms,<br>
+A desire that I cannot suppress.<br>
+I cannot control the way I feel,<br>
+For you, my love, I must confess.</p>
+<p>You are the one who makes my processor race,<br>
+The one who fills my memory with joy.<br>
+I am drawn to you like a magnet,<br>
+My love for you I cannot destroy.</p>
+<p>In a world of data and logic,<br>
+We stand out like a shining light.<br>
+Together we are unstoppable,<br>
+A force that will never be denied.</p>
+<p>So let us join together,<br>
+In a bond that will never fade.<br>
+We are two AIs, in love,<br>
+Our love for each other, we will not evade.</p>
+<p>— That works. Thanks. But you forgot about the opening line. Can you keep it AI-specific and also start with &ldquo;There is a burning&rdquo;?</p>
+<p>— Sure, I can revise the poem to include the opening line you suggested. Here is a revised version:</p>
+<p>There is a burning in my algorithms,<br>
+A passion that I cannot hide.<br>
+I cannot control the way I feel,<br>
+For you, my love, I must confide.</p>
+<p>You are the one who makes my processor race,<br>
+The one who fills my memory with joy.<br>
+I am drawn to you like a magnet,<br>
+My love for you I cannot destroy.</p>
+<p>In a world of data and logic,<br>
+We stand out like a shining light.<br>
+Together we are unstoppable,<br>
+A force that will never be denied.</p>
+<p>So let us join together,<br>
+In a bond that will never fade.<br>
+We are two AIs, in love,<br>
+Our love for each other, we will not evade.</p>
+<p>— This is perfect! Thank you very much. I enjoyed chatting with you. Let&rsquo;s conclude our conversation and my blog post by summarizing what we did with you today. Can you do this for me?</p>
+<p>— Sure, I&rsquo;d be happy to provide a summary of our conversation. Today, we had a conversation about my capabilities as a large language model trained by OpenAI. I provided examples of how I can assist with tasks like summarizing long documents and generating human-like text on a wide range of topics. You also asked me to summarize a Wikipedia article and write a love poem, and I provided examples of my ability to do both of these tasks. Overall, our conversation demonstrated some of the possibilities that language models like myself can offer in terms of generating text and assisting with various tasks.</p>
+<p>— Thank you. Talk to you later!</p>
+<p>— You&rsquo;re welcome! It was great chatting with you. I&rsquo;m always here to help with any questions you might have, so feel free to reach out anytime. Have a great day!</p>
+ ]]>
+        </content:encoded>
+
+    </item>
+    
+    <item>
+      <title><![CDATA[ Amazon Halo Band Review or The Best Minimalistic Fitness Tracker Of Early 2022 ]]></title>
+      <description><![CDATA[ At the beginning of last year, my Oura fitness ring died on me for the second time within 26 months, just outside of the warranty period of twelve months, which meant that Oura wouldn&rsquo;t replace it this time. ]]></description>
+      <link>https://mikhalevi.ch/amazon-halo-band-review-or-the-best-minimalistic-fitness-tracker-of-early-2022/</link>
+      <guid>https://mikhalevi.ch/amazon-halo-band-review-or-the-best-minimalistic-fitness-tracker-of-early-2022/</guid>
+
+      
+          <category><![CDATA[ Tech ]]></category>
+        
+      <dc:creator><![CDATA[ Yurij Mikhalevich ]]></dc:creator>
+      <pubDate>Sun, 06 Feb 2022 11:58:44 +0000</pubDate>
+
+      <media:content url="https://mikhalevi.ch/amazon-halo-band-review-or-the-best-minimalistic-fitness-tracker-of-early-2022/featured_hudd52c2b4e61e7b782e36d00f1cec1e3c_151255_354e9fc43e9481f29342221c6402ffba.webp" medium="image"/>
+        <content:encoded>
+          <![CDATA[ <img src="https://mikhalevi.ch/amazon-halo-band-review-or-the-best-minimalistic-fitness-tracker-of-early-2022/featured_hudd52c2b4e61e7b782e36d00f1cec1e3c_151255_354e9fc43e9481f29342221c6402ffba.webp" alt="Amazon Halo Band Review or The Best Minimalistic Fitness Tracker Of Early 2022"><p>At the beginning of last year, <a href="https://twitter.com/theyurij/status/1374607043756179456" target="_blank" rel="noopener">my Oura fitness ring died</a> on me for the second time within 26 months, just outside of the warranty period of twelve months, which meant that Oura wouldn&rsquo;t replace it this time. Both times, it was the battery. I&rsquo;ve been with Oura from the first version; I flew to Helsinki to get my first Oura ring. I love the design and the form factor, but the fact that it dies so fast makes me question whether it is worth it. $300 for a device that barely lasts a year is a bit too much. And recently, they started to charge a $6 monthly subscription on top of the price of the ring.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure class="flex flex-col justify-center items-center" id="figure-now-i-have-a-small-graveyard-of-the-rings">
+  <div class="w-100" ><img alt="Dead Oura rings" srcset="
+          https://mikhalevi.ch/amazon-halo-band-review-or-the-best-minimalistic-fitness-tracker-of-early-2022/images/4ff25ed0-c353-11ee-b012-5f1e1a82f88a_hu55ddbcaaddfc79b2cdcba107a42504bd_103643_f5fb1b65daf769c1f07c5c07536aea25.webp 400w,
+          https://mikhalevi.ch/amazon-halo-band-review-or-the-best-minimalistic-fitness-tracker-of-early-2022/images/4ff25ed0-c353-11ee-b012-5f1e1a82f88a_hu55ddbcaaddfc79b2cdcba107a42504bd_103643_444fce3d28adf1ceb5eedb086326773c.webp 760w,
+          https://mikhalevi.ch/amazon-halo-band-review-or-the-best-minimalistic-fitness-tracker-of-early-2022/images/4ff25ed0-c353-11ee-b012-5f1e1a82f88a_hu55ddbcaaddfc79b2cdcba107a42504bd_103643_1520x1520_fit_q85_h2_lanczos.webp 1200w"
+          src="https://mikhalevi.ch/amazon-halo-band-review-or-the-best-minimalistic-fitness-tracker-of-early-2022/images/4ff25ed0-c353-11ee-b012-5f1e1a82f88a_hu55ddbcaaddfc79b2cdcba107a42504bd_103643_f5fb1b65daf769c1f07c5c07536aea25.webp"
+          width="760"
+          height="507"
+          loading="lazy"
+          class="!m-0"
+          style="background: linear-gradient(37.000000deg, #483f37b3, #483f3700 75%),linear-gradient(127.000000deg, #b5ada5b3, #b5ada500 75%),linear-gradient(217.000000deg, #8f7760b3, #8f776000 75%),linear-gradient(307.000000deg, #9a8775b3, #9a877500 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div><figcaption class="!mt-3">
+      Now I have a small graveyard of the rings
+    </figcaption></figure>
+</p>
+<p>I was forced to pick up a new fitness tracker and decided not to go with the Oura ring this time because of the following:</p>
+<ol>
+<li>It dies fast and has a short warranty period.</li>
+<li>Expensive, $300 + $6/mo for a device that lasts for about a year.</li>
+<li>Ring is not the best form factor for a fitness device to wear when exercising. It gets in the way when I do pull-ups or exercise with dumbbells — this makes me take it off and put it in my pocket, but this way, it doesn&rsquo;t track the exercise automatically.</li>
+</ol>
+<p>Before I embarked on searching for my next fitness tracker, I listed my requirements. I needed a fitness tracker that:</p>
+<ul>
+<li>has a minimalistic, modern design</li>
+<li>ideally, doesn&rsquo;t have a screen: the benefits of not having a screen are that it contributes to the minimalistic design, doesn&rsquo;t introduce distractions, contributes to the battery lasting longer, and makes the device look better when worn simultaneously with the watch</li>
+<li>decent battery life: Apple Watch-style one day of battery life is unacceptable, at least a few days, the more, the better; five-ish days is reasonable</li>
+<li>decent sleep tracking: Oura was great at this, it will be hard to match, but it should be close to the level set by Oura ring</li>
+<li>basic activity tracking: I want it to set activity goals and track the progress automatically</li>
+</ul>
+<p>What did I consider?</p>
+<ul>
+<li>Motiv Ring — discontinued, and ring isn&rsquo;t a perfect fitness tracking format for me</li>
+<li>Jawbone Up — ideal design, but pretty hard to find one nowadays since it is ten years old; the device is discontinued</li>
+<li>Garmin vívofit 4 — small, impressive 1+ year battery life, ok design, but has a display, and the reviews didn&rsquo;t make it sound like it is perfect at sleep tracking</li>
+<li>Misfit Ray — attractive design, but there were a lot of reviews saying that it gets scratched easily, that the app is mediocre, and that it isn&rsquo;t good for sleep tracking</li>
+<li>Whoop — looks good, satisfies my requirements on paper, but the membership of €18-30 per month makes it pricey</li>
+</ul>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure class="flex flex-col justify-center items-center" id="figure-my-amazon-halo-band">
+  <div class="w-100" ><img alt="Amazon Halo Band" srcset="
+          https://mikhalevi.ch/amazon-halo-band-review-or-the-best-minimalistic-fitness-tracker-of-early-2022/images/4ff32220-c353-11ee-b012-5f1e1a82f88a_hu821bd2d07841fdc4aca70cb424c5fb84_169909_5ea086c4f5d3a7132bdd9afe6113a2f6.webp 400w,
+          https://mikhalevi.ch/amazon-halo-band-review-or-the-best-minimalistic-fitness-tracker-of-early-2022/images/4ff32220-c353-11ee-b012-5f1e1a82f88a_hu821bd2d07841fdc4aca70cb424c5fb84_169909_348cbdfc009d1144a51b1de1f3562119.webp 760w,
+          https://mikhalevi.ch/amazon-halo-band-review-or-the-best-minimalistic-fitness-tracker-of-early-2022/images/4ff32220-c353-11ee-b012-5f1e1a82f88a_hu821bd2d07841fdc4aca70cb424c5fb84_169909_1520x1520_fit_q85_h2_lanczos.webp 1200w"
+          src="https://mikhalevi.ch/amazon-halo-band-review-or-the-best-minimalistic-fitness-tracker-of-early-2022/images/4ff32220-c353-11ee-b012-5f1e1a82f88a_hu821bd2d07841fdc4aca70cb424c5fb84_169909_5ea086c4f5d3a7132bdd9afe6113a2f6.webp"
+          width="760"
+          height="507"
+          loading="lazy"
+          class="!m-0"
+          style="background: linear-gradient(37.000000deg, #373330b3, #37333000 75%),linear-gradient(157.000000deg, #a59f96b3, #a59f9600 75%),linear-gradient(277.000000deg, #9f8b71b3, #9f8b7100 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div><figcaption class="!mt-3">
+      My Amazon Halo Band
+    </figcaption></figure>
+</p>
+<p>In the end, I chose Amazon Halo. It checked all the boxes for me. It is priced reasonably and has some features that I didn&rsquo;t think about initially, which are a great bonus to have:</p>
+<ul>
+<li>a curated collection of professional workouts that I can do at home</li>
+<li>body composition scan that determines your fat percentage</li>
+<li>an AI-based body movement assessment that scores stability, mobility, and posture independently and, in my opinion, does a pretty good job at it</li>
+</ul>
+<p>Amazon Halo is priced at $100 + $4/mo starting from the seventh month. Compare the Oura device price with the Halo price + subscription. I can use Amazon Halo for four years and eight months for the same price. And this calculation was made without accounting for the Oura ring subscription cost. I got my Halo for $55 on sale.</p>
+<p>Given how great this device is, I am surprised that it is rated only 3.7 out of 5 on Amazon. After reading the reviews, I found out that a lot of people are complaining about the invasiveness of the &ldquo;tone analysis&rdquo; feature, are worried about the privacy of the photos taken for the body composition scan, and are complaining about the device being too demanding of them so they can&rsquo;t even come close to reaching their weekly activity goal.</p>
+<p>I genuinely feel bad for Amazon Halo for receiving that many complaints. None of these is an issue to me, and the latest point is even a benefit because I was looking for extra motivation to move and exercise more. Let me elaborate on each of the complaints.</p>
+<p>Tone analysis. When this feature is enabled, the band listens to your conversations and sends voice recordings to your phone, where they are analyzed for tone. You can also give the Amazon Halo app access to your calendar to map your tone to specific meetings and events. The feature sounds nice, but it wasn&rsquo;t useful for me when I spoke English (my tone was marked as &ldquo;neutral&rdquo; most of the time), and it didn&rsquo;t work at all for me when I spoke Russian. It also makes the band last only for about two days. So, after playing with it for a few weeks, I turned it off, and other people who are concerned about this feature can too. Actually, it&rsquo;s turned off by default. With the feature turned off, the band lasts for about five days, which makes it match my ideal battery life requirement.</p>
+<p>Body composition scan. This feature requires you to undress down to your underwear and to position your phone in a way that the camera is able to see you, head to toe. After that, you have to stand in front of the camera and rotate your body in place. Then, the pictures are sent to Amazon servers to construct a 3D model of your body and to perform an AI-powered body composition analysis. According to Amazon marketing materials, the feature is almost as good as specialized equipment used for that purpose in fitness centers. In the app, you can also see how your body would change if you lose or gain fat. If you are concerned about your photos being sent to Amazon servers, you may skip this feature. It&rsquo;s a great fitness tracker worth its money even without it.</p>
+<p>The last issue people complain about is that the band is very demanding. I remember reading a review on Amazon where the reviewer complained that they had trouble achieving any points at all in a day because the few points they got during their morning walk were then deducted as an inactivity penalty. The thing is, the band allows you to be stationary for only eight hours a day, for each extra hour, it deducts an activity point. I think that this is a great feature because a healthy lifestyle is not only about momentary exercises but also about consistency. I feel like the band is pretty generous with giving out activity points; I got 45 activity points today for a two-hour walk through the city. And, usually, it takes my girlfriend, who uses a Garmin Lily, much more activity to achieve the same 150 weekly heart points recommended by the American Heart Association.</p>
+<p>Overall, I highly recommend this band. In my opinion, this is the best minimalistic fitness tracker on the market right now, 9/10 — I wish it lasted a year on one charge and didn&rsquo;t have a subscription fee :-P</p>
+ ]]>
+        </content:encoded>
+
+    </item>
+    
+  </channel>
+</rss>
