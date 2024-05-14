@@ -1,42 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><rss
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/"
-  xmlns:atom="http://www.w3.org/2005/Atom"
-  xmlns:media="http://search.yahoo.com/mrss/"
-  version="2.0"
->
-  <channel>
-    <title><![CDATA[ Photography | Yurij Mikhalevich ]]></title>
-    <description><![CDATA[ photo-rich tech blog ]]></description>
-    <link>https://mikhalevi.ch/tag/photography/</link>
-    <image>
-      <url>https://mikhalevi.ch/media/icon_hu22f15536e9918e9e849189ceda99d382_340250_300x300_fill_lanczos_center_3.png</url>
-      <title>Photography | Yurij Mikhalevich</title>
-      <link>https://mikhalevi.ch/tag/photography/</link>
-    </image>
-    <generator>Hugo</generator><lastBuildDate>Sun, 06 Oct 2019 07:03:00 +0000</lastBuildDate>
-      <atom:link href="https://mikhalevi.ch/tag/photography/rss.xml" rel="self" type="application/rss+xml" />
-    <ttl>60</ttl>
-    
-    <item>
-      <title><![CDATA[ The Sky Above the Woods Was the Color Purple ]]></title>
-      <description><![CDATA[ Warming yourself up with the delicious hot tea under the Milky Way at the top of the crag, after a short hike up through the dark mountain forest, is a special treat. ]]></description>
-      <link>https://mikhalevi.ch/the-sky-above-the-woods-was-the-color-purple/</link>
-      <guid>https://mikhalevi.ch/the-sky-above-the-woods-was-the-color-purple/</guid>
-
-      
-          <category><![CDATA[ Photography ]]></category>
-        
-      <dc:creator><![CDATA[ Yurij Mikhalevich ]]></dc:creator>
-      <pubDate>Sun, 06 Oct 2019 07:03:00 +0000</pubDate>
-
-      <media:content url="https://mikhalevi.ch/the-sky-above-the-woods-was-the-color-purple/featured_hu9dfb0377d22e0cadee013cf0e047e90a_674302_455a80c3b6a26d4dbfd8cee4c3585f48.webp" medium="image"/>
-        <content:encoded>
-          <![CDATA[ <img src="https://mikhalevi.ch/the-sky-above-the-woods-was-the-color-purple/featured_hu9dfb0377d22e0cadee013cf0e047e90a_674302_455a80c3b6a26d4dbfd8cee4c3585f48.webp" alt="The Sky Above the Woods Was the Color Purple"><p>Warming yourself up with the delicious hot tea under the Milky Way at the top of the crag, after a short hike up through the dark mountain forest, is a special treat.</p>
- ]]>
-        </content:encoded>
-
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Photography | Yurij Mikhalevich</title><description> photo-rich tech blog</description><link>https://mikhalevi.ch/tag/photography/</link><image><url>https://mikhalevi.ch/media/icon_hu22f15536e9918e9e849189ceda99d382_340250_300x300_fill_lanczos_center_3.png</url><title>Photography | Yurij Mikhalevich</title><link>https://mikhalevi.ch/tag/photography/</link></image><generator>Hugo</generator><lastBuildDate>Tue, 14 May 2024 08:06:28 +0400</lastBuildDate><atom:link href="https://mikhalevi.ch/tag/photography/rss.xml" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title> I Wanted to Take This Picture for Years</title><description> I took this picture at the Al Quaa Milky Way spot in the UAE. The location is perfect for stargazing. The vastness of the desert contributes to the vastness of space and creates a unique atmosphere ideally suited for marveling at the night sky.</description><link>https://mikhalevi.ch/i-wanted-to-take-this-picture-for-years/</link><guid>https://mikhalevi.ch/i-wanted-to-take-this-picture-for-years/</guid><category> Photography</category><dc:creator> Yurij Mikhalevich</dc:creator><pubDate>Tue, 14 May 2024 08:06:28 +0400</pubDate><media:content url="https://mikhalevi.ch/i-wanted-to-take-this-picture-for-years/featured_hua37d00ebc0daea0dde4b37d16d673798_4820850_792ce0bd09827a7b1a79277558c63186.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/i-wanted-to-take-this-picture-for-years/featured_hua37d00ebc0daea0dde4b37d16d673798_4820850_792ce0bd09827a7b1a79277558c63186.webp" alt="I Wanted to Take This Picture for Years"><p>I took this picture at the Al Quaa Milky Way spot in the UAE. The location is
+perfect for stargazing. The vastness of the desert contributes to the vastness
+of space and creates a unique atmosphere ideally suited for marveling at the
+night sky.</p>
+<p>I have been fascinated by space for as long as I can remember and have wanted to
+take a picture of the Milky Way core for years. I have made <a href="https://mikhalevi.ch/the-sky-above-the-woods-was-the-color-purple/">attempts</a> in the
+past, but none of them were as good as the pictures I took last weekend.
+Nevertheless, I have many more astrophotography ideas and am already looking
+forward to my next night sky photoshoot.</p>
+ ]]></content:encoded></item><item><title>The Sky Above the Woods Was the Color Purple</title><description> Warming yourself up with the delicious hot tea under the Milky Way at the top of the crag, after a short hike up through the dark mountain forest, is a special treat.</description><link>https://mikhalevi.ch/the-sky-above-the-woods-was-the-color-purple/</link><guid>https://mikhalevi.ch/the-sky-above-the-woods-was-the-color-purple/</guid><category> Photography</category><dc:creator> Yurij Mikhalevich</dc:creator><pubDate>Sun, 06 Oct 2019 07:03:00 +0000</pubDate><media:content url="https://mikhalevi.ch/the-sky-above-the-woods-was-the-color-purple/featured_hu9dfb0377d22e0cadee013cf0e047e90a_674302_455a80c3b6a26d4dbfd8cee4c3585f48.webp" medium="image"/><content:encoded> &lt;img src="https://mikhalevi.ch/the-sky-above-the-woods-was-the-color-purple/featured_hu9dfb0377d22e0cadee013cf0e047e90a_674302_455a80c3b6a26d4dbfd8cee4c3585f48.webp" alt="The Sky Above the Woods Was the Color Purple">&lt;p>Warming yourself up with the delicious hot tea under the Milky Way at the top of the crag, after a short hike up through the dark mountain forest, is a special treat.&lt;/p></content:encoded></item></channel></rss>
