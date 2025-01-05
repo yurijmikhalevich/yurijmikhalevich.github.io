@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Yurij Mikhalevich</title><description> photo-rich tech blog</description><link>https://mikhalevi.ch/</link><image><url>https://mikhalevi.ch/media/icon_hu22f15536e9918e9e849189ceda99d382_340250_300x300_fill_lanczos_center_3.png</url><title>Yurij Mikhalevich</title><link>https://mikhalevi.ch/</link></image><generator>Hugo</generator><lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mikhalevi.ch/rss.xml" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title> I Wanted to Take This Picture for Years</title><description> I took this picture at the Al Quaa Milky Way spot in the UAE. The location is perfect for stargazing. The vastness of the desert contributes to the vastness of space and creates a unique atmosphere ideally suited for marveling at the night sky.</description><link>https://mikhalevi.ch/i-wanted-to-take-this-picture-for-years/</link><guid>https://mikhalevi.ch/i-wanted-to-take-this-picture-for-years/</guid><category> Photography</category><dc:creator> Yurij Mikhalevich</dc:creator><pubDate>Tue, 14 May 2024 08:06:28 +0400</pubDate><media:content url="https://mikhalevi.ch/i-wanted-to-take-this-picture-for-years/featured_hua37d00ebc0daea0dde4b37d16d673798_4820850_792ce0bd09827a7b1a79277558c63186.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/i-wanted-to-take-this-picture-for-years/featured_hua37d00ebc0daea0dde4b37d16d673798_4820850_792ce0bd09827a7b1a79277558c63186.webp" alt="I Wanted to Take This Picture for Years"><p>I took this picture at the Al Quaa Milky Way spot in the UAE. The location is
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Yurij Mikhalevich</title><description> photo-rich tech blog</description><link>https://mikhalevi.ch/</link><image><url>https://mikhalevi.ch/media/icon_hu22f15536e9918e9e849189ceda99d382_340250_300x300_fill_lanczos_center_3.png</url><title>Yurij Mikhalevich</title><link>https://mikhalevi.ch/</link></image><generator>Hugo</generator><lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mikhalevi.ch/rss.xml" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title> The Netflix Book</title><description> If you want to build a ship,
+don&amp;rsquo;t drum up the people
+to gather wood, divide the
+work, and give orders.
+Instead, teach them to yearn
+for the vast and endless sea.</description><link>https://mikhalevi.ch/the-netflix-book/</link><guid>https://mikhalevi.ch/the-netflix-book/</guid><category> Books</category><dc:creator> Yurij Mikhalevich</dc:creator><pubDate>Sun, 05 Jan 2025 20:03:00 +0400</pubDate><media:content url="https://mikhalevi.ch/the-netflix-book/featured_hua4ba031d38ab5499004e8a01ef139875_1261323_da312faca72113ce3f24af8d68ec1e46.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/the-netflix-book/featured_hua4ba031d38ab5499004e8a01ef139875_1261323_da312faca72113ce3f24af8d68ec1e46.webp" alt="The Netflix Book"><blockquote>
+<p>If you want to build a ship,<br>
+don&rsquo;t drum up the people<br>
+to gather wood, divide the<br>
+work, and give orders.<br>
+Instead, teach them to yearn<br>
+for the vast and endless sea.</p>
+<p>&ndash; <cite>Antoine de Saint-Exupéry, The Little Prince</cite></p>
+</blockquote>
+<p>Last year, I read Reed Hastings and Erin Meyer&rsquo;s famous Netflix book <em>No Rules
+Rules: Netflix and the Culture of Reinvention</em>, but I have never sat to write
+down my thoughts about it. This is me fixing that.</p>
+<p>It&rsquo;s been a while since I read it; hopefully, the bookmarks I have put in my
+copy of the book will help me remember the key points.</p>
+<p>Without looking at the bookmarks, my main takeaway was how they formalized
+feedback giving. I like it and have implemented the same framework in <a href="https://github.com/move-fast-and-break-things" target="_blank" rel="noopener">the
+software engineers community I have
+created</a>.</p>
+<p>The gist of the framework is to give feedback constructively, helpfully, and
+selflessly. Indeed, it is essential to give feedback from a desire to help and
+never from a desire to share frustration. There is a crucial distinction between
+the two. It&rsquo;s also very important to give feedback in a timely and continuous
+manner to support constant growth.</p>
+<p>It was insightful to read about the Netflix culture and how they work. Another
+great thing I like about their culture is how they align everyone on the team to
+the same goal, and then give people the freedom to execute on that goal.
+Needless to say, this freedom comes with a lot of responsibility. It&rsquo;s only
+natural.</p>
+<p>After looking through my bookmarks, I would like to mention a few more thoughts
+I liked or found interesting:</p>
+<ul>
+<li>they put a significant emphasis on honesty and transparency about the company
+processes &ndash; I value both myself a lot</li>
+<li>you have to require excellence &ndash; otherwise, how would you do great things?</li>
+<li>you can reduce control if you have a high level of trust and high talent
+density</li>
+<li>a group with one underperformer does worse than other teams by a massive
+30-40%</li>
+<li>creative work requires freedom &ndash; this feels obvious, but I like how this is
+emphasized in the book</li>
+<li>a leader who has demonstrated competence and is liked by her team will build
+trust and prompt risk-taking when she widely sunshines her own mistakes (the
+<a href="https://en.wikipedia.org/wiki/Pratfall_effect" target="_blank" rel="noopener">pratfall effect</a>)</li>
+<li>it&rsquo;s important to make bold bets and own the outcomes, &ldquo;sunshine&rdquo; the failures
+when they happen so everyone can learn from them</li>
+<li>lead with context, not control &ndash; the quote by Antoine de Saint-Exupéry at the
+beginning of this post is an excellent poetic way to put it</li>
+</ul>
+<p>For the sake of avoiding to retell the whole book in my post, I conclude. If you
+work on IT, leading teams, or if you are curious about how Netflix works, I
+recommend you read the book.</p>
+<p>From me, the book gets 7/10. It could&rsquo;ve gotten more, but too often it feels
+like a big marketing material on Netflix. It also doesn&rsquo;t help that I am
+currently reading the &ldquo;Built to Last&rdquo; book, which is on a completely different
+level. I&rsquo;ll share my thoughts on it in a separate post.</p>
+ ]]></content:encoded></item><item><title>I Wanted to Take This Picture for Years</title><description> I took this picture at the Al Quaa Milky Way spot in the UAE. The location is perfect for stargazing. The vastness of the desert contributes to the vastness of space and creates a unique atmosphere ideally suited for marveling at the night sky.</description><link>https://mikhalevi.ch/i-wanted-to-take-this-picture-for-years/</link><guid>https://mikhalevi.ch/i-wanted-to-take-this-picture-for-years/</guid><category> Photography</category><dc:creator> Yurij Mikhalevich</dc:creator><pubDate>Tue, 14 May 2024 08:06:28 +0400</pubDate><media:content url="https://mikhalevi.ch/i-wanted-to-take-this-picture-for-years/featured_hua37d00ebc0daea0dde4b37d16d673798_4820850_792ce0bd09827a7b1a79277558c63186.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/i-wanted-to-take-this-picture-for-years/featured_hua37d00ebc0daea0dde4b37d16d673798_4820850_792ce0bd09827a7b1a79277558c63186.webp" alt="I Wanted to Take This Picture for Years"><p>I took this picture at the Al Quaa Milky Way spot in the UAE. The location is
 perfect for stargazing. The vastness of the desert contributes to the vastness
 of space and creates a unique atmosphere ideally suited for marveling at the
 night sky.</p>

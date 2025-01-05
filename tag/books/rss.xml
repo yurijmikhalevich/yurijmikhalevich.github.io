@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Books | Yurij Mikhalevich</title><description> photo-rich tech blog</description><link>https://mikhalevi.ch/tag/books/</link><image><url>https://mikhalevi.ch/media/icon_hu22f15536e9918e9e849189ceda99d382_340250_300x300_fill_lanczos_center_3.png</url><title>Books | Yurij Mikhalevich</title><link>https://mikhalevi.ch/tag/books/</link></image><generator>Hugo</generator><lastBuildDate>Sat, 22 Apr 2023 18:40:18 +0000</lastBuildDate><atom:link href="https://mikhalevi.ch/tag/books/rss.xml" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title> Scrum: The Art of Doing Twice the Work in Half the Time by Jeff Sutherland</title><description> Scrum is an Agile framework that aims to deliver high-value products with minimum waste. As a software engineer, I&amp;rsquo;ve always been interested in becoming more efficient at what I do. During my over decade-long career, I have worked with different teams using different processes.</description><link>https://mikhalevi.ch/scrum-the-art-of-doing-twice-the-work-in-half-the-time-by-jeff-sutherland/</link><guid>https://mikhalevi.ch/scrum-the-art-of-doing-twice-the-work-in-half-the-time-by-jeff-sutherland/</guid><category> Books</category><dc:creator> Yurij Mikhalevich</dc:creator><pubDate>Sat, 22 Apr 2023 18:40:18 +0000</pubDate><media:content url="https://mikhalevi.ch/scrum-the-art-of-doing-twice-the-work-in-half-the-time-by-jeff-sutherland/featured_hu04231e48e8d672300c92752d44febcbe_256104_f45ba79137781e01797765df4ff7da6b.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/scrum-the-art-of-doing-twice-the-work-in-half-the-time-by-jeff-sutherland/featured_hu04231e48e8d672300c92752d44febcbe_256104_f45ba79137781e01797765df4ff7da6b.webp" alt="Scrum: The Art of Doing Twice the Work in Half the Time by Jeff Sutherland"><p>Scrum is an Agile framework that aims to deliver high-value products with minimum waste. As a software engineer, I&rsquo;ve always been interested in becoming more efficient at what I do. During my over decade-long career, I have worked with different teams using different processes. Currently, my favorite is <a href="https://mikhalevi.ch/books-by-basecamp/">the Shape Up methodology</a> proposed by the people behind the 37signals company.</p>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Books | Yurij Mikhalevich</title><description> photo-rich tech blog</description><link>https://mikhalevi.ch/tag/books/</link><image><url>https://mikhalevi.ch/media/icon_hu22f15536e9918e9e849189ceda99d382_340250_300x300_fill_lanczos_center_3.png</url><title>Books | Yurij Mikhalevich</title><link>https://mikhalevi.ch/tag/books/</link></image><generator>Hugo</generator><lastBuildDate>Sun, 05 Jan 2025 20:03:00 +0400</lastBuildDate><atom:link href="https://mikhalevi.ch/tag/books/rss.xml" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title> The Netflix Book</title><description> If you want to build a ship,
+don&amp;rsquo;t drum up the people
+to gather wood, divide the
+work, and give orders.
+Instead, teach them to yearn
+for the vast and endless sea.</description><link>https://mikhalevi.ch/the-netflix-book/</link><guid>https://mikhalevi.ch/the-netflix-book/</guid><category> Books</category><dc:creator> Yurij Mikhalevich</dc:creator><pubDate>Sun, 05 Jan 2025 20:03:00 +0400</pubDate><media:content url="https://mikhalevi.ch/the-netflix-book/featured_hua4ba031d38ab5499004e8a01ef139875_1261323_da312faca72113ce3f24af8d68ec1e46.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/the-netflix-book/featured_hua4ba031d38ab5499004e8a01ef139875_1261323_da312faca72113ce3f24af8d68ec1e46.webp" alt="The Netflix Book"><blockquote>
+<p>If you want to build a ship,<br>
+don&rsquo;t drum up the people<br>
+to gather wood, divide the<br>
+work, and give orders.<br>
+Instead, teach them to yearn<br>
+for the vast and endless sea.</p>
+<p>&ndash; <cite>Antoine de Saint-Exupéry, The Little Prince</cite></p>
+</blockquote>
+<p>Last year, I read Reed Hastings and Erin Meyer&rsquo;s famous Netflix book <em>No Rules
+Rules: Netflix and the Culture of Reinvention</em>, but I have never sat to write
+down my thoughts about it. This is me fixing that.</p>
+<p>It&rsquo;s been a while since I read it; hopefully, the bookmarks I have put in my
+copy of the book will help me remember the key points.</p>
+<p>Without looking at the bookmarks, my main takeaway was how they formalized
+feedback giving. I like it and have implemented the same framework in <a href="https://github.com/move-fast-and-break-things" target="_blank" rel="noopener">the
+software engineers community I have
+created</a>.</p>
+<p>The gist of the framework is to give feedback constructively, helpfully, and
+selflessly. Indeed, it is essential to give feedback from a desire to help and
+never from a desire to share frustration. There is a crucial distinction between
+the two. It&rsquo;s also very important to give feedback in a timely and continuous
+manner to support constant growth.</p>
+<p>It was insightful to read about the Netflix culture and how they work. Another
+great thing I like about their culture is how they align everyone on the team to
+the same goal, and then give people the freedom to execute on that goal.
+Needless to say, this freedom comes with a lot of responsibility. It&rsquo;s only
+natural.</p>
+<p>After looking through my bookmarks, I would like to mention a few more thoughts
+I liked or found interesting:</p>
+<ul>
+<li>they put a significant emphasis on honesty and transparency about the company
+processes &ndash; I value both myself a lot</li>
+<li>you have to require excellence &ndash; otherwise, how would you do great things?</li>
+<li>you can reduce control if you have a high level of trust and high talent
+density</li>
+<li>a group with one underperformer does worse than other teams by a massive
+30-40%</li>
+<li>creative work requires freedom &ndash; this feels obvious, but I like how this is
+emphasized in the book</li>
+<li>a leader who has demonstrated competence and is liked by her team will build
+trust and prompt risk-taking when she widely sunshines her own mistakes (the
+<a href="https://en.wikipedia.org/wiki/Pratfall_effect" target="_blank" rel="noopener">pratfall effect</a>)</li>
+<li>it&rsquo;s important to make bold bets and own the outcomes, &ldquo;sunshine&rdquo; the failures
+when they happen so everyone can learn from them</li>
+<li>lead with context, not control &ndash; the quote by Antoine de Saint-Exupéry at the
+beginning of this post is an excellent poetic way to put it</li>
+</ul>
+<p>For the sake of avoiding to retell the whole book in my post, I conclude. If you
+work on IT, leading teams, or if you are curious about how Netflix works, I
+recommend you read the book.</p>
+<p>From me, the book gets 7/10. It could&rsquo;ve gotten more, but too often it feels
+like a big marketing material on Netflix. It also doesn&rsquo;t help that I am
+currently reading the &ldquo;Built to Last&rdquo; book, which is on a completely different
+level. I&rsquo;ll share my thoughts on it in a separate post.</p>
+ ]]></content:encoded></item><item><title>Scrum: The Art of Doing Twice the Work in Half the Time by Jeff Sutherland</title><description> Scrum is an Agile framework that aims to deliver high-value products with minimum waste. As a software engineer, I&amp;rsquo;ve always been interested in becoming more efficient at what I do. During my over decade-long career, I have worked with different teams using different processes.</description><link>https://mikhalevi.ch/scrum-the-art-of-doing-twice-the-work-in-half-the-time-by-jeff-sutherland/</link><guid>https://mikhalevi.ch/scrum-the-art-of-doing-twice-the-work-in-half-the-time-by-jeff-sutherland/</guid><category> Books</category><dc:creator> Yurij Mikhalevich</dc:creator><pubDate>Sat, 22 Apr 2023 18:40:18 +0000</pubDate><media:content url="https://mikhalevi.ch/scrum-the-art-of-doing-twice-the-work-in-half-the-time-by-jeff-sutherland/featured_hu04231e48e8d672300c92752d44febcbe_256104_f45ba79137781e01797765df4ff7da6b.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/scrum-the-art-of-doing-twice-the-work-in-half-the-time-by-jeff-sutherland/featured_hu04231e48e8d672300c92752d44febcbe_256104_f45ba79137781e01797765df4ff7da6b.webp" alt="Scrum: The Art of Doing Twice the Work in Half the Time by Jeff Sutherland"><p>Scrum is an Agile framework that aims to deliver high-value products with minimum waste. As a software engineer, I&rsquo;ve always been interested in becoming more efficient at what I do. During my over decade-long career, I have worked with different teams using different processes. Currently, my favorite is <a href="https://mikhalevi.ch/books-by-basecamp/">the Shape Up methodology</a> proposed by the people behind the 37signals company.</p>
 <p>I have to admit I was a bit hesitant at first to read &ldquo;Scrum: The Art of Doing Twice the Work in Half the Time&rdquo; book due to a minor negative bias towards Scrum that I had developed from encountering a few cases that were misrepresenting it. However, I decided to give it a chance, and I&rsquo;m glad I did. After finishing the book, I came to like Scrum more and was inspired to invest more time in learning how to implement it best. I even became a certified Professional Scrum Master!</p>
 <p>I discovered that Scrum and Shape Up have more in common than I initially thought. Both frameworks value shipping things fast, emphasize the importance of teams owning the projects they build, and suggest driving the development by the user problems. The primary difference is that Scrum imposes more processes, which can be helpful to less experienced developers but cumbersome to more experienced ones. Scrum encourages collaboration and communication and allows for frequent feedback and adaptation. It emphasizes the importance of prioritizing work based on value and helps teams avoid getting bogged down by unnecessary tasks. Because Scrum is a complex framework, it&rsquo;s easy to misimplement it, overfocus on some aspects of the process and ignore others, and lose the value Scrum can bring to the team. On the other hand, Shape Up is much more suited for experienced developers, brings just enough process into the work, and is structured in a way that makes it harder to misimplement.</p>
 <p>Scrum can be a valuable framework for teams of all sizes and skill levels if implemented correctly. If you want to learn more about Scrum or Agile, I suggest giving &ldquo;Scrum: The Art of Doing Twice the Work in Half the Time&rdquo; a read! The book provides an excellent introduction to Scrum and its benefits, as well as practical advice.</p>
