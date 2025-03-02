@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Yurij Mikhalevich</title><description> photo-rich tech blog</description><link>https://mikhalevi.ch/</link><image><url>https://mikhalevi.ch/media/icon_hu22f15536e9918e9e849189ceda99d382_340250_300x300_fill_lanczos_center_3.png</url><title>Yurij Mikhalevich</title><link>https://mikhalevi.ch/</link></image><generator>Hugo</generator><lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mikhalevi.ch/rss.xml" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title> Good Enough Never Is</title><description> Don&amp;rsquo;t bother just to be better than your contemporaries or predecessors. Try to be better than yourself.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Yurij Mikhalevich</title><description> photo-rich tech blog</description><link>https://mikhalevi.ch/</link><image><url>https://mikhalevi.ch/media/icon_hu22f15536e9918e9e849189ceda99d382_340250_300x300_fill_lanczos_center_3.png</url><title>Yurij Mikhalevich</title><link>https://mikhalevi.ch/</link></image><generator>Hugo</generator><lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mikhalevi.ch/rss.xml" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title> rclip 2: raw image search and performance improvements</title><description> This week, I released version 2 of rclip. The main breaking change in the major update is that rclip dropped Python 3.9 support, which could affect you only if you are installing rclip using pip in a Python 3.</description><link>https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/</link><guid>https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/</guid><category> Software Engineering</category><dc:creator> Yurij Mikhalevich</dc:creator><pubDate>Sun, 02 Mar 2025 12:03:00 +0400</pubDate><media:content url="https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/featured_hu19a09f800e97496c447cae78ea941d48_2775154_80015196c5622eb008ed9b112030d3c3.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/featured_hu19a09f800e97496c447cae78ea941d48_2775154_80015196c5622eb008ed9b112030d3c3.webp" alt="rclip 2: raw image search and performance improvements"><p>This week, I released version 2 of rclip. The main breaking change in the major
+update is that rclip dropped Python 3.9 support, which could affect you only if
+you are installing rclip using <code>pip</code> in a Python 3.9 environment. Even though no
+features are associated with the v2 release, I am thrilled about it because it
+provides a good opportunity to reflect on the changes made to rclip since the
+<a href="https://mikhalevi.ch/rclip-an-ai-powered-command-line-photo-search-tool/">release of version 1</a>.</p>
+<p>For those unfamiliar with rclip, it is a command line tool that allows you to
+search your image or photo collection right in your terminal using a natural
+language query or a reference image. To try rclip, follow the installation
+instructions on the <a href="https://github.com/yurijmikhalevich/rclip?tab=readme-ov-file#installation" target="_blank" rel="noopener">GitHub
+page</a>.</p>
+<p>I have already blogged about most of the major features introduced to rclip v1:</p>
+<ul>
+<li><a href="https://mikhalevi.ch/unveiling-rclips-new-power-image-to-image-search/">image-to-image search</a></li>
+<li><a href="https://mikhalevi.ch/rclip-update-mixing-text-and-image-queries-for-the-ultimate-photo-search/">composite queries, including mixed text and image queries</a></li>
+<li><a href="https://mikhalevi.ch/next-level-terminal-image-search-rclip-gets-previews/">terminal image previews</a></li>
+</ul>
+<p>What I didn&rsquo;t blog about is the countless performance improvements, from a few
+noticeable indexation speedups to a 50% search time reduction when performing
+text-only queries.</p>
+<p>I am also excited to announce for the first time that rclip now has experimental
+support for raw image search. GitHub user
+<a href="https://github.com/abidkhan484" target="_blank" rel="noopener">@abidkhan484</a> added this feature to rclip
+during the last Hacktoberfest (speaking of which, rclip will participate in
+Hacktoberfest 2025 as well &ndash; join us!). The feature was first released in rclip
+v1.11.0, allowing you to search through raw camera images. Currently, only the
+ARW and CR2 images are supported. Let me know if you would love rclip to support
+any other raw formats!</p>
+<p>To use raw search, run rclip with the <code>--experimental-raw-support</code> flag, like
+this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">rclip --experimental-raw-support <span class="s2">&#34;orange cat&#34;</span>
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure class="flex flex-col justify-center items-center" >
+  <div class="w-100" ><img src="./images/raw-image-search-example.png" alt="raw image search example" class="!m-0" loading="lazy" data-zoomable /></div></figure>
+</p>
+<p>With this flag passed, rclip will search through regular and raw images and
+surface best matches. Terminal previews are also supported for raw photos.  It
+is important to note that rclip will still prefer non-raw versions of the image
+when they are available. Suppose it finds two versions of the same image in the
+same directory &ndash; for example, IMG_1234.JPG and IMG_1234.ARW &ndash; it will ignore
+the raw version.</p>
+<p><a href="https://github.com/yurijmikhalevich/rclip?tab=readme-ov-file#installation" target="_blank" rel="noopener">Install
+rclip</a>,
+try this feature, and <a href="https://github.com/yurijmikhalevich/rclip/discussions/new/choose" target="_blank" rel="noopener">let me know if you have any
+feedback</a>.
+Stay curious, and enjoy your photo searches with rclip!</p>
+ ]]></content:encoded></item><item><title>Good Enough Never Is</title><description> Don&amp;rsquo;t bother just to be better than your contemporaries or predecessors. Try to be better than yourself.
 &amp;ndash; William Faulkner
 This post is a follow-up to the previous Built to Last post.</description><link>https://mikhalevi.ch/good-enough-never-is/</link><guid>https://mikhalevi.ch/good-enough-never-is/</guid><category> Books</category><dc:creator> Yurij Mikhalevich</dc:creator><pubDate>Sat, 18 Jan 2025 12:03:00 +0400</pubDate><media:content url="https://mikhalevi.ch/good-enough-never-is/featured_hu8759d47039617694531a90962db3e5dd_659244_9ff0291729af3cf5055a336718b7b339.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/good-enough-never-is/featured_hu8759d47039617694531a90962db3e5dd_659244_9ff0291729af3cf5055a336718b7b339.webp" alt="Good Enough Never Is"><blockquote>
 <p>Don&rsquo;t bother just to be better than your contemporaries or predecessors. Try
