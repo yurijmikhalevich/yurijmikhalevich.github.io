@@ -44,7 +44,7 @@ this:</p>
 
 
 <figure class="flex flex-col justify-center items-center" >
-  <div class="w-100" ><img src="./images/raw-image-search-example.png" alt="raw image search example" class="!m-0" loading="lazy" data-zoomable /></div></figure>
+  <div class="w-100" ><img src="./images/raw-image-search-example.webp" alt="raw image search example" class="!m-0" loading="lazy" data-zoomable /></div></figure>
 </p>
 <p>With this flag passed, rclip will search through regular and raw images and
 surface best matches. Terminal previews are also supported for raw photos.  It
