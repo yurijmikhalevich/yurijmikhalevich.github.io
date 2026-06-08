@@ -30,15 +30,15 @@ from 3.84 seconds to 0.63 seconds (a 6.09x speedup!).</li>
 
 <figure class="flex flex-col justify-center items-center" id="figure-rclip-3-text-search-is-now-372x-faster">
   <div class="w-100" ><img alt="Terminal running the same rclip text search on version 2.1.6 then 3.0.9, with the elapsed-time totals highlighted: 2.12 seconds before and 0.57 seconds after" srcset="
-          https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hucab5678e09d0e8025649b3947d400af3_756824_e45bc74d6fd3c1de9dfede9de8efc9bf.webp 400w,
-          https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hucab5678e09d0e8025649b3947d400af3_756824_f16d9e83b836d7d5328e3bc3caaef9f3.webp 760w,
-          https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hucab5678e09d0e8025649b3947d400af3_756824_1520x1520_fit_q85_h2_lanczos_3.webp 1200w"
-          src="https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hucab5678e09d0e8025649b3947d400af3_756824_e45bc74d6fd3c1de9dfede9de8efc9bf.webp"
+          https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hu0ac2e7aac44e3cb5717b158d038b1992_775086_888a628d9ea9b1b0bdfc4bca3d2535f8.webp 400w,
+          https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hu0ac2e7aac44e3cb5717b158d038b1992_775086_9d1a885fa0d9744ddb95b4589aae5f8f.webp 760w,
+          https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hu0ac2e7aac44e3cb5717b158d038b1992_775086_1520x1520_fit_q85_h2_lanczos_3.webp 1200w"
+          src="https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hu0ac2e7aac44e3cb5717b158d038b1992_775086_888a628d9ea9b1b0bdfc4bca3d2535f8.webp"
           width="510"
           height="760"
           loading="lazy"
           class="!m-0"
-          style="background: linear-gradient(37.000000deg, #c3bfa5b3, #c3bfa500 75%),linear-gradient(217.000000deg, #948f76b3, #948f7600 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div><figcaption class="!mt-3">
+          style="background: linear-gradient(37.000000deg, #c5c0a4b3, #c5c0a400 75%),linear-gradient(217.000000deg, #969175b3, #96917500 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div><figcaption class="!mt-3">
       rclip 3 text search is now 3.72x faster
     </figcaption></figure>
 </p>
@@ -121,7 +121,16 @@ this:</p>
 
 
 <figure class="flex flex-col justify-center items-center" >
-  <div class="w-100" ><img src="./images/raw-image-search-example.webp" alt="raw image search example" class="!m-0" loading="lazy" data-zoomable /></div></figure>
+  <div class="w-100" ><img alt="raw image search example" srcset="
+          https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/images/raw-image-search-example_hubce55fe26dc6acf99e773df3d6bb9c94_2143695_675096ef82195a4b13954c46770f6925.webp 400w,
+          https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/images/raw-image-search-example_hubce55fe26dc6acf99e773df3d6bb9c94_2143695_29a25c532eae20690a6fb55f4a65a7ce.webp 760w,
+          https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/images/raw-image-search-example_hubce55fe26dc6acf99e773df3d6bb9c94_2143695_1520x1520_fit_q85_h2_lanczos_3.webp 1200w"
+          src="https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/images/raw-image-search-example_hubce55fe26dc6acf99e773df3d6bb9c94_2143695_675096ef82195a4b13954c46770f6925.webp"
+          width="760"
+          height="475"
+          loading="lazy"
+          class="!m-0"
+          style="background: linear-gradient(37.000000deg, #c7c3b9b3, #c7c3b900 75%),linear-gradient(127.000000deg, #5b5955b3, #5b595500 75%),linear-gradient(217.000000deg, #9a8c74b3, #9a8c7400 75%),linear-gradient(307.000000deg, #877667b3, #87766700 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
 </p>
 <p>With this flag passed, rclip will search through regular and raw images and
 surface best matches. Terminal previews are also supported for raw photos.  It
