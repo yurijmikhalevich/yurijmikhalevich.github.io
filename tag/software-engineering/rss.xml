@@ -30,10 +30,10 @@ from 3.84 seconds to 0.63 seconds (a 6.09x speedup!).</li>
 
 <figure class="md-figure" id="figure-rclip-3-text-search-is-now-372x-faster">
   <div class="md-figure__inner" ><img alt="Terminal running the same rclip text search on version 2.1.6 then 3.0.9, with the elapsed-time totals highlighted: 2.12 seconds before and 0.57 seconds after" srcset="
-          https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hu0ac2e7aac44e3cb5717b158d038b1992_775086_1f9e165bcacf50037fa5018ad2097c72.webp 400w,
-          https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hu0ac2e7aac44e3cb5717b158d038b1992_775086_529dca66fa85b70e02a2b380a996c983.webp 760w,
-          https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hu0ac2e7aac44e3cb5717b158d038b1992_775086_1520x1520_fit_q85_h2_lanczos_3.webp 1200w"
-          src="https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hu0ac2e7aac44e3cb5717b158d038b1992_775086_1f9e165bcacf50037fa5018ad2097c72.webp"
+          https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hu0ac2e7aac44e3cb5717b158d038b1992_775086_1f9e165bcacf50037fa5018ad2097c72.webp 268w,
+          https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hu0ac2e7aac44e3cb5717b158d038b1992_775086_529dca66fa85b70e02a2b380a996c983.webp 510w,
+          https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hu0ac2e7aac44e3cb5717b158d038b1992_775086_1520x1520_fit_q85_h2_lanczos_3.webp 1019w"
+          src="https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hu0ac2e7aac44e3cb5717b158d038b1992_775086_1520x1520_fit_q85_h2_lanczos_3.webp"
           width="510"
           height="760"
           loading="lazy"
@@ -124,8 +124,8 @@ this:</p>
   <div class="md-figure__inner" ><img alt="raw image search example" srcset="
           https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/images/raw-image-search-example_hubce55fe26dc6acf99e773df3d6bb9c94_2143695_f3227389eb12905d71ee21f7e691b1f9.webp 400w,
           https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/images/raw-image-search-example_hubce55fe26dc6acf99e773df3d6bb9c94_2143695_e29cb0f77516b35552648f44a626e974.webp 760w,
-          https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/images/raw-image-search-example_hubce55fe26dc6acf99e773df3d6bb9c94_2143695_1520x1520_fit_q85_h2_lanczos_3.webp 1200w"
-          src="https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/images/raw-image-search-example_hubce55fe26dc6acf99e773df3d6bb9c94_2143695_f3227389eb12905d71ee21f7e691b1f9.webp"
+          https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/images/raw-image-search-example_hubce55fe26dc6acf99e773df3d6bb9c94_2143695_1520x1520_fit_q85_h2_lanczos_3.webp 1520w"
+          src="https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/images/raw-image-search-example_hubce55fe26dc6acf99e773df3d6bb9c94_2143695_1520x1520_fit_q85_h2_lanczos_3.webp"
           width="760"
           height="475"
           loading="lazy"
@@ -573,8 +573,8 @@ We were given anonymized data containing approximately 524k Czech policyholders,
   <div class="md-figure__inner" ><img alt="To make it easy for your computer, we are displaying the screenshot of the map here" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fda700-c353-11ee-b012-5f1e1a82f88a_hu9a0a227b42f9b220d95bd23f74e109cd_1926825_76645230be0e0e43818ac87ae2d2a803.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fda700-c353-11ee-b012-5f1e1a82f88a_hu9a0a227b42f9b220d95bd23f74e109cd_1926825_5c875aa4840fb462ab8e1c23ae8fb7d9.webp 760w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fda700-c353-11ee-b012-5f1e1a82f88a_hu9a0a227b42f9b220d95bd23f74e109cd_1926825_1520x1520_fit_q85_h2_lanczos_3.webp 1200w"
-          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fda700-c353-11ee-b012-5f1e1a82f88a_hu9a0a227b42f9b220d95bd23f74e109cd_1926825_76645230be0e0e43818ac87ae2d2a803.webp"
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fda700-c353-11ee-b012-5f1e1a82f88a_hu9a0a227b42f9b220d95bd23f74e109cd_1926825_1520x1520_fit_q85_h2_lanczos_3.webp 1312w"
+          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fda700-c353-11ee-b012-5f1e1a82f88a_hu9a0a227b42f9b220d95bd23f74e109cd_1926825_1520x1520_fit_q85_h2_lanczos_3.webp"
           width="760"
           height="460"
           loading="lazy"
@@ -789,8 +789,8 @@ We were given anonymized data containing approximately 524k Czech policyholders,
   <div class="md-figure__inner" ><img alt="" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4340-c353-11ee-b012-5f1e1a82f88a_hucc78244d53b3f57bce7aa63cdc6a4176_2052679_8e8c168c97f7c161907e67d49a6bba9d.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4340-c353-11ee-b012-5f1e1a82f88a_hucc78244d53b3f57bce7aa63cdc6a4176_2052679_33e0a5bfcb40f8e310effc4ae71b2ec9.webp 760w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4340-c353-11ee-b012-5f1e1a82f88a_hucc78244d53b3f57bce7aa63cdc6a4176_2052679_1520x1520_fit_q85_h2_lanczos_3.webp 1200w"
-          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4340-c353-11ee-b012-5f1e1a82f88a_hucc78244d53b3f57bce7aa63cdc6a4176_2052679_8e8c168c97f7c161907e67d49a6bba9d.webp"
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4340-c353-11ee-b012-5f1e1a82f88a_hucc78244d53b3f57bce7aa63cdc6a4176_2052679_1520x1520_fit_q85_h2_lanczos_3.webp 1348w"
+          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4340-c353-11ee-b012-5f1e1a82f88a_hucc78244d53b3f57bce7aa63cdc6a4176_2052679_1520x1520_fit_q85_h2_lanczos_3.webp"
           width="760"
           height="445"
           loading="lazy"
@@ -821,8 +821,8 @@ We were given anonymized data containing approximately 524k Czech policyholders,
   <div class="md-figure__inner" ><img alt="" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4341-c353-11ee-b012-5f1e1a82f88a_hu12a2a3d2287625dd43b1a40f533ab913_2002175_f55d6d6fa8dc3e3dadd89f544761a9d7.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4341-c353-11ee-b012-5f1e1a82f88a_hu12a2a3d2287625dd43b1a40f533ab913_2002175_440137add44ecce6d281df21b42bbfba.webp 760w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4341-c353-11ee-b012-5f1e1a82f88a_hu12a2a3d2287625dd43b1a40f533ab913_2002175_1520x1520_fit_q85_h2_lanczos_3.webp 1200w"
-          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4341-c353-11ee-b012-5f1e1a82f88a_hu12a2a3d2287625dd43b1a40f533ab913_2002175_f55d6d6fa8dc3e3dadd89f544761a9d7.webp"
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4341-c353-11ee-b012-5f1e1a82f88a_hu12a2a3d2287625dd43b1a40f533ab913_2002175_1520x1520_fit_q85_h2_lanczos_3.webp 1306w"
+          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4341-c353-11ee-b012-5f1e1a82f88a_hu12a2a3d2287625dd43b1a40f533ab913_2002175_1520x1520_fit_q85_h2_lanczos_3.webp"
           width="760"
           height="461"
           loading="lazy"
@@ -896,8 +896,8 @@ We were given anonymized data containing approximately 524k Czech policyholders,
   <div class="md-figure__inner" ><img alt="" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a50-c353-11ee-b012-5f1e1a82f88a_huaa6345d8ee512619efcba3fa6f8f850a_1583831_ab369bc56e343a086022f5c1b5f4559d.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a50-c353-11ee-b012-5f1e1a82f88a_huaa6345d8ee512619efcba3fa6f8f850a_1583831_b964f4c64507864cfd353e70918c3bea.webp 760w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a50-c353-11ee-b012-5f1e1a82f88a_huaa6345d8ee512619efcba3fa6f8f850a_1583831_1520x1520_fit_q85_h2_lanczos_3.webp 1200w"
-          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a50-c353-11ee-b012-5f1e1a82f88a_huaa6345d8ee512619efcba3fa6f8f850a_1583831_ab369bc56e343a086022f5c1b5f4559d.webp"
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a50-c353-11ee-b012-5f1e1a82f88a_huaa6345d8ee512619efcba3fa6f8f850a_1583831_1520x1520_fit_q85_h2_lanczos_3.webp 1448w"
+          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a50-c353-11ee-b012-5f1e1a82f88a_huaa6345d8ee512619efcba3fa6f8f850a_1583831_1520x1520_fit_q85_h2_lanczos_3.webp"
           width="760"
           height="417"
           loading="lazy"
@@ -923,8 +923,8 @@ We were given anonymized data containing approximately 524k Czech policyholders,
   <div class="md-figure__inner" ><img alt="" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a51-c353-11ee-b012-5f1e1a82f88a_hu515b36107ae45bfa72b6fc91500e1ca4_2117498_b65d8b447a97231665bc7017a0badb53.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a51-c353-11ee-b012-5f1e1a82f88a_hu515b36107ae45bfa72b6fc91500e1ca4_2117498_8a0818c4acd0bbe7b8835ffb00610e76.webp 760w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a51-c353-11ee-b012-5f1e1a82f88a_hu515b36107ae45bfa72b6fc91500e1ca4_2117498_1520x1520_fit_q85_h2_lanczos_3.webp 1200w"
-          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a51-c353-11ee-b012-5f1e1a82f88a_hu515b36107ae45bfa72b6fc91500e1ca4_2117498_b65d8b447a97231665bc7017a0badb53.webp"
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a51-c353-11ee-b012-5f1e1a82f88a_hu515b36107ae45bfa72b6fc91500e1ca4_2117498_1520x1520_fit_q85_h2_lanczos_3.webp 1452w"
+          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a51-c353-11ee-b012-5f1e1a82f88a_hu515b36107ae45bfa72b6fc91500e1ca4_2117498_1520x1520_fit_q85_h2_lanczos_3.webp"
           width="760"
           height="415"
           loading="lazy"
@@ -951,8 +951,8 @@ We were given anonymized data containing approximately 524k Czech policyholders,
   <div class="md-figure__inner" ><img alt="" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a52-c353-11ee-b012-5f1e1a82f88a_hube2dcb8a4da2303f775be868887a3889_1932854_006d39c73b04ba46b945d47a412264da.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a52-c353-11ee-b012-5f1e1a82f88a_hube2dcb8a4da2303f775be868887a3889_1932854_e2564d8dd19623f6e013a1eaa63e32ad.webp 760w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a52-c353-11ee-b012-5f1e1a82f88a_hube2dcb8a4da2303f775be868887a3889_1932854_1520x1520_fit_q85_h2_lanczos_3.webp 1200w"
-          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a52-c353-11ee-b012-5f1e1a82f88a_hube2dcb8a4da2303f775be868887a3889_1932854_006d39c73b04ba46b945d47a412264da.webp"
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a52-c353-11ee-b012-5f1e1a82f88a_hube2dcb8a4da2303f775be868887a3889_1932854_1520x1520_fit_q85_h2_lanczos_3.webp 1452w"
+          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a52-c353-11ee-b012-5f1e1a82f88a_hube2dcb8a4da2303f775be868887a3889_1932854_1520x1520_fit_q85_h2_lanczos_3.webp"
           width="760"
           height="413"
           loading="lazy"
@@ -1041,8 +1041,8 @@ We were given anonymized data containing approximately 524k Czech policyholders,
   <div class="md-figure__inner" ><img alt="" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9160-c353-11ee-b012-5f1e1a82f88a_hu6f98da4aa3f0061e101d124402074795_1333054_94a259d3250dd2f985d08a1201491c4c.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9160-c353-11ee-b012-5f1e1a82f88a_hu6f98da4aa3f0061e101d124402074795_1333054_21e904351b54bf38b7d597eae3302db0.webp 760w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9160-c353-11ee-b012-5f1e1a82f88a_hu6f98da4aa3f0061e101d124402074795_1333054_1520x1520_fit_q85_h2_lanczos_3.webp 1200w"
-          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9160-c353-11ee-b012-5f1e1a82f88a_hu6f98da4aa3f0061e101d124402074795_1333054_94a259d3250dd2f985d08a1201491c4c.webp"
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9160-c353-11ee-b012-5f1e1a82f88a_hu6f98da4aa3f0061e101d124402074795_1333054_1520x1520_fit_q85_h2_lanczos_3.webp 1446w"
+          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9160-c353-11ee-b012-5f1e1a82f88a_hu6f98da4aa3f0061e101d124402074795_1333054_1520x1520_fit_q85_h2_lanczos_3.webp"
           width="760"
           height="417"
           loading="lazy"
@@ -1072,8 +1072,8 @@ We were given anonymized data containing approximately 524k Czech policyholders,
   <div class="md-figure__inner" ><img alt="" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9161-c353-11ee-b012-5f1e1a82f88a_hu7dd9aec7073396c0dc48d3684b2d62d2_1314287_b9daaf164f400f20767b9969220e0867.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9161-c353-11ee-b012-5f1e1a82f88a_hu7dd9aec7073396c0dc48d3684b2d62d2_1314287_8e8af67c558fd7ea216f73f8e57a4dcc.webp 760w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9161-c353-11ee-b012-5f1e1a82f88a_hu7dd9aec7073396c0dc48d3684b2d62d2_1314287_1520x1520_fit_q85_h2_lanczos_3.webp 1200w"
-          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9161-c353-11ee-b012-5f1e1a82f88a_hu7dd9aec7073396c0dc48d3684b2d62d2_1314287_b9daaf164f400f20767b9969220e0867.webp"
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9161-c353-11ee-b012-5f1e1a82f88a_hu7dd9aec7073396c0dc48d3684b2d62d2_1314287_1520x1520_fit_q85_h2_lanczos_3.webp 1450w"
+          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9161-c353-11ee-b012-5f1e1a82f88a_hu7dd9aec7073396c0dc48d3684b2d62d2_1314287_1520x1520_fit_q85_h2_lanczos_3.webp"
           width="760"
           height="415"
           loading="lazy"
@@ -1105,8 +1105,8 @@ We were given anonymized data containing approximately 524k Czech policyholders,
   <div class="md-figure__inner" ><img alt="" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9162-c353-11ee-b012-5f1e1a82f88a_hu5097d5860b608957bc934bebc7632018_1317428_ed10d8fc9e627641dc454d55e7205e85.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9162-c353-11ee-b012-5f1e1a82f88a_hu5097d5860b608957bc934bebc7632018_1317428_7812c2f39a90d77484b8d6fb7191c740.webp 760w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9162-c353-11ee-b012-5f1e1a82f88a_hu5097d5860b608957bc934bebc7632018_1317428_1520x1520_fit_q85_h2_lanczos_3.webp 1200w"
-          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9162-c353-11ee-b012-5f1e1a82f88a_hu5097d5860b608957bc934bebc7632018_1317428_ed10d8fc9e627641dc454d55e7205e85.webp"
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9162-c353-11ee-b012-5f1e1a82f88a_hu5097d5860b608957bc934bebc7632018_1317428_1520x1520_fit_q85_h2_lanczos_3.webp 1452w"
+          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9162-c353-11ee-b012-5f1e1a82f88a_hu5097d5860b608957bc934bebc7632018_1317428_1520x1520_fit_q85_h2_lanczos_3.webp"
           width="760"
           height="415"
           loading="lazy"
