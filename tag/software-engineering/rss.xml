@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Software Engineering | Yurij Mikhalevich</title><description> photo-rich tech blog</description><link>https://mikhalevi.ch/tag/software-engineering/</link><image><url>https://mikhalevi.ch/media/icon_hu22f15536e9918e9e849189ceda99d382_340250_300x300_fill_lanczos_center_3.png</url><title>Software Engineering | Yurij Mikhalevich</title><link>https://mikhalevi.ch/tag/software-engineering/</link></image><generator>Hugo</generator><lastBuildDate>Sun, 07 Jun 2026 18:29:00 +1000</lastBuildDate><atom:link href="https://mikhalevi.ch/tag/software-engineering/rss.xml" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title> rclip 3: better and 6x faster semantic image search</title><description> rclip 3 is out. It improves search quality and makes search up to 6x faster.
-rclip is a command-line tool for searching local photos by text or by example image. If you&amp;rsquo;re new to it, start with the intro post here.</description><link>https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/</link><guid>https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/</guid><category> Software Engineering</category><dc:creator> Yurij Mikhalevich</dc:creator><pubDate>Sun, 07 Jun 2026 18:29:00 +1000</pubDate><media:content url="https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/featured_huf95e03bff0c2eded2d95da5432866e56_322710_d7f1c7571af7576ed5605580aa7981b0.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/featured_huf95e03bff0c2eded2d95da5432866e56_322710_d7f1c7571af7576ed5605580aa7981b0.webp" alt="rclip 3: better and 6x faster semantic image search"><p>rclip 3 is out. It improves search quality and makes search up to 6x faster.</p>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title> Software Engineering | Yurij Mikhalevich </title><description> photo-rich tech blog </description><link>https://mikhalevi.ch/tag/software-engineering/</link><image><url>https://mikhalevi.ch/media/icon_hu_15f92ecee4d13fc8.png</url><title>Software Engineering | Yurij Mikhalevich</title><link>https://mikhalevi.ch/tag/software-engineering/</link></image><generator>Hugo</generator><lastBuildDate>Sun, 07 Jun 2026 18:29:00 +1000</lastBuildDate><atom:link href="https://mikhalevi.ch/tag/software-engineering/rss.xml" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title> rclip 3: better and 6x faster semantic image search </title><description><![CDATA[ <p>rclip 3 is out. It improves search quality and makes search up to 6x faster.</p>
+<p>rclip is a command-line tool for searching local photos by text or by
+example image. If you&rsquo;re new to it, start with the intro post <a href="https://mikhalevi.ch/rclip-an-ai-powered-command-line-photo-search-tool/">here</a>.</p> ]]></description><link>https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/</link><guid>https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/</guid><category> Software Engineering </category><dc:creator> Yurij Mikhalevich </dc:creator><pubDate>Sun, 07 Jun 2026 18:29:00 +1000</pubDate><media:content url="https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/featured_hu_d79546df2ec5adc4.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/featured_hu_d79546df2ec5adc4.webp" alt="rclip 3: better and 6x faster semantic image search"><p>rclip 3 is out. It improves search quality and makes search up to 6x faster.</p>
 <p>rclip is a command-line tool for searching local photos by text or by
 example image. If you&rsquo;re new to it, start with the intro post <a href="https://mikhalevi.ch/rclip-an-ai-powered-command-line-photo-search-tool/">here</a>.</p>
 <p>The major changes that shipped with this version are:</p>
@@ -30,15 +31,15 @@ from 3.84 seconds to 0.63 seconds (a 6.09x speedup!).</li>
 
 <figure class="md-figure" id="figure-rclip-3-text-search-is-now-372x-faster">
   <div class="md-figure__inner" ><img alt="Terminal running the same rclip text search on version 2.1.6 then 3.0.9, with the elapsed-time totals highlighted: 2.12 seconds before and 0.57 seconds after" srcset="
-          https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hu0ac2e7aac44e3cb5717b158d038b1992_775086_1f9e165bcacf50037fa5018ad2097c72.webp 268w,
-          https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hu0ac2e7aac44e3cb5717b158d038b1992_775086_529dca66fa85b70e02a2b380a996c983.webp 510w,
-          https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hu0ac2e7aac44e3cb5717b158d038b1992_775086_1520x1520_fit_q85_h2_lanczos_3.webp 1019w"
-          src="https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hu0ac2e7aac44e3cb5717b158d038b1992_775086_1520x1520_fit_q85_h2_lanczos_3.webp"
+          https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hu_c16b02d3c28f8a7b.webp 268w,
+          https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hu_a4865451026faf5b.webp 510w,
+          https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hu_ffa72490a974d87.webp 1019w"
+          src="https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hu_ffa72490a974d87.webp"
           width="510"
           height="760"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #c5c0a4b3, #c5c0a400 75%),linear-gradient(217.000000deg, #969175b3, #96917500 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div><figcaption class="md-figcaption">
+          style="background: linear-gradient(37.000000deg, #f1e9c2b3, #f1e9c200 75%),linear-gradient(217.000000deg, #a09775b3, #a0977500 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div><figcaption class="md-figcaption">
       rclip 3 text search is now 3.72x faster
     </figcaption></figure>
 </p>
@@ -75,7 +76,12 @@ got faster, too.</p>
 lets you <a href="https://mikhalevi.ch/rclip-update-mixing-text-and-image-queries-for-the-ultimate-photo-search/">mix images and text queries</a> and <a href="https://mikhalevi.ch/next-level-terminal-image-search-rclip-gets-previews/">preview image search results in the terminal</a>,
 it just got faster. <a href="https://github.com/yurijmikhalevich/rclip#installation" target="_blank" rel="noopener">Install rclip</a>, let it reindex with the new model, and <a href="https://github.com/yurijmikhalevich/rclip/discussions/new/choose" target="_blank" rel="noopener">let me know what you think</a>.</p>
 <p>Stay curious!</p>
- ]]></content:encoded></item><item><title>rclip 2: raw image search and performance improvements</title><description> This week, I released version 2 of rclip. The main breaking change in the major update is that rclip dropped Python 3.9 support, which could affect you only if you are installing rclip using pip in a Python 3.</description><link>https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/</link><guid>https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/</guid><category> Software Engineering</category><dc:creator> Yurij Mikhalevich</dc:creator><pubDate>Sun, 02 Mar 2025 12:03:00 +0400</pubDate><media:content url="https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/featured_hufe812d8663921f5542b838a5eceaa30c_2667521_95ec34073151e4c6c9c53ab031e1bfd2.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/featured_hufe812d8663921f5542b838a5eceaa30c_2667521_95ec34073151e4c6c9c53ab031e1bfd2.webp" alt="rclip 2: raw image search and performance improvements"><p>This week, I released version 2 of rclip. The main breaking change in the major
+ ]]></content:encoded></item><item><title> rclip 2: raw image search and performance improvements </title><description><![CDATA[ <p>This week, I released version 2 of rclip. The main breaking change in the major
+update is that rclip dropped Python 3.9 support, which could affect you only if
+you are installing rclip using <code>pip</code> in a Python 3.9 environment. Even though no
+features are associated with the v2 release, I am thrilled about it because it
+provides a good opportunity to reflect on the changes made to rclip since the
+<a href="https://mikhalevi.ch/rclip-an-ai-powered-command-line-photo-search-tool/">release of version 1</a>.</p> ]]></description><link>https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/</link><guid>https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/</guid><category> Software Engineering </category><dc:creator> Yurij Mikhalevich </dc:creator><pubDate>Sun, 02 Mar 2025 12:03:00 +0400</pubDate><media:content url="https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/featured_hu_9dba097de407ad2b.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/featured_hu_9dba097de407ad2b.webp" alt="rclip 2: raw image search and performance improvements"><p>This week, I released version 2 of rclip. The main breaking change in the major
 update is that rclip dropped Python 3.9 support, which could affect you only if
 you are installing rclip using <code>pip</code> in a Python 3.9 environment. Even though no
 features are associated with the v2 release, I am thrilled about it because it
@@ -122,15 +128,15 @@ this:</p>
 
 <figure class="md-figure" >
   <div class="md-figure__inner" ><img alt="raw image search example" srcset="
-          https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/images/raw-image-search-example_hubce55fe26dc6acf99e773df3d6bb9c94_2143695_f3227389eb12905d71ee21f7e691b1f9.webp 400w,
-          https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/images/raw-image-search-example_hubce55fe26dc6acf99e773df3d6bb9c94_2143695_e29cb0f77516b35552648f44a626e974.webp 760w,
-          https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/images/raw-image-search-example_hubce55fe26dc6acf99e773df3d6bb9c94_2143695_1520x1520_fit_q85_h2_lanczos_3.webp 1520w"
-          src="https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/images/raw-image-search-example_hubce55fe26dc6acf99e773df3d6bb9c94_2143695_1520x1520_fit_q85_h2_lanczos_3.webp"
+          https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/images/raw-image-search-example_hu_f75aa54e0bdc1849.webp 400w,
+          https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/images/raw-image-search-example_hu_3d14ef4104511c09.webp 760w,
+          https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/images/raw-image-search-example_hu_87050f5d395154c.webp 1520w"
+          src="https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/images/raw-image-search-example_hu_87050f5d395154c.webp"
           width="760"
           height="475"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #c7c3b9b3, #c7c3b900 75%),linear-gradient(127.000000deg, #5b5955b3, #5b595500 75%),linear-gradient(217.000000deg, #9a8c74b3, #9a8c7400 75%),linear-gradient(307.000000deg, #877667b3, #87766700 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
+          style="background: linear-gradient(37.000000deg, #f5f0e1b3, #f5f0e100 75%),linear-gradient(109.000000deg, #494440b3, #49444000 75%),linear-gradient(181.000000deg, #a79172b3, #a7917200 75%),linear-gradient(253.000000deg, #687a83b3, #687a8300 75%),linear-gradient(325.000000deg, #887261b3, #88726100 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
 </p>
 <p>With this flag passed, rclip will search through regular and raw images and
 surface best matches. Terminal previews are also supported for raw photos.  It
@@ -143,23 +149,22 @@ rclip</a>,
 try this feature, and <a href="https://github.com/yurijmikhalevich/rclip/discussions/new/choose" target="_blank" rel="noopener">let me know if you have any
 feedback</a>.
 Stay curious, and enjoy your photo searches with rclip!</p>
- ]]></content:encoded></item><item><title>Next-level terminal image search: rclip gets previews</title><description><![CDATA[ Hi everyone!
-I&rsquo;m thrilled to share a long-overdue update about an exciting rclip feature. Now, you can preview search results directly in the terminal!
-If you&rsquo;re new to rclip, it&rsquo;s an AI-powered command-line photo search tool – think &ldquo;rgrep&rdquo; for images. ]]></description><link>https://mikhalevi.ch/next-level-terminal-image-search-rclip-gets-previews/</link><guid>https://mikhalevi.ch/next-level-terminal-image-search-rclip-gets-previews/</guid><category> Software Engineering</category><dc:creator> Yurij Mikhalevich</dc:creator><pubDate>Sun, 21 Jan 2024 16:24:10 +0000</pubDate><media:content url="https://mikhalevi.ch/next-level-terminal-image-search-rclip-gets-previews/featured_hu3c98ed5dd501f8a1526fd02539579973_129376_8e280169132273ce1b833470eee33056.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/next-level-terminal-image-search-rclip-gets-previews/featured_hu3c98ed5dd501f8a1526fd02539579973_129376_8e280169132273ce1b833470eee33056.webp" alt="Next-level terminal image search: rclip gets previews"><p>Hi everyone!</p>
+ ]]></content:encoded></item><item><title> Next-level terminal image search: rclip gets previews </title><description><![CDATA[ <p>Hi everyone!</p>
+<p>I&rsquo;m thrilled to share a long-overdue update about an exciting rclip feature. Now, you can preview search results directly in the terminal!</p>
+<p>If you&rsquo;re new to rclip, it&rsquo;s an AI-powered command-line photo search tool – think &ldquo;rgrep&rdquo; for images. Dive into <a href="https://mikhalevi.ch/rclip-an-ai-powered-command-line-photo-search-tool/">my</a> <a href="https://mikhalevi.ch/unveiling-rclips-new-power-image-to-image-search/">previous</a> <a href="https://mikhalevi.ch/rclip-update-mixing-text-and-image-queries-for-the-ultimate-photo-search/">posts</a> and give it a spin to learn more.</p> ]]></description><link>https://mikhalevi.ch/next-level-terminal-image-search-rclip-gets-previews/</link><guid>https://mikhalevi.ch/next-level-terminal-image-search-rclip-gets-previews/</guid><category> Software Engineering </category><dc:creator> Yurij Mikhalevich </dc:creator><pubDate>Sun, 21 Jan 2024 16:24:10 +0000</pubDate><media:content url="https://mikhalevi.ch/next-level-terminal-image-search-rclip-gets-previews/featured_hu_56bd9edda3591528.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/next-level-terminal-image-search-rclip-gets-previews/featured_hu_56bd9edda3591528.webp" alt="Next-level terminal image search: rclip gets previews"><p>Hi everyone!</p>
 <p>I&rsquo;m thrilled to share a long-overdue update about an exciting rclip feature. Now, you can preview search results directly in the terminal!</p>
 <p>If you&rsquo;re new to rclip, it&rsquo;s an AI-powered command-line photo search tool – think &ldquo;rgrep&rdquo; for images. Dive into <a href="https://mikhalevi.ch/rclip-an-ai-powered-command-line-photo-search-tool/">my</a> <a href="https://mikhalevi.ch/unveiling-rclips-new-power-image-to-image-search/">previous</a> <a href="https://mikhalevi.ch/rclip-update-mixing-text-and-image-queries-for-the-ultimate-photo-search/">posts</a> and give it a spin to learn more.</p>
 <p>Now, let&rsquo;s talk about the new preview feature. To witness the magic, simply add the <code>--preview</code> (or <code>-p</code>) argument to your rclip command, like this: <code>rclip -p kitty</code>. Check out the video below to see it in action.</p>
-
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/Ay_XfbUFU08" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Ay_XfbUFU08?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
 
 <p>Some might argue that the ability to preview images was in rclip before because you can pipe filenames output by rclip to any other command. You might remember reading a suggestion about piping filenames to an image viewer in <a href="https://github.com/yurijmikhalevich/rclip/blob/bfd0fb7e5f702b7f38d0cc43b814cdeffff2a1d2/README.md#how-do-i-preview-the-results" target="_blank" rel="noopener">rclip&rsquo;s README</a>. It worked, but the command was a bit of a monstrosity. You had to remember the <code>-f</code> argument, deal with <code>xargs</code> intricacies, and know how to call the viewer you want to use.</p>
 <p>The other issue with that suggestion is that it doesn&rsquo;t work over SSH. This is especially important to me because I do a lot of searches on a remote machine. And, even if you make it work over SSH somehow, it will be slow because it has to transmit the whole image over the network to display a preview unless you go further and compress it yourself.</p>
 <p>Now, these problems are no more. I&rsquo;ve addressed these issues with the new preview feature! No more cumbersome commands. Now, it&rsquo;s as simple as typing <code>rclip -p kitty</code>, and voila – compressed image previews right in your terminal. It also works seamlessly over SSH. No more sluggish previews; just a smooth, optimized experience, even on remote machines.</p>
 <p>The feature is compatible with <a href="https://iterm2.com/" target="_blank" rel="noopener">iTerm2</a>, <a href="https://konsole.kde.org/" target="_blank" rel="noopener">Konsole</a> (version 22.04 and higher), <a href="https://wezfurlong.org/wezterm/" target="_blank" rel="noopener">wezterm</a>, <a href="https://mintty.github.io/" target="_blank" rel="noopener">Mintty</a>, and <a href="https://mlterm.sourceforge.net/" target="_blank" rel="noopener">mlterm</a>.</p>
 <p>Get the feature by following <a href="https://github.com/yurijmikhalevich/rclip?tab=readme-ov-file#installation" target="_blank" rel="noopener">the instructions in the repository&rsquo;s README</a> to download the latest version of rclip. Try it out and share your thoughts. Stay curious, and enjoy your photo searches with rclip!</p>
- ]]></content:encoded></item><item><title>rclip update: mixing text and image queries for the ultimate photo search</title><description> Hi! Today, I am introducing a fantastic new feature of rclip (an AI-powered command-line photo search tool I built): the ability to add and subtract different queries. It&amp;rsquo;s fun to play around with different concepts in this way.</description><link>https://mikhalevi.ch/rclip-update-mixing-text-and-image-queries-for-the-ultimate-photo-search/</link><guid>https://mikhalevi.ch/rclip-update-mixing-text-and-image-queries-for-the-ultimate-photo-search/</guid><category> Software Engineering</category><dc:creator> Yurij Mikhalevich</dc:creator><pubDate>Mon, 31 Jul 2023 12:05:26 +0000</pubDate><media:content url="https://mikhalevi.ch/rclip-update-mixing-text-and-image-queries-for-the-ultimate-photo-search/featured_hudf139667da090f78acf55b8d8b4b6f5b_238553_cb560d353d73c4a0b8704bd0023069fd.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/rclip-update-mixing-text-and-image-queries-for-the-ultimate-photo-search/featured_hudf139667da090f78acf55b8d8b4b6f5b_238553_cb560d353d73c4a0b8704bd0023069fd.webp" alt="rclip update: mixing text and image queries for the ultimate photo search"><p>Hi! Today, I am introducing a fantastic new feature of rclip (an AI-powered command-line photo search tool I built): the ability to add and subtract different queries. It&rsquo;s fun to play around with different concepts in this way. This feature is also handy when you want to find similar images. If it&rsquo;s the first time you read about rclip, check out <a href="https://mikhalevi.ch/rclip-an-ai-powered-command-line-photo-search-tool/">this</a> and <a href="https://mikhalevi.ch/unveiling-rclips-new-power-image-to-image-search/">this</a> blog posts.</p>
+ ]]></content:encoded></item><item><title> rclip update: mixing text and image queries for the ultimate photo search </title><description><![CDATA[ <p>Hi! Today, I am introducing a fantastic new feature of rclip (an AI-powered command-line photo search tool I built): the ability to add and subtract different queries. It&rsquo;s fun to play around with different concepts in this way. This feature is also handy when you want to find similar images. If it&rsquo;s the first time you read about rclip, check out <a href="https://mikhalevi.ch/rclip-an-ai-powered-command-line-photo-search-tool/">this</a> and <a href="https://mikhalevi.ch/unveiling-rclips-new-power-image-to-image-search/">this</a> blog posts.</p> ]]></description><link>https://mikhalevi.ch/rclip-update-mixing-text-and-image-queries-for-the-ultimate-photo-search/</link><guid>https://mikhalevi.ch/rclip-update-mixing-text-and-image-queries-for-the-ultimate-photo-search/</guid><category> Software Engineering </category><dc:creator> Yurij Mikhalevich </dc:creator><pubDate>Mon, 31 Jul 2023 12:05:26 +0000</pubDate><media:content url="https://mikhalevi.ch/rclip-update-mixing-text-and-image-queries-for-the-ultimate-photo-search/featured_hu_d48f4d81493059b5.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/rclip-update-mixing-text-and-image-queries-for-the-ultimate-photo-search/featured_hu_d48f4d81493059b5.webp" alt="rclip update: mixing text and image queries for the ultimate photo search"><p>Hi! Today, I am introducing a fantastic new feature of rclip (an AI-powered command-line photo search tool I built): the ability to add and subtract different queries. It&rsquo;s fun to play around with different concepts in this way. This feature is also handy when you want to find similar images. If it&rsquo;s the first time you read about rclip, check out <a href="https://mikhalevi.ch/rclip-an-ai-powered-command-line-photo-search-tool/">this</a> and <a href="https://mikhalevi.ch/unveiling-rclips-new-power-image-to-image-search/">this</a> blog posts.</p>
 <p>The feature works like this. If you want to add two queries together, add a &ldquo;plus&rdquo; sign between them like this:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">cd</span> photos <span class="o">&amp;&amp;</span> rclip horse + stripes
 </span></span></code></pre></div><p>If you want to subtract one query from the other, use the &ldquo;minus&rdquo; sign:</p>
@@ -171,14 +176,13 @@ If you&rsquo;re new to rclip, it&rsquo;s an AI-powered command-line photo search
 </span></span></code></pre></div><p>And last but not least, when combining queries like this, you are not limited to two queries. Combine as many as you want. For example:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">cd</span> photos <span class="o">&amp;&amp;</span> rclip <span class="s2">&#34;./racing car.jpg&#34;</span> - <span class="s2">&#34;2:sports car&#34;</span> + <span class="s2">&#34;2:snow&#34;</span>
 </span></span></code></pre></div><p>If you are interested in seeing how all these queries perform when executed on the 1.28 million images ImageNet-1k dataset, check out the video demo on YouTube:</p>
-
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/MsTgYdOpgcQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/MsTgYdOpgcQ?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
 
 <p>This is another rclip feature initially introduced by a GitHub user <a href="https://github.com/ramayer" target="_blank" rel="noopener">ramayer</a>. Huge thanks to ramayer for this incredible contribution! Speaking of contributors, I always appreciate the enthusiasm and fresh perspectives that new contributors bring! If you&rsquo;re considering getting involved in open-source projects and making a positive impact, <a href="https://github.com/yurijmikhalevich/rclip/issues" target="_blank" rel="noopener">a number of issues on the rclip GitHub page</a> could benefit from your attention and expertise. Why not give them a look?</p>
 <p>That&rsquo;s all you need to know about the new feature. You can download the latest version of rclip by following <a href="https://github.com/yurijmikhalevich/rclip#installation" target="_blank" rel="noopener">the instructions in the repository&rsquo;s README</a>. Try it out and share your thoughts. Stay curious, and enjoy your photo searches with rclip!</p>
- ]]></content:encoded></item><item><title>Unveiling rclip's new power: image-to-image search</title><description> If you have been following my work, you are probably already familiar with rclip, a command-line image search tool I built to solve a specific problem: navigating my personal collection of photos.</description><link>https://mikhalevi.ch/unveiling-rclips-new-power-image-to-image-search/</link><guid>https://mikhalevi.ch/unveiling-rclips-new-power-image-to-image-search/</guid><category> Software Engineering</category><dc:creator> Yurij Mikhalevich</dc:creator><pubDate>Sun, 16 Jul 2023 19:58:11 +0000</pubDate><media:content url="https://mikhalevi.ch/unveiling-rclips-new-power-image-to-image-search/featured_hue221bae3372071590945f593ca7145e4_328421_02a0d56b947596a1d9a48848168fcf67.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/unveiling-rclips-new-power-image-to-image-search/featured_hue221bae3372071590945f593ca7145e4_328421_02a0d56b947596a1d9a48848168fcf67.webp" alt="Unveiling rclip&#39;s new power: image-to-image search"><p>If you have been following my work, you are probably already familiar with <a href="https://github.com/yurijmikhalevich/rclip/" target="_blank" rel="noopener">rclip</a>, a command-line image search tool <a href="https://mikhalevi.ch/rclip-an-ai-powered-command-line-photo-search-tool/">I built to solve a specific problem: navigating my personal collection of photos</a>.</p>
+ ]]></content:encoded></item><item><title> Unveiling rclip's new power: image-to-image search </title><description><![CDATA[ <p>If you have been following my work, you are probably already familiar with <a href="https://github.com/yurijmikhalevich/rclip/" target="_blank" rel="noopener">rclip</a>, a command-line image search tool <a href="https://mikhalevi.ch/rclip-an-ai-powered-command-line-photo-search-tool/">I built to solve a specific problem: navigating my personal collection of photos</a>.</p> ]]></description><link>https://mikhalevi.ch/unveiling-rclips-new-power-image-to-image-search/</link><guid>https://mikhalevi.ch/unveiling-rclips-new-power-image-to-image-search/</guid><category> Software Engineering </category><dc:creator> Yurij Mikhalevich </dc:creator><pubDate>Sun, 16 Jul 2023 19:58:11 +0000</pubDate><media:content url="https://mikhalevi.ch/unveiling-rclips-new-power-image-to-image-search/featured_hu_822349821fa7a2bd.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/unveiling-rclips-new-power-image-to-image-search/featured_hu_822349821fa7a2bd.webp" alt="Unveiling rclip&#39;s new power: image-to-image search"><p>If you have been following my work, you are probably already familiar with <a href="https://github.com/yurijmikhalevich/rclip/" target="_blank" rel="noopener">rclip</a>, a command-line image search tool <a href="https://mikhalevi.ch/rclip-an-ai-powered-command-line-photo-search-tool/">I built to solve a specific problem: navigating my personal collection of photos</a>.</p>
 <p>Today, I am excited to introduce a new feature to rclip. This update expands the search capabilities of rclip beyond text queries, allowing you to search for images similar to a given image. You only need to provide an image path or URL, and rclip will find visually similar images. For example:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">cd</span> photos <span class="o">&amp;&amp;</span> rclip ./cat.jpg
 </span></span><span class="line"><span class="cl">
@@ -186,26 +190,24 @@ If you&rsquo;re new to rclip, it&rsquo;s an AI-powered command-line photo search
 </span></span><span class="line"><span class="cl"><span class="nb">cd</span> photos <span class="o">&amp;&amp;</span> rclip https://raw.githubusercontent.com/yurijmikhalevich/rclip/main/tests/e2e/images/cat.jpg
 </span></span></code></pre></div><p>This feature was added a while back, but I have only wrapped it up properly recently. It is not just a cool feature; it is special because it was contributed by the first-ever contributor to rclip – a GitHub user <a href="https://github.com/ramayer" target="_blank" rel="noopener">ramayer</a>. ramayer reached out with this incredible proposal, worked on the implementation, and after a bit of back-and-forth feedback, I was delighted to merge the PR into the project. A huge shout-out to ramayer for this incredible contribution!</p>
 <p>Check out the video below for a demo:</p>
-
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/1YQZKeCBxWM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/1YQZKeCBxWM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
 
 <p>Open source projects like rclip thrive on the energy and innovation of contributors. If you want to dive into open source and make a difference, <a href="https://github.com/yurijmikhalevich/rclip/issues" target="_blank" rel="noopener">several issues on the rclip GitHub page</a> could use your attention.</p>
 <p>That&rsquo;s it for now! <a href="https://github.com/yurijmikhalevich/rclip/#installation" target="_blank" rel="noopener">Test drive this new feature</a> and share your feedback.</p>
 <p>Until next time, stay curious!</p>
- ]]></content:encoded></item><item><title>Minerva, a GPT-powered Discord bot built to help students learn software development</title><description> Meet Minerva, a GPT-powered Discord bot I built to help students in the study group I mentor learn software development and machine learning.
-Since 2021, I have been leading a pro-bono study group where I help students from my alma mater develop their skills and learn how to build and ship products.</description><link>https://mikhalevi.ch/minerva-a-gpt-powered-discord-bot-built-to-help-students-learn-software-development/</link><guid>https://mikhalevi.ch/minerva-a-gpt-powered-discord-bot-built-to-help-students-learn-software-development/</guid><category> Software Engineering</category><dc:creator> Yurij Mikhalevich</dc:creator><pubDate>Sun, 07 May 2023 15:42:38 +0000</pubDate><media:content url="https://mikhalevi.ch/minerva-a-gpt-powered-discord-bot-built-to-help-students-learn-software-development/featured_hua62bbdccbef50fee1580fc8240af1680_863188_d0be4d7952f8634266f39a0378681144.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/minerva-a-gpt-powered-discord-bot-built-to-help-students-learn-software-development/featured_hua62bbdccbef50fee1580fc8240af1680_863188_d0be4d7952f8634266f39a0378681144.webp" alt="Minerva, a GPT-powered Discord bot built to help students learn software development"><p>Meet Minerva, a GPT-powered Discord bot I built to help students in the study group I mentor learn software development and machine learning.</p>
+ ]]></content:encoded></item><item><title> Minerva, a GPT-powered Discord bot built to help students learn software development </title><description><![CDATA[ <p>Meet Minerva, a GPT-powered Discord bot I built to help students in the study group I mentor learn software development and machine learning.</p>
+<p>Since 2021, I have been leading a pro-bono study group where I help students from my alma mater develop their skills and learn how to build and ship products. We have a Discord server with channels dedicated to different areas of study and student projects, and we meet face-to-face every week over a video chat. Anything related to any aspect of software development can be discussed there, though we mainly focus on machine learning and web development. In the group, I encourage people to study a lot, make bold mistakes, ask many questions and help each other. But I have noticed that sometimes, our club members hold back from asking &ldquo;simple&rdquo; questions, fearing they might needlessly disturb others. Despite understanding this feeling well, I prefer to avoid this frame of mind because even the simplest of questions can provoke an engaging discussion and deepen the knowledge and understanding of everyone involved. I wanted to empower everyone to seek answers without hesitation, so I built Minerva — an AI assistant based on OpenAI&rsquo;s &ldquo;gpt-3.5-turbo&rdquo; model (the same one used in ChatGPT) — to allow members to ask any questions without worrying about disturbing anyone! The bot lives in our Discord server now. To chat with the bot, the members can send a message, as usual, and mention &ldquo;@Minerva.&rdquo; Check out this interaction to get a feeling of how it works:</p> ]]></description><link>https://mikhalevi.ch/minerva-a-gpt-powered-discord-bot-built-to-help-students-learn-software-development/</link><guid>https://mikhalevi.ch/minerva-a-gpt-powered-discord-bot-built-to-help-students-learn-software-development/</guid><category> Software Engineering </category><dc:creator> Yurij Mikhalevich </dc:creator><pubDate>Sun, 07 May 2023 15:42:38 +0000</pubDate><media:content url="https://mikhalevi.ch/minerva-a-gpt-powered-discord-bot-built-to-help-students-learn-software-development/featured_hu_a5dc9a9d92d420fb.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/minerva-a-gpt-powered-discord-bot-built-to-help-students-learn-software-development/featured_hu_a5dc9a9d92d420fb.webp" alt="Minerva, a GPT-powered Discord bot built to help students learn software development"><p>Meet Minerva, a GPT-powered Discord bot I built to help students in the study group I mentor learn software development and machine learning.</p>
 <p>Since 2021, I have been leading a pro-bono study group where I help students from my alma mater develop their skills and learn how to build and ship products. We have a Discord server with channels dedicated to different areas of study and student projects, and we meet face-to-face every week over a video chat. Anything related to any aspect of software development can be discussed there, though we mainly focus on machine learning and web development. In the group, I encourage people to study a lot, make bold mistakes, ask many questions and help each other. But I have noticed that sometimes, our club members hold back from asking &ldquo;simple&rdquo; questions, fearing they might needlessly disturb others. Despite understanding this feeling well, I prefer to avoid this frame of mind because even the simplest of questions can provoke an engaging discussion and deepen the knowledge and understanding of everyone involved. I wanted to empower everyone to seek answers without hesitation, so I built Minerva — an AI assistant based on OpenAI&rsquo;s &ldquo;gpt-3.5-turbo&rdquo; model (the same one used in ChatGPT) — to allow members to ask any questions without worrying about disturbing anyone! The bot lives in our Discord server now. To chat with the bot, the members can send a message, as usual, and mention &ldquo;@Minerva.&rdquo; Check out this interaction to get a feeling of how it works:</p>
-
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/H9WEqr7ZgYk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/H9WEqr7ZgYk?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
 
 <p>The bot maintains an independent discussion in each server channel, differentiates between messages sent by different club members, knows how to mention Discord users, and formats the code in the responses using markdown! The perfect mentor, Minerva, prefers to nudge the student in the right direction instead of solving a problem for them.</p>
 <p>The other purpose of building the bot was to answer a club member&rsquo;s request to see how the integration with OpenAI&rsquo;s chat completion model work. I have made this bot for the club members with the club members. Most of the development was done live during our weekly face-to-face meetings. The bot&rsquo;s source code is a valuable reference for anyone wanting to build their own Discord AI chatbot and is available <a href="https://github.com/Move-Fast-and-Break-Things-Study-Group/minerva" target="_blank" rel="noopener">on GitHub</a>. If you want to let Minerva into your Discord server, follow the instructions in the <a href="https://github.com/Move-Fast-and-Break-Things-Study-Group/minerva/blob/main/README.md#how-can-i-add-minerva-to-my-discord-guild-server" target="_blank" rel="noopener">repository&rsquo;s README</a>.</p>
 <p>I created an avatar for Minerva using OpenAI&rsquo;s DALL·E and Midjourney. DALL·E was used to iterate over ideas. Midjourney was then used with a hybrid (image and text) prompt to perfect the concept. And for the Minerva banner, I used Canva&rsquo;s fantastic Magic Design tool.</p>
- ]]></content:encoded></item><item><title>rclip: an AI-powered command-line photo search tool</title><description> I have 72,769 photos stored on my NAS and organized into subfolders named according to the pattern &amp;ldquo;YEAR.MM.DD - Event description.&amp;rdquo; This organizational approach is software-agnostic and creates a structure that is easy to navigate.</description><link>https://mikhalevi.ch/rclip-an-ai-powered-command-line-photo-search-tool/</link><guid>https://mikhalevi.ch/rclip-an-ai-powered-command-line-photo-search-tool/</guid><category> Software Engineering</category><dc:creator> Yurij Mikhalevich</dc:creator><pubDate>Wed, 25 Aug 2021 07:02:27 +0000</pubDate><media:content url="https://mikhalevi.ch/rclip-an-ai-powered-command-line-photo-search-tool/featured_hufecf788dc4438ae3024a4a2ed127ff07_611805_b52354cf241a60b575d0948d3d1bd1a5.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/rclip-an-ai-powered-command-line-photo-search-tool/featured_hufecf788dc4438ae3024a4a2ed127ff07_611805_b52354cf241a60b575d0948d3d1bd1a5.webp" alt="rclip: an AI-powered command-line photo search tool"><p>I have 72,769 photos stored on my NAS and organized into subfolders named according to the pattern &ldquo;YEAR.MM.DD - Event description.&rdquo; This organizational approach is software-agnostic and creates a structure that is easy to navigate. I have followed it for more than a dozen years. However, there are situations when I want to find a particular photo. Looking for it even within a specific subfolder can take a lot of time, especially if that subfolder is packed with many pictures. Another challenging scenario is finding a picture that will fit a particular theme without having a specific one in mind. In both of these scenarios, having content-based search available is helpful. I looked around and didn&rsquo;t find a solution that satisfied me. What to do when you find yourself in a situation like this? Build your own solution!</p>
+ ]]></content:encoded></item><item><title> rclip: an AI-powered command-line photo search tool </title><description><![CDATA[ <p>I have 72,769 photos stored on my NAS and organized into subfolders named according to the pattern &ldquo;YEAR.MM.DD - Event description.&rdquo; This organizational approach is software-agnostic and creates a structure that is easy to navigate. I have followed it for more than a dozen years. However, there are situations when I want to find a particular photo. Looking for it even within a specific subfolder can take a lot of time, especially if that subfolder is packed with many pictures. Another challenging scenario is finding a picture that will fit a particular theme without having a specific one in mind. In both of these scenarios, having content-based search available is helpful. I looked around and didn&rsquo;t find a solution that satisfied me. What to do when you find yourself in a situation like this? Build your own solution!</p> ]]></description><link>https://mikhalevi.ch/rclip-an-ai-powered-command-line-photo-search-tool/</link><guid>https://mikhalevi.ch/rclip-an-ai-powered-command-line-photo-search-tool/</guid><category> Software Engineering </category><dc:creator> Yurij Mikhalevich </dc:creator><pubDate>Wed, 25 Aug 2021 07:02:27 +0000</pubDate><media:content url="https://mikhalevi.ch/rclip-an-ai-powered-command-line-photo-search-tool/featured_hu_319930015a1ed69b.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/rclip-an-ai-powered-command-line-photo-search-tool/featured_hu_319930015a1ed69b.webp" alt="rclip: an AI-powered command-line photo search tool"><p>I have 72,769 photos stored on my NAS and organized into subfolders named according to the pattern &ldquo;YEAR.MM.DD - Event description.&rdquo; This organizational approach is software-agnostic and creates a structure that is easy to navigate. I have followed it for more than a dozen years. However, there are situations when I want to find a particular photo. Looking for it even within a specific subfolder can take a lot of time, especially if that subfolder is packed with many pictures. Another challenging scenario is finding a picture that will fit a particular theme without having a specific one in mind. In both of these scenarios, having content-based search available is helpful. I looked around and didn&rsquo;t find a solution that satisfied me. What to do when you find yourself in a situation like this? Build your own solution!</p>
 <p>Techniques allowing you to search images by their content are not necessarily new, but they usually only allow you to search using a set of predefined keywords and, sometimes, their synonyms. <a href="https://openai.com/blog/clip/" target="_blank" rel="noopener">OpenAI&rsquo;s CLIP</a> takes computer image understanding to a whole new level, allowing us to search for photos using any text query we can think of. This is why I used it to build my tool — rclip. In essence, rclip is a simple interface to the CLIP model. All I had to do was load the model, extract feature vectors from all of the images in the directory, store them somewhere, extract the feature vector from the query, compute similarities between the query feature vector and the image feature vectors, and output the most similar images. The vector extraction is done only once for each image, on the first run, and then the vectors are stored in the SQLite DB. SQLite is not the most performant way to manage that kind of data, but it&rsquo;s a quite convenient one. And, given that the time needed to query the DB on my 73 thousand photos catalog contributes only up to 12% of the whole execution time, I have decided to keep it for the time being.</p>
 <p>I use <code>rgrep</code> a lot. <code>rgrep</code> is a simple alias to the <code>grep</code> command-line tool that searches recursively for a substring match in all of the files in the current directory. In its minimal definition (without a bunch of unwanted directories excluded), it looks like this: <code>alias rgrep=&quot;grep -rni&quot;</code>. To use it, open your terminal, navigate to the directory containing the files that you want to grep, type &ldquo;rgrep&rdquo; &ldquo;search query,&rdquo; and hit &ldquo;Enter.&rdquo;</p>
 <p><code>rclip</code> implements exactly the same interface, but searches through the images&rsquo; content. The name stands for &ldquo;recursive CLIP.&rdquo; Its usage looks like this:</p>
@@ -231,20 +233,18 @@ Since 2021, I have been leading a pro-bono study group where I help students fro
           class="md-img" data-zoomable /></div></figure>
 </p>
 <p>For the detailed demonstration, watch the video below:</p>
-
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/tAJHXOkHidw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/tAJHXOkHidw?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
 
 <p>That&rsquo;s it! If you want to try <code>rclip</code> yourself, follow the installation instructions described <a href="https://github.com/yurijmikhalevich/rclip#readme" target="_blank" rel="noopener">here</a>.</p>
- ]]></content:encoded></item><item><title>Efficient Routing on a Scale: Winning Solution of the Machine Learning Prague 2021 Hackathon</title><description> This post is a walkthrough of the winning solution for the ML Prague 2021 Hackathon problem that my teammate Michał and I came up with.
-We were given anonymized data containing approximately 524k Czech policyholders, 44k clinic departments of 273 different types, and 332 ambulance stations.</description><link>https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/</link><guid>https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/</guid><category> Software Engineering</category><dc:creator> Yurij Mikhalevich</dc:creator><pubDate>Mon, 10 May 2021 16:48:36 +0000</pubDate><media:content url="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/featured_hu924436896a264110b6a4b63911152fcb_832291_55ab5a8bf17c11c9d83c3b15cbc0d9b9.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/featured_hu924436896a264110b6a4b63911152fcb_832291_55ab5a8bf17c11c9d83c3b15cbc0d9b9.webp" alt="Efficient Routing on a Scale: Winning Solution of the Machine Learning Prague 2021 Hackathon"><p>This post is a walkthrough of the winning solution for the <a href="https://www.mlprague.com/" target="_blank" rel="noopener">ML Prague</a> 2021 Hackathon problem that my teammate Michał and I came up with.</p>
+ ]]></content:encoded></item><item><title> Efficient Routing on a Scale: Winning Solution of the Machine Learning Prague 2021 Hackathon </title><description><![CDATA[ <p>This post is a walkthrough of the winning solution for the <a href="https://www.mlprague.com/" target="_blank" rel="noopener">ML Prague</a> 2021 Hackathon problem that my teammate Michał and I came up with.</p>
+<p>We were given anonymized data containing approximately 524k Czech policyholders, 44k clinic departments of 273 different types, and 332 ambulance stations. We were tasked with assigning each of the policyholders to the closest of each of the 273 clinics, in addition to the nearest ambulance station. The closest clinics and ambulance stations were supposed to have been picked by the driving distance. To help us with the routing, we were given $200USD in MS Azure credit, which was enough to make 40k routing requests (or 400k if we were willing to go under the 50 queries per second limit). This amount is nowhere near the one required for a brute-force solution, not to mention that it would take a while. We had five days to come up with the solution. On top of that, we were tasked to present our results using <a href="https://www.sas.com/en%5Fus/software/visual-analytics.html" target="_blank" rel="noopener">SAS Visual Analytics on SAS Vija</a>.</p> ]]></description><link>https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/</link><guid>https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/</guid><category> Software Engineering </category><dc:creator> Yurij Mikhalevich </dc:creator><pubDate>Mon, 10 May 2021 16:48:36 +0000</pubDate><media:content url="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/featured_hu_ff71d436b952316f.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/featured_hu_ff71d436b952316f.webp" alt="Efficient Routing on a Scale: Winning Solution of the Machine Learning Prague 2021 Hackathon"><p>This post is a walkthrough of the winning solution for the <a href="https://www.mlprague.com/" target="_blank" rel="noopener">ML Prague</a> 2021 Hackathon problem that my teammate Michał and I came up with.</p>
 <p>We were given anonymized data containing approximately 524k Czech policyholders, 44k clinic departments of 273 different types, and 332 ambulance stations. We were tasked with assigning each of the policyholders to the closest of each of the 273 clinics, in addition to the nearest ambulance station. The closest clinics and ambulance stations were supposed to have been picked by the driving distance. To help us with the routing, we were given $200USD in MS Azure credit, which was enough to make 40k routing requests (or 400k if we were willing to go under the 50 queries per second limit). This amount is nowhere near the one required for a brute-force solution, not to mention that it would take a while. We had five days to come up with the solution. On top of that, we were tasked to present our results using <a href="https://www.sas.com/en%5Fus/software/visual-analytics.html" target="_blank" rel="noopener">SAS Visual Analytics on SAS Vija</a>.</p>
 <p>If you prefer video to text, here is our presentation for the conference featuring the dashboard:</p>
-
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/hZILy2awPqs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/hZILy2awPqs?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
 
 <p>The video is denser and less detailed compared to this article.</p>
 <p>Before we dive into the code, let&rsquo;s go over the solution&rsquo;s summary.</p>
@@ -285,82 +285,82 @@ We were given anonymized data containing approximately 524k Czech policyholders,
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">users</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;./table_POJ.csv&#39;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">users</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </span></span></code></pre></div><table>
-<thead>
-<tr>
-<th></th>
-<th>policyholder_num</th>
-<th>village</th>
-<th>village_part</th>
-<th>street</th>
-<th>land_num_type</th>
-<th>land_reg_num</th>
-<th>house_num</th>
-<th>WGS84_N</th>
-<th>WGS84_E</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>0</td>
-<td>XXXXXXXX</td>
-<td>Vysoký Újezd</td>
-<td>Vysoký Újezd</td>
-<td>NaN</td>
-<td>č.p.</td>
-<td>55</td>
-<td>NaN</td>
-<td>49.813014</td>
-<td>14.478450</td>
-</tr>
-<tr>
-<td>1</td>
-<td>XXXXXXXX</td>
-<td>Vysoký Újezd</td>
-<td>Vysoký Újezd</td>
-<td>NaN</td>
-<td>č.p.</td>
-<td>48</td>
-<td>NaN</td>
-<td>49.813251</td>
-<td>14.479900</td>
-</tr>
-<tr>
-<td>2</td>
-<td>XXXXXXXX</td>
-<td>Vysoký Újezd</td>
-<td>Vysoký Újezd</td>
-<td>NaN</td>
-<td>č.p.</td>
-<td>42</td>
-<td>NaN</td>
-<td>49.814633</td>
-<td>14.479510</td>
-</tr>
-<tr>
-<td>3</td>
-<td>XXXXXXXX</td>
-<td>Vysoký Újezd</td>
-<td>Vysoký Újezd</td>
-<td>NaN</td>
-<td>č.p.</td>
-<td>49</td>
-<td>NaN</td>
-<td>49.814687</td>
-<td>14.477156</td>
-</tr>
-<tr>
-<td>4</td>
-<td>XXXXXXXX</td>
-<td>Vysoký Újezd</td>
-<td>Vysoký Újezd</td>
-<td>NaN</td>
-<td>č.p.</td>
-<td>53</td>
-<td>NaN</td>
-<td>49.814780</td>
-<td>14.469591</td>
-</tr>
-</tbody>
+	<thead>
+			<tr>
+					<th></th>
+					<th>policyholder_num</th>
+					<th>village</th>
+					<th>village_part</th>
+					<th>street</th>
+					<th>land_num_type</th>
+					<th>land_reg_num</th>
+					<th>house_num</th>
+					<th>WGS84_N</th>
+					<th>WGS84_E</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>0</td>
+					<td>XXXXXXXX</td>
+					<td>Vysoký Újezd</td>
+					<td>Vysoký Újezd</td>
+					<td>NaN</td>
+					<td>č.p.</td>
+					<td>55</td>
+					<td>NaN</td>
+					<td>49.813014</td>
+					<td>14.478450</td>
+			</tr>
+			<tr>
+					<td>1</td>
+					<td>XXXXXXXX</td>
+					<td>Vysoký Újezd</td>
+					<td>Vysoký Újezd</td>
+					<td>NaN</td>
+					<td>č.p.</td>
+					<td>48</td>
+					<td>NaN</td>
+					<td>49.813251</td>
+					<td>14.479900</td>
+			</tr>
+			<tr>
+					<td>2</td>
+					<td>XXXXXXXX</td>
+					<td>Vysoký Újezd</td>
+					<td>Vysoký Újezd</td>
+					<td>NaN</td>
+					<td>č.p.</td>
+					<td>42</td>
+					<td>NaN</td>
+					<td>49.814633</td>
+					<td>14.479510</td>
+			</tr>
+			<tr>
+					<td>3</td>
+					<td>XXXXXXXX</td>
+					<td>Vysoký Újezd</td>
+					<td>Vysoký Újezd</td>
+					<td>NaN</td>
+					<td>č.p.</td>
+					<td>49</td>
+					<td>NaN</td>
+					<td>49.814687</td>
+					<td>14.477156</td>
+			</tr>
+			<tr>
+					<td>4</td>
+					<td>XXXXXXXX</td>
+					<td>Vysoký Újezd</td>
+					<td>Vysoký Újezd</td>
+					<td>NaN</td>
+					<td>č.p.</td>
+					<td>53</td>
+					<td>NaN</td>
+					<td>49.814780</td>
+					<td>14.469591</td>
+			</tr>
+	</tbody>
 </table>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">users</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
 </span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
@@ -398,94 +398,94 @@ We were given anonymized data containing approximately 524k Czech policyholders,
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">clinics</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;./table_PZS.csv&#39;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">clinics</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </span></span></code></pre></div><table>
-<thead>
-<tr>
-<th></th>
-<th>intern_subj_id</th>
-<th>name</th>
-<th>village</th>
-<th>street</th>
-<th>number</th>
-<th>zip</th>
-<th>WGS84_E</th>
-<th>WGS84_N</th>
-<th>company_id</th>
-<th>department_id</th>
-<th>contractual_specialty_id</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>0</td>
-<td>3</td>
-<td>Fakultní nemocnice Bulovka</td>
-<td>Praha</td>
-<td>Budínova</td>
-<td>67</td>
-<td>18000</td>
-<td>14.464154</td>
-<td>50.115453</td>
-<td>8995004</td>
-<td>NaN</td>
-<td>NaN</td>
-</tr>
-<tr>
-<td>1</td>
-<td>4</td>
-<td>Lékárna SALVIA spol. s r.o.</td>
-<td>Bystřice pod Hostýnem</td>
-<td>6. května</td>
-<td>556</td>
-<td>76861</td>
-<td>17.672536</td>
-<td>49.398406</td>
-<td>77610000</td>
-<td>NaN</td>
-<td>NaN</td>
-</tr>
-<tr>
-<td>2</td>
-<td>17</td>
-<td>Krajská zdravotní a.s.</td>
-<td>Chomutov</td>
-<td>Kochova</td>
-<td>1185</td>
-<td>43001</td>
-<td>13.411388</td>
-<td>50.455272</td>
-<td>57995417</td>
-<td>NaN</td>
-<td>NaN</td>
-</tr>
-<tr>
-<td>3</td>
-<td>21</td>
-<td>Endokrinologický ústav</td>
-<td>Praha</td>
-<td>Národní</td>
-<td>139</td>
-<td>11000</td>
-<td>14.415386</td>
-<td>50.081387</td>
-<td>1001000</td>
-<td>1001880.0</td>
-<td>101</td>
-</tr>
-<tr>
-<td>4</td>
-<td>21</td>
-<td>Endokrinologický ústav</td>
-<td>Praha</td>
-<td>Národní</td>
-<td>139</td>
-<td>11000</td>
-<td>14.415386</td>
-<td>50.081387</td>
-<td>1001000</td>
-<td>1001881.0</td>
-<td>104</td>
-</tr>
-</tbody>
+	<thead>
+			<tr>
+					<th></th>
+					<th>intern_subj_id</th>
+					<th>name</th>
+					<th>village</th>
+					<th>street</th>
+					<th>number</th>
+					<th>zip</th>
+					<th>WGS84_E</th>
+					<th>WGS84_N</th>
+					<th>company_id</th>
+					<th>department_id</th>
+					<th>contractual_specialty_id</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>0</td>
+					<td>3</td>
+					<td>Fakultní nemocnice Bulovka</td>
+					<td>Praha</td>
+					<td>Budínova</td>
+					<td>67</td>
+					<td>18000</td>
+					<td>14.464154</td>
+					<td>50.115453</td>
+					<td>8995004</td>
+					<td>NaN</td>
+					<td>NaN</td>
+			</tr>
+			<tr>
+					<td>1</td>
+					<td>4</td>
+					<td>Lékárna SALVIA spol. s r.o.</td>
+					<td>Bystřice pod Hostýnem</td>
+					<td>6. května</td>
+					<td>556</td>
+					<td>76861</td>
+					<td>17.672536</td>
+					<td>49.398406</td>
+					<td>77610000</td>
+					<td>NaN</td>
+					<td>NaN</td>
+			</tr>
+			<tr>
+					<td>2</td>
+					<td>17</td>
+					<td>Krajská zdravotní a.s.</td>
+					<td>Chomutov</td>
+					<td>Kochova</td>
+					<td>1185</td>
+					<td>43001</td>
+					<td>13.411388</td>
+					<td>50.455272</td>
+					<td>57995417</td>
+					<td>NaN</td>
+					<td>NaN</td>
+			</tr>
+			<tr>
+					<td>3</td>
+					<td>21</td>
+					<td>Endokrinologický ústav</td>
+					<td>Praha</td>
+					<td>Národní</td>
+					<td>139</td>
+					<td>11000</td>
+					<td>14.415386</td>
+					<td>50.081387</td>
+					<td>1001000</td>
+					<td>1001880.0</td>
+					<td>101</td>
+			</tr>
+			<tr>
+					<td>4</td>
+					<td>21</td>
+					<td>Endokrinologický ústav</td>
+					<td>Praha</td>
+					<td>Národní</td>
+					<td>139</td>
+					<td>11000</td>
+					<td>14.415386</td>
+					<td>50.081387</td>
+					<td>1001000</td>
+					<td>1001881.0</td>
+					<td>104</td>
+			</tr>
+	</tbody>
 </table>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">clinics</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
 </span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
@@ -571,15 +571,15 @@ We were given anonymized data containing approximately 524k Czech policyholders,
 
 <figure class="md-figure" id="figure-to-make-it-easy-for-your-computer-we-are-displaying-the-screenshot-of-the-map-here">
   <div class="md-figure__inner" ><img alt="To make it easy for your computer, we are displaying the screenshot of the map here" srcset="
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fda700-c353-11ee-b012-5f1e1a82f88a_hu9a0a227b42f9b220d95bd23f74e109cd_1926825_76645230be0e0e43818ac87ae2d2a803.webp 400w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fda700-c353-11ee-b012-5f1e1a82f88a_hu9a0a227b42f9b220d95bd23f74e109cd_1926825_5c875aa4840fb462ab8e1c23ae8fb7d9.webp 760w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fda700-c353-11ee-b012-5f1e1a82f88a_hu9a0a227b42f9b220d95bd23f74e109cd_1926825_1520x1520_fit_q85_h2_lanczos_3.webp 1312w"
-          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fda700-c353-11ee-b012-5f1e1a82f88a_hu9a0a227b42f9b220d95bd23f74e109cd_1926825_1520x1520_fit_q85_h2_lanczos_3.webp"
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fda700-c353-11ee-b012-5f1e1a82f88a_hu_c5722170da1e2d1f.webp 400w,
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fda700-c353-11ee-b012-5f1e1a82f88a_hu_4b2ffc095b6fbf3f.webp 760w,
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fda700-c353-11ee-b012-5f1e1a82f88a_hu_21c985e82d917da2.webp 1312w"
+          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fda700-c353-11ee-b012-5f1e1a82f88a_hu_21c985e82d917da2.webp"
           width="760"
           height="460"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #b7baacb3, #b7baac00 75%),linear-gradient(157.000000deg, #c4915cb3, #c4915c00 75%),linear-gradient(277.000000deg, #a6693bb3, #a6693b00 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div><figcaption class="md-figcaption">
+          style="background: linear-gradient(37.000000deg, #e0e3d0b3, #e0e3d000 75%),linear-gradient(157.000000deg, #ea9f58b3, #ea9f5800 75%),linear-gradient(277.000000deg, #a75d26b3, #a75d2600 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div><figcaption class="md-figcaption">
       To make it easy for your computer, we are displaying the screenshot of the map here
     </figcaption></figure>
 </p>
@@ -588,88 +588,88 @@ We were given anonymized data containing approximately 524k Czech policyholders,
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">ambulance_stations</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;./table_ZZS.csv&#39;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">ambulance_stations</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </span></span></code></pre></div><table>
-<thead>
-<tr>
-<th></th>
-<th>intern_subj_id</th>
-<th>name</th>
-<th>village</th>
-<th>street</th>
-<th>number</th>
-<th>zip</th>
-<th>WGS84_E</th>
-<th>WGS84_N</th>
-<th>company_id</th>
-<th>department_id</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>0</td>
-<td>92</td>
-<td>Zdravotnická záchranná služba hl .m. Prahy</td>
-<td>Praha</td>
-<td>28. pluku</td>
-<td>1393</td>
-<td>10100</td>
-<td>14.464515</td>
-<td>50.070763</td>
-<td>5001000</td>
-<td>5001109</td>
-</tr>
-<tr>
-<td>1</td>
-<td>92</td>
-<td>Zdravotnická záchranná služba hl .m. Prahy</td>
-<td>Praha</td>
-<td>Chelčického</td>
-<td>842</td>
-<td>13000</td>
-<td>14.458671</td>
-<td>50.083906</td>
-<td>5001000</td>
-<td>5001113</td>
-</tr>
-<tr>
-<td>2</td>
-<td>92</td>
-<td>Zdravotnická záchranná služba hl .m. Prahy</td>
-<td>Praha</td>
-<td>Dukelských hrdinů</td>
-<td>342</td>
-<td>17000</td>
-<td>14.431312</td>
-<td>50.096500</td>
-<td>5001000</td>
-<td>5001102</td>
-</tr>
-<tr>
-<td>3</td>
-<td>92</td>
-<td>Zdravotnická záchranná služba hl .m. Prahy</td>
-<td>Praha</td>
-<td>Generála Janouška</td>
-<td>902</td>
-<td>19800</td>
-<td>14.572139</td>
-<td>50.106939</td>
-<td>5001000</td>
-<td>5001110</td>
-</tr>
-<tr>
-<td>4</td>
-<td>92</td>
-<td>Zdravotnická záchranná služba hl .m. Prahy</td>
-<td>Praha</td>
-<td>Heyrovského náměstí</td>
-<td>1987</td>
-<td>16200</td>
-<td>14.340193</td>
-<td>50.086547</td>
-<td>5001000</td>
-<td>5001104</td>
-</tr>
-</tbody>
+	<thead>
+			<tr>
+					<th></th>
+					<th>intern_subj_id</th>
+					<th>name</th>
+					<th>village</th>
+					<th>street</th>
+					<th>number</th>
+					<th>zip</th>
+					<th>WGS84_E</th>
+					<th>WGS84_N</th>
+					<th>company_id</th>
+					<th>department_id</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>0</td>
+					<td>92</td>
+					<td>Zdravotnická záchranná služba hl .m. Prahy</td>
+					<td>Praha</td>
+					<td>28. pluku</td>
+					<td>1393</td>
+					<td>10100</td>
+					<td>14.464515</td>
+					<td>50.070763</td>
+					<td>5001000</td>
+					<td>5001109</td>
+			</tr>
+			<tr>
+					<td>1</td>
+					<td>92</td>
+					<td>Zdravotnická záchranná služba hl .m. Prahy</td>
+					<td>Praha</td>
+					<td>Chelčického</td>
+					<td>842</td>
+					<td>13000</td>
+					<td>14.458671</td>
+					<td>50.083906</td>
+					<td>5001000</td>
+					<td>5001113</td>
+			</tr>
+			<tr>
+					<td>2</td>
+					<td>92</td>
+					<td>Zdravotnická záchranná služba hl .m. Prahy</td>
+					<td>Praha</td>
+					<td>Dukelských hrdinů</td>
+					<td>342</td>
+					<td>17000</td>
+					<td>14.431312</td>
+					<td>50.096500</td>
+					<td>5001000</td>
+					<td>5001102</td>
+			</tr>
+			<tr>
+					<td>3</td>
+					<td>92</td>
+					<td>Zdravotnická záchranná služba hl .m. Prahy</td>
+					<td>Praha</td>
+					<td>Generála Janouška</td>
+					<td>902</td>
+					<td>19800</td>
+					<td>14.572139</td>
+					<td>50.106939</td>
+					<td>5001000</td>
+					<td>5001110</td>
+			</tr>
+			<tr>
+					<td>4</td>
+					<td>92</td>
+					<td>Zdravotnická záchranná služba hl .m. Prahy</td>
+					<td>Praha</td>
+					<td>Heyrovského náměstí</td>
+					<td>1987</td>
+					<td>16200</td>
+					<td>14.340193</td>
+					<td>50.086547</td>
+					<td>5001000</td>
+					<td>5001104</td>
+			</tr>
+	</tbody>
 </table>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">ambulance_stations</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
 </span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
@@ -718,46 +718,46 @@ We were given anonymized data containing approximately 524k Czech policyholders,
 </span></span><span class="line"><span class="cl"><span class="n">parent_orgs</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">10797
 </span></span></code></pre></div><table>
-<thead>
-<tr>
-<th>location</th>
-<th>contractual_specialty_id</th>
-<th>specialty_department</th>
-<th>location</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>(48.614218906, 14.311215042)</td>
-<td>{014}</td>
-<td>[(014, 33866100.0), (014, 33866200.0)]</td>
-<td>(48.614218906, 14.311215042)</td>
-</tr>
-<tr>
-<td>(48.617204511, 14.313272811)</td>
-<td>{AST, 709, 799}</td>
-<td>[(709, 32091122.0), (799, 32091822.0), (AST, 3&hellip;</td>
-<td>(48.617204511, 14.313272811)</td>
-</tr>
-<tr>
-<td>(48.617317188, 14.310456114)</td>
-<td>{001, 902}</td>
-<td>[(001, 33709000.0), (902, 33850100.0)]</td>
-<td>(48.617317188, 14.310456114)</td>
-</tr>
-<tr>
-<td>(48.618122407, 14.309835495)</td>
-<td>{903}</td>
-<td>[(903, 33721000.0)]</td>
-<td>(48.618122407, 14.309835495)</td>
-</tr>
-<tr>
-<td>(48.618840446, 14.30797346)</td>
-<td>{014}</td>
-<td>[(014, 33701000.0)]</td>
-<td>(48.618840446, 14.30797346)</td>
-</tr>
-</tbody>
+	<thead>
+			<tr>
+					<th>location</th>
+					<th>contractual_specialty_id</th>
+					<th>specialty_department</th>
+					<th>location</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>(48.614218906, 14.311215042)</td>
+					<td>{014}</td>
+					<td>[(014, 33866100.0), (014, 33866200.0)]</td>
+					<td>(48.614218906, 14.311215042)</td>
+			</tr>
+			<tr>
+					<td>(48.617204511, 14.313272811)</td>
+					<td>{AST, 709, 799}</td>
+					<td>[(709, 32091122.0), (799, 32091822.0), (AST, 3&hellip;</td>
+					<td>(48.617204511, 14.313272811)</td>
+			</tr>
+			<tr>
+					<td>(48.617317188, 14.310456114)</td>
+					<td>{001, 902}</td>
+					<td>[(001, 33709000.0), (902, 33850100.0)]</td>
+					<td>(48.617317188, 14.310456114)</td>
+			</tr>
+			<tr>
+					<td>(48.618122407, 14.309835495)</td>
+					<td>{903}</td>
+					<td>[(903, 33721000.0)]</td>
+					<td>(48.618122407, 14.309835495)</td>
+			</tr>
+			<tr>
+					<td>(48.618840446, 14.30797346)</td>
+					<td>{014}</td>
+					<td>[(014, 33701000.0)]</td>
+					<td>(48.618840446, 14.30797346)</td>
+			</tr>
+	</tbody>
 </table>
 <p>This leaves us with 10,797 of the &ldquo;actual&rdquo; clinics that we will be computing routes to. We&rsquo;ve stored a set of <code>contractual_specialty_id</code>s to a <code>conctractual_specialty_id</code> column to speed up the check for matching specialty ids.</p>
 <p>From the start, we&rsquo;ve aimed for maximum precision. The most precise way to solve the task would be to compute distances for each user individually, so we&rsquo;ve implemented this straightforward solution first to identify the slowest part of the process and work from there.</p>
@@ -787,15 +787,15 @@ We were given anonymized data containing approximately 524k Czech policyholders,
 
 <figure class="md-figure" >
   <div class="md-figure__inner" ><img alt="" srcset="
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4340-c353-11ee-b012-5f1e1a82f88a_hucc78244d53b3f57bce7aa63cdc6a4176_2052679_8e8c168c97f7c161907e67d49a6bba9d.webp 400w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4340-c353-11ee-b012-5f1e1a82f88a_hucc78244d53b3f57bce7aa63cdc6a4176_2052679_33e0a5bfcb40f8e310effc4ae71b2ec9.webp 760w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4340-c353-11ee-b012-5f1e1a82f88a_hucc78244d53b3f57bce7aa63cdc6a4176_2052679_1520x1520_fit_q85_h2_lanczos_3.webp 1348w"
-          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4340-c353-11ee-b012-5f1e1a82f88a_hucc78244d53b3f57bce7aa63cdc6a4176_2052679_1520x1520_fit_q85_h2_lanczos_3.webp"
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4340-c353-11ee-b012-5f1e1a82f88a_hu_dadaecc945582ca9.webp 400w,
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4340-c353-11ee-b012-5f1e1a82f88a_hu_51e3b6d2398c9989.webp 760w,
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4340-c353-11ee-b012-5f1e1a82f88a_hu_45740db9932c8e9a.webp 1348w"
+          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4340-c353-11ee-b012-5f1e1a82f88a_hu_45740db9932c8e9a.webp"
           width="760"
           height="445"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #b7baacb3, #b7baac00 75%),linear-gradient(217.000000deg, #c1915db3, #c1915d00 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
+          style="background: linear-gradient(37.000000deg, #dfe3d0b3, #dfe3d000 75%),linear-gradient(217.000000deg, #e4a15bb3, #e4a15b00 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
 </p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">users_map</span> <span class="o">=</span> <span class="n">ll</span><span class="o">.</span><span class="n">Map</span><span class="p">(</span><span class="n">center</span><span class="o">=</span><span class="n">CENTER_OF_CZECHIA</span><span class="p">,</span> <span class="n">zoom</span><span class="o">=</span><span class="mi">7</span><span class="p">,</span> <span class="n">min_zoom</span><span class="o">=</span><span class="mi">7</span><span class="p">,</span> <span class="n">max_zoom</span><span class="o">=</span><span class="mi">19</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">users_map</span><span class="o">.</span><span class="n">add_control</span><span class="p">(</span><span class="n">ll</span><span class="o">.</span><span class="n">FullScreenControl</span><span class="p">())</span>
@@ -819,15 +819,15 @@ We were given anonymized data containing approximately 524k Czech policyholders,
 
 <figure class="md-figure" >
   <div class="md-figure__inner" ><img alt="" srcset="
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4341-c353-11ee-b012-5f1e1a82f88a_hu12a2a3d2287625dd43b1a40f533ab913_2002175_f55d6d6fa8dc3e3dadd89f544761a9d7.webp 400w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4341-c353-11ee-b012-5f1e1a82f88a_hu12a2a3d2287625dd43b1a40f533ab913_2002175_440137add44ecce6d281df21b42bbfba.webp 760w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4341-c353-11ee-b012-5f1e1a82f88a_hu12a2a3d2287625dd43b1a40f533ab913_2002175_1520x1520_fit_q85_h2_lanczos_3.webp 1306w"
-          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4341-c353-11ee-b012-5f1e1a82f88a_hu12a2a3d2287625dd43b1a40f533ab913_2002175_1520x1520_fit_q85_h2_lanczos_3.webp"
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4341-c353-11ee-b012-5f1e1a82f88a_hu_ca942f58a6f49896.webp 400w,
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4341-c353-11ee-b012-5f1e1a82f88a_hu_8b6523e6882d81a9.webp 760w,
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4341-c353-11ee-b012-5f1e1a82f88a_hu_55188c2f3dbe84cd.webp 1306w"
+          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4341-c353-11ee-b012-5f1e1a82f88a_hu_55188c2f3dbe84cd.webp"
           width="760"
           height="461"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #b0b2a8b3, #b0b2a800 75%),linear-gradient(157.000000deg, #b89c61b3, #b89c6100 75%),linear-gradient(277.000000deg, #746f5fb3, #746f5f00 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
+          style="background: linear-gradient(37.000000deg, #d3d4c6b3, #d3d4c600 75%),linear-gradient(217.000000deg, #dcaf5ab3, #dcaf5a00 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
 </p>
 <p>It&rsquo;s interesting to take a look at the Voronoi regions of different clinic types. They can provide us a way to query for candidates.</p>
 <blockquote>
@@ -894,15 +894,15 @@ We were given anonymized data containing approximately 524k Czech policyholders,
 
 <figure class="md-figure" >
   <div class="md-figure__inner" ><img alt="" srcset="
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a50-c353-11ee-b012-5f1e1a82f88a_huaa6345d8ee512619efcba3fa6f8f850a_1583831_ab369bc56e343a086022f5c1b5f4559d.webp 400w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a50-c353-11ee-b012-5f1e1a82f88a_huaa6345d8ee512619efcba3fa6f8f850a_1583831_b964f4c64507864cfd353e70918c3bea.webp 760w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a50-c353-11ee-b012-5f1e1a82f88a_huaa6345d8ee512619efcba3fa6f8f850a_1583831_1520x1520_fit_q85_h2_lanczos_3.webp 1448w"
-          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a50-c353-11ee-b012-5f1e1a82f88a_huaa6345d8ee512619efcba3fa6f8f850a_1583831_1520x1520_fit_q85_h2_lanczos_3.webp"
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a50-c353-11ee-b012-5f1e1a82f88a_hu_28ea6a8c10592553.webp 400w,
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a50-c353-11ee-b012-5f1e1a82f88a_hu_4ffb6c76a8cf33ea.webp 760w,
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a50-c353-11ee-b012-5f1e1a82f88a_hu_c2eb8fddb6b18f16.webp 1448w"
+          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a50-c353-11ee-b012-5f1e1a82f88a_hu_c2eb8fddb6b18f16.webp"
           width="760"
           height="417"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #b3b8abb3, #b3b8ab00 75%),linear-gradient(127.000000deg, #307a2eb3, #307a2e00 75%),linear-gradient(217.000000deg, #348a35b3, #348a3500 75%),linear-gradient(307.000000deg, #8a9d77b3, #8a9d7700 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
+          style="background: linear-gradient(37.000000deg, #d7e4cbb3, #d7e4cb00 75%),linear-gradient(157.000000deg, #077907b3, #07790700 75%),linear-gradient(277.000000deg, #289727b3, #28972700 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
 </p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">plot_voronoi_regions_for_org_by_type</span><span class="p">(</span><span class="s1">&#39;504&#39;</span><span class="p">)</span>
 </span></span></code></pre></div><p>
@@ -921,15 +921,15 @@ We were given anonymized data containing approximately 524k Czech policyholders,
 
 <figure class="md-figure" >
   <div class="md-figure__inner" ><img alt="" srcset="
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a51-c353-11ee-b012-5f1e1a82f88a_hu515b36107ae45bfa72b6fc91500e1ca4_2117498_b65d8b447a97231665bc7017a0badb53.webp 400w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a51-c353-11ee-b012-5f1e1a82f88a_hu515b36107ae45bfa72b6fc91500e1ca4_2117498_8a0818c4acd0bbe7b8835ffb00610e76.webp 760w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a51-c353-11ee-b012-5f1e1a82f88a_hu515b36107ae45bfa72b6fc91500e1ca4_2117498_1520x1520_fit_q85_h2_lanczos_3.webp 1452w"
-          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a51-c353-11ee-b012-5f1e1a82f88a_hu515b36107ae45bfa72b6fc91500e1ca4_2117498_1520x1520_fit_q85_h2_lanczos_3.webp"
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a51-c353-11ee-b012-5f1e1a82f88a_hu_85762baef8db6ff6.webp 400w,
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a51-c353-11ee-b012-5f1e1a82f88a_hu_504e1a5370d2ddba.webp 760w,
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a51-c353-11ee-b012-5f1e1a82f88a_hu_be38a887be6bb31a.webp 1452w"
+          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a51-c353-11ee-b012-5f1e1a82f88a_hu_be38a887be6bb31a.webp"
           width="760"
           height="415"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #abb6a2b3, #abb6a200 75%),linear-gradient(127.000000deg, #408f40b3, #408f4000 75%),linear-gradient(217.000000deg, #3a7937b3, #3a793700 75%),linear-gradient(307.000000deg, #899e7ab3, #899e7a00 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
+          style="background: linear-gradient(37.000000deg, #caddbeb3, #caddbe00 75%),linear-gradient(157.000000deg, #0f740eb3, #0f740e00 75%),linear-gradient(277.000000deg, #4fa24bb3, #4fa24b00 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
 </p>
 <p>As you can see, some clinics have very sparse coverage; if they represent an essential specialty, there needs to be more of them.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">plot_voronoi_regions_for_org_by_type</span><span class="p">(</span><span class="s1">&#39;AST&#39;</span><span class="p">)</span>
@@ -949,15 +949,15 @@ We were given anonymized data containing approximately 524k Czech policyholders,
 
 <figure class="md-figure" >
   <div class="md-figure__inner" ><img alt="" srcset="
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a52-c353-11ee-b012-5f1e1a82f88a_hube2dcb8a4da2303f775be868887a3889_1932854_006d39c73b04ba46b945d47a412264da.webp 400w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a52-c353-11ee-b012-5f1e1a82f88a_hube2dcb8a4da2303f775be868887a3889_1932854_e2564d8dd19623f6e013a1eaa63e32ad.webp 760w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a52-c353-11ee-b012-5f1e1a82f88a_hube2dcb8a4da2303f775be868887a3889_1932854_1520x1520_fit_q85_h2_lanczos_3.webp 1452w"
-          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a52-c353-11ee-b012-5f1e1a82f88a_hube2dcb8a4da2303f775be868887a3889_1932854_1520x1520_fit_q85_h2_lanczos_3.webp"
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a52-c353-11ee-b012-5f1e1a82f88a_hu_49fd38fa0cebdb4f.webp 400w,
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a52-c353-11ee-b012-5f1e1a82f88a_hu_1168a57356ab1cac.webp 760w,
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a52-c353-11ee-b012-5f1e1a82f88a_hu_e120431b90e6a1d9.webp 1452w"
+          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a52-c353-11ee-b012-5f1e1a82f88a_hu_e120431b90e6a1d9.webp"
           width="760"
           height="413"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #aeb7a6b3, #aeb7a600 75%),linear-gradient(127.000000deg, #3b8d3bb3, #3b8d3b00 75%),linear-gradient(217.000000deg, #377934b3, #37793400 75%),linear-gradient(307.000000deg, #8a9f78b3, #8a9f7800 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
+          style="background: linear-gradient(37.000000deg, #cde1c2b3, #cde1c200 75%),linear-gradient(127.000000deg, #0d750cb3, #0d750c00 75%),linear-gradient(217.000000deg, #46a142b3, #46a14200 75%),linear-gradient(307.000000deg, #86c47ab3, #86c47a00 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
 </p>
 <p>These Voronoi regions provide better insight into the clinic density and distribution.</p>
 <h2 id="clusters">Clusters</h2>
@@ -1039,15 +1039,15 @@ We were given anonymized data containing approximately 524k Czech policyholders,
 
 <figure class="md-figure" >
   <div class="md-figure__inner" ><img alt="" srcset="
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9160-c353-11ee-b012-5f1e1a82f88a_hu6f98da4aa3f0061e101d124402074795_1333054_94a259d3250dd2f985d08a1201491c4c.webp 400w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9160-c353-11ee-b012-5f1e1a82f88a_hu6f98da4aa3f0061e101d124402074795_1333054_21e904351b54bf38b7d597eae3302db0.webp 760w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9160-c353-11ee-b012-5f1e1a82f88a_hu6f98da4aa3f0061e101d124402074795_1333054_1520x1520_fit_q85_h2_lanczos_3.webp 1446w"
-          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9160-c353-11ee-b012-5f1e1a82f88a_hu6f98da4aa3f0061e101d124402074795_1333054_1520x1520_fit_q85_h2_lanczos_3.webp"
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9160-c353-11ee-b012-5f1e1a82f88a_hu_ed1fe3b8f3def1ec.webp 400w,
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9160-c353-11ee-b012-5f1e1a82f88a_hu_abaf873a4e7ee166.webp 760w,
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9160-c353-11ee-b012-5f1e1a82f88a_hu_da26aac3803b36f8.webp 1446w"
+          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9160-c353-11ee-b012-5f1e1a82f88a_hu_da26aac3803b36f8.webp"
           width="760"
           height="417"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #b7baaeb3, #b7baae00 75%),linear-gradient(157.000000deg, #297c28b3, #297c2800 75%),linear-gradient(277.000000deg, #2c862eb3, #2c862e00 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
+          style="background: linear-gradient(37.000000deg, #dee4d1b3, #dee4d100 75%),linear-gradient(157.000000deg, #098509b3, #09850900 75%),linear-gradient(277.000000deg, #057b04b3, #057b0400 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
 </p>
 <p>6,285 clusters is a good amount, but the clusters are quite large. Let&rsquo;s compute clusters based on the user <code>village_part</code>s.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">key_fn</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">user</span><span class="p">:</span> <span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">user</span><span class="p">[</span><span class="s2">&#34;village&#34;</span><span class="p">]</span><span class="si">}</span><span class="s1">_</span><span class="si">{</span><span class="n">user</span><span class="p">[</span><span class="s2">&#34;village_part&#34;</span><span class="p">]</span><span class="si">}</span><span class="s1">&#39;</span>
@@ -1070,15 +1070,15 @@ We were given anonymized data containing approximately 524k Czech policyholders,
 
 <figure class="md-figure" >
   <div class="md-figure__inner" ><img alt="" srcset="
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9161-c353-11ee-b012-5f1e1a82f88a_hu7dd9aec7073396c0dc48d3684b2d62d2_1314287_b9daaf164f400f20767b9969220e0867.webp 400w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9161-c353-11ee-b012-5f1e1a82f88a_hu7dd9aec7073396c0dc48d3684b2d62d2_1314287_8e8af67c558fd7ea216f73f8e57a4dcc.webp 760w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9161-c353-11ee-b012-5f1e1a82f88a_hu7dd9aec7073396c0dc48d3684b2d62d2_1314287_1520x1520_fit_q85_h2_lanczos_3.webp 1450w"
-          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9161-c353-11ee-b012-5f1e1a82f88a_hu7dd9aec7073396c0dc48d3684b2d62d2_1314287_1520x1520_fit_q85_h2_lanczos_3.webp"
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9161-c353-11ee-b012-5f1e1a82f88a_hu_21904c591b9e5989.webp 400w,
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9161-c353-11ee-b012-5f1e1a82f88a_hu_6b37acd15351efa.webp 760w,
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9161-c353-11ee-b012-5f1e1a82f88a_hu_ee0b9f570508fb24.webp 1450w"
+          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9161-c353-11ee-b012-5f1e1a82f88a_hu_ee0b9f570508fb24.webp"
           width="760"
           height="415"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #b7baaeb3, #b7baae00 75%),linear-gradient(157.000000deg, #287c27b3, #287c2700 75%),linear-gradient(277.000000deg, #2c862eb3, #2c862e00 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
+          style="background: linear-gradient(37.000000deg, #dee4d1b3, #dee4d100 75%),linear-gradient(157.000000deg, #078407b3, #07840700 75%),linear-gradient(277.000000deg, #057b05b3, #057b0500 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
 </p>
 <p>15k is a good amount of clusters in terms of the number of requests we can issue to the Azure API, but the clusters are still quite large. Let&rsquo;s explore 500m radius clusters.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">cluser_map</span><span class="p">,</span> <span class="n">cluster_geometries</span><span class="p">,</span> <span class="n">clusters</span> <span class="o">=</span> <span class="n">plot_user_clusters_by</span><span class="p">(</span>
@@ -1103,15 +1103,15 @@ We were given anonymized data containing approximately 524k Czech policyholders,
 
 <figure class="md-figure" >
   <div class="md-figure__inner" ><img alt="" srcset="
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9162-c353-11ee-b012-5f1e1a82f88a_hu5097d5860b608957bc934bebc7632018_1317428_ed10d8fc9e627641dc454d55e7205e85.webp 400w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9162-c353-11ee-b012-5f1e1a82f88a_hu5097d5860b608957bc934bebc7632018_1317428_7812c2f39a90d77484b8d6fb7191c740.webp 760w,
-          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9162-c353-11ee-b012-5f1e1a82f88a_hu5097d5860b608957bc934bebc7632018_1317428_1520x1520_fit_q85_h2_lanczos_3.webp 1452w"
-          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9162-c353-11ee-b012-5f1e1a82f88a_hu5097d5860b608957bc934bebc7632018_1317428_1520x1520_fit_q85_h2_lanczos_3.webp"
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9162-c353-11ee-b012-5f1e1a82f88a_hu_bfb227270c8ad3b7.webp 400w,
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9162-c353-11ee-b012-5f1e1a82f88a_hu_bad64fd809a46724.webp 760w,
+          https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9162-c353-11ee-b012-5f1e1a82f88a_hu_98a247a751a764ee.webp 1452w"
+          src="https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9162-c353-11ee-b012-5f1e1a82f88a_hu_98a247a751a764ee.webp"
           width="760"
           height="415"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #b7baaeb3, #b7baae00 75%),linear-gradient(157.000000deg, #287c27b3, #287c2700 75%),linear-gradient(277.000000deg, #2d862eb3, #2d862e00 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
+          style="background: linear-gradient(37.000000deg, #dee4d1b3, #dee4d100 75%),linear-gradient(157.000000deg, #078407b3, #07840700 75%),linear-gradient(277.000000deg, #057b05b3, #057b0500 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
 </p>
 <p>These 47k clusters seem like the way to go for an efficient and precise solution.</p>
 <h2 id="routing">Routing</h2>
@@ -1268,46 +1268,46 @@ We were given anonymized data containing approximately 524k Czech policyholders,
 </span></span><span class="line"><span class="cl"><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">clusters_geo</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </span></span></code></pre></div><table>
-<thead>
-<tr>
-<th></th>
-<th>users</th>
-<th>locations</th>
-<th>geometry</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>0</td>
-<td>(0, 1, 2, 3, 6, 7, 8, 9, 10, 12, 14, 15, 16, 1&hellip;</td>
-<td>((49.813014079, 14.478449504), (49.813251371, &hellip;</td>
-<td>MULTIPOINT (14.47845 49.81301, 14.47990 49.813&hellip;</td>
-</tr>
-<tr>
-<td>1</td>
-<td>(4,)</td>
-<td>((49.814779761, 14.469590894),)</td>
-<td>MULTIPOINT (14.46959 49.81478)</td>
-</tr>
-<tr>
-<td>2</td>
-<td>(13,)</td>
-<td>((49.810529999, 14.460041926),)</td>
-<td>MULTIPOINT (14.46004 49.81053)</td>
-</tr>
-<tr>
-<td>3</td>
-<td>(11629, 11650, 11659, 11673, 11724, 11729, 117&hellip;</td>
-<td>((49.98905532, 14.203808164), (49.993207327, 1&hellip;</td>
-<td>MULTIPOINT (14.20381 49.98906, 14.20444 49.993&hellip;</td>
-</tr>
-<tr>
-<td>4</td>
-<td>(11642, 11653, 11685, 11699, 11714, 11726, 117&hellip;</td>
-<td>((49.993481837, 14.21378659), (49.993255048, 1&hellip;</td>
-<td>MULTIPOINT (14.21379 49.99348, 14.21489 49.993&hellip;</td>
-</tr>
-</tbody>
+	<thead>
+			<tr>
+					<th></th>
+					<th>users</th>
+					<th>locations</th>
+					<th>geometry</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>0</td>
+					<td>(0, 1, 2, 3, 6, 7, 8, 9, 10, 12, 14, 15, 16, 1&hellip;</td>
+					<td>((49.813014079, 14.478449504), (49.813251371, &hellip;</td>
+					<td>MULTIPOINT (14.47845 49.81301, 14.47990 49.813&hellip;</td>
+			</tr>
+			<tr>
+					<td>1</td>
+					<td>(4,)</td>
+					<td>((49.814779761, 14.469590894),)</td>
+					<td>MULTIPOINT (14.46959 49.81478)</td>
+			</tr>
+			<tr>
+					<td>2</td>
+					<td>(13,)</td>
+					<td>((49.810529999, 14.460041926),)</td>
+					<td>MULTIPOINT (14.46004 49.81053)</td>
+			</tr>
+			<tr>
+					<td>3</td>
+					<td>(11629, 11650, 11659, 11673, 11724, 11729, 117&hellip;</td>
+					<td>((49.98905532, 14.203808164), (49.993207327, 1&hellip;</td>
+					<td>MULTIPOINT (14.20381 49.98906, 14.20444 49.993&hellip;</td>
+			</tr>
+			<tr>
+					<td>4</td>
+					<td>(11642, 11653, 11685, 11699, 11714, 11726, 117&hellip;</td>
+					<td>((49.993481837, 14.21378659), (49.993255048, 1&hellip;</td>
+					<td>MULTIPOINT (14.21379 49.99348, 14.21489 49.993&hellip;</td>
+			</tr>
+	</tbody>
 </table>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">cluster_centroids</span> <span class="o">=</span> <span class="n">clusters_geo</span><span class="o">.</span><span class="n">centroid</span><span class="o">.</span><span class="n">to_frame</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl"><span class="n">cluster_centroids</span><span class="p">[</span><span class="s1">&#39;location&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">cluster_centroids</span><span class="o">.</span><span class="n">applymap</span><span class="p">(</span><span class="k">lambda</span> <span class="n">centroid</span><span class="p">:</span> <span class="p">(</span><span class="n">centroid</span><span class="o">.</span><span class="n">y</span><span class="p">,</span> <span class="n">centroid</span><span class="o">.</span><span class="n">x</span><span class="p">))</span>
@@ -1316,40 +1316,40 @@ We were given anonymized data containing approximately 524k Czech policyholders,
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  cluster_centroids = clusters_geo.centroid.to_frame()
 </span></span></code></pre></div><table>
-<thead>
-<tr>
-<th></th>
-<th>0</th>
-<th>location</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>0</td>
-<td>POINT (14.47861 49.81427)</td>
-<td>(49.81426659066666, 14.478608245733335)</td>
-</tr>
-<tr>
-<td>1</td>
-<td>POINT (14.46959 49.81478)</td>
-<td>(49.814779761, 14.469590894)</td>
-</tr>
-<tr>
-<td>2</td>
-<td>POINT (14.46004 49.81053)</td>
-<td>(49.810529999, 14.460041926)</td>
-</tr>
-<tr>
-<td>3</td>
-<td>POINT (14.20518 49.99149)</td>
-<td>(49.99148887917857, 14.205177951250004)</td>
-</tr>
-<tr>
-<td>4</td>
-<td>POINT (14.21365 49.99239)</td>
-<td>(49.99238546947369, 14.21365326868421)</td>
-</tr>
-</tbody>
+	<thead>
+			<tr>
+					<th></th>
+					<th>0</th>
+					<th>location</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>0</td>
+					<td>POINT (14.47861 49.81427)</td>
+					<td>(49.81426659066666, 14.478608245733335)</td>
+			</tr>
+			<tr>
+					<td>1</td>
+					<td>POINT (14.46959 49.81478)</td>
+					<td>(49.814779761, 14.469590894)</td>
+			</tr>
+			<tr>
+					<td>2</td>
+					<td>POINT (14.46004 49.81053)</td>
+					<td>(49.810529999, 14.460041926)</td>
+			</tr>
+			<tr>
+					<td>3</td>
+					<td>POINT (14.20518 49.99149)</td>
+					<td>(49.99148887917857, 14.205177951250004)</td>
+			</tr>
+			<tr>
+					<td>4</td>
+					<td>POINT (14.21365 49.99239)</td>
+					<td>(49.99238546947369, 14.21365326868421)</td>
+			</tr>
+	</tbody>
 </table>
 <p>Once they are computed, we are ready to process all of the clusters.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">BATCH_SIZE</span> <span class="o">=</span> <span class="mi">1000</span>
@@ -1471,15 +1471,15 @@ We were given anonymized data containing approximately 524k Czech policyholders,
 </span></span></code></pre></div><iframe src="https://mikhalevi.ch/content/html/2021-ml-prague-hackathon-results-map.html" style="width: 100%; height: 404px"></iframe>
 <p>This map is interactive, and results for each of the clusters are color-coded; feel free to explore it. I hope that you&rsquo;ve enjoyed this article! If you have any thoughts about it, please, reach out to <a href="https://twitter.com/theyurij" target="_blank" rel="noopener">me on Twitter</a>.</p>
 <p>I want to end by saying thank you to the ML Prague Conference, SAS, and all other sponsors for the hackathon! I had a lot of fun and am already looking forward to next year! :)</p>
- ]]></content:encoded></item><item><title>Running tfjs-react-native in Android Emulator</title><description> You are developing a react-native app with Tensorflow JS? Then you may have tried using the tfjs-react-native backend in Android SDK Emulator only to find that it doesn&amp;rsquo;t work.
-This happens because tfjs-react-native requires GLES 3 / WebGL 2.</description><link>https://mikhalevi.ch/running-tfjs-react-native-in-android-emulator/</link><guid>https://mikhalevi.ch/running-tfjs-react-native-in-android-emulator/</guid><category> Software Engineering</category><dc:creator> Yurij Mikhalevich</dc:creator><pubDate>Sat, 13 Mar 2021 18:16:00 +0000</pubDate><media:content url="https://mikhalevi.ch/running-tfjs-react-native-in-android-emulator/featured_hu263c5f20d6c86dd08a91facc6013a907_265351_7e75298be9f70b3955db138484326745.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/running-tfjs-react-native-in-android-emulator/featured_hu263c5f20d6c86dd08a91facc6013a907_265351_7e75298be9f70b3955db138484326745.webp" alt="Running tfjs-react-native in Android Emulator"><p>You are developing a react-native app with Tensorflow JS? Then you may have tried using the <code>tfjs-react-native</code> backend in Android SDK Emulator only to find that it doesn&rsquo;t work.</p>
+ ]]></content:encoded></item><item><title> Running tfjs-react-native in Android Emulator </title><description><![CDATA[ <p>You are developing a react-native app with Tensorflow JS? Then you may have tried using the <code>tfjs-react-native</code> backend in Android SDK Emulator only to find that it doesn&rsquo;t work.</p>
+<p>This happens because <code>tfjs-react-native</code> requires GLES 3 / WebGL 2. You can enable it in Android SDK Emulator via:</p> ]]></description><link>https://mikhalevi.ch/running-tfjs-react-native-in-android-emulator/</link><guid>https://mikhalevi.ch/running-tfjs-react-native-in-android-emulator/</guid><category> Software Engineering </category><dc:creator> Yurij Mikhalevich </dc:creator><pubDate>Sat, 13 Mar 2021 18:16:00 +0000</pubDate><media:content url="https://mikhalevi.ch/running-tfjs-react-native-in-android-emulator/featured_hu_4dd701c5f59ba4d0.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/running-tfjs-react-native-in-android-emulator/featured_hu_4dd701c5f59ba4d0.webp" alt="Running tfjs-react-native in Android Emulator"><p>You are developing a react-native app with Tensorflow JS? Then you may have tried using the <code>tfjs-react-native</code> backend in Android SDK Emulator only to find that it doesn&rsquo;t work.</p>
 <p>This happens because <code>tfjs-react-native</code> requires GLES 3 / WebGL 2. You can enable it in Android SDK Emulator via:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;GLESDynamicVersion = on&#34;</span> &gt;&gt; ~/.android/advancedFeatures.ini
 </span></span></code></pre></div><p>I tested this only under Linux. Your host GPU should support at least OpenGL ES 3.2; you can check if it does via:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo apt install mesa-utils
 </span></span><span class="line"><span class="cl">glxinfo <span class="p">|</span> grep <span class="s1">&#39;version.*OpenGL&#39;</span>
-</span></span></code></pre></div> ]]></content:encoded></item><item><title>A good place to get started with AI and neural nets</title><description> People often ask me for a good place to get started with AI, machine learning, and neural nets.
-course.fast.ai — this is a pretty good place. It&amp;rsquo;s modern (the current version of the course was released this August), centered around the relevant practice, teaches you by doing, going deeper only when needed, and it goes with the book that was released this August, too.</description><link>https://mikhalevi.ch/a-good-place-to-get-started-with-ai-and-neural-nets/</link><guid>https://mikhalevi.ch/a-good-place-to-get-started-with-ai-and-neural-nets/</guid><category> Software Engineering</category><dc:creator> Yurij Mikhalevich</dc:creator><pubDate>Wed, 16 Dec 2020 14:56:00 +0000</pubDate><media:content url="https://mikhalevi.ch/a-good-place-to-get-started-with-ai-and-neural-nets/featured_hudb7c3a48bfae5df0550fd3d2b6cc3517_410287_66b93c4c69b0908cf6c3a4ca23f94cc6.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/a-good-place-to-get-started-with-ai-and-neural-nets/featured_hudb7c3a48bfae5df0550fd3d2b6cc3517_410287_66b93c4c69b0908cf6c3a4ca23f94cc6.webp" alt="A good place to get started with AI and neural nets"><p>People often ask me for a good place to get started with AI, machine learning, and neural nets.</p>
+</span></span></code></pre></div> ]]></content:encoded></item><item><title> A good place to get started with AI and neural nets </title><description><![CDATA[ <p>People often ask me for a good place to get started with AI, machine learning, and neural nets.</p>
+<p><a href="https://course.fast.ai/" target="_blank" rel="noopener">course.fast.ai</a> — this is a pretty good place. It&rsquo;s modern (the current version of the course was released this August), centered around the relevant practice, teaches you by doing, going deeper only when needed, and it goes with the book that was released this August, too. Overall, it&rsquo;s a pretty good introduction to the field.</p> ]]></description><link>https://mikhalevi.ch/a-good-place-to-get-started-with-ai-and-neural-nets/</link><guid>https://mikhalevi.ch/a-good-place-to-get-started-with-ai-and-neural-nets/</guid><category> Software Engineering </category><dc:creator> Yurij Mikhalevich </dc:creator><pubDate>Wed, 16 Dec 2020 14:56:00 +0000</pubDate><media:content url="https://mikhalevi.ch/a-good-place-to-get-started-with-ai-and-neural-nets/featured_hu_c2ab086543a3fbd9.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/a-good-place-to-get-started-with-ai-and-neural-nets/featured_hu_c2ab086543a3fbd9.webp" alt="A good place to get started with AI and neural nets"><p>People often ask me for a good place to get started with AI, machine learning, and neural nets.</p>
 <p><a href="https://course.fast.ai/" target="_blank" rel="noopener">course.fast.ai</a> — this is a pretty good place. It&rsquo;s modern (the current version of the course was released this August), centered around the relevant practice, teaches you by doing, going deeper only when needed, and it goes with the book that was released this August, too. Overall, it&rsquo;s a pretty good introduction to the field.</p>
 <p>There are also good courses from Andrew Ng on Coursera (his Deep Learning specialization is great), but, in my personal opinion, the fast.ai course is a better introduction to hands-on AI in the modern world.</p>
 <p>In conclusion, I&rsquo;ll recommend you to do both fast.ai and Andrew Ng&rsquo;s courses because each of them offers a different perspective. The good idea is to top it all up with some practice that you can find on <a href="https://kaggle.com/" target="_blank" rel="noopener">Kaggle</a> (they also offer some courses on Kaggle Learn, I&rsquo;m not familiar with those, though).</p>
