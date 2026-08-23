@@ -21,16 +21,8 @@ from 3.84 seconds to 0.63 seconds (a 6.09x speedup!).</li>
 
 
 
-
-
-
-
-
-
-
-
 <figure class="md-figure" id="figure-rclip-3-text-search-is-now-372x-faster">
-  <div class="md-figure__inner" ><img alt="Terminal running the same rclip text search on version 2.1.6 then 3.0.9, with the elapsed-time totals highlighted: 2.12 seconds before and 0.57 seconds after" srcset="
+  <div class="md-figure__inner"><img alt="Terminal running the same rclip text search on version 2.1.6 then 3.0.9, with the elapsed-time totals highlighted: 2.12 seconds before and 0.57 seconds after" srcset="
           https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hu_c16b02d3c28f8a7b.webp 268w,
           https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hu_a4865451026faf5b.webp 510w,
           https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hu_ffa72490a974d87.webp 1019w"
@@ -39,7 +31,7 @@ from 3.84 seconds to 0.63 seconds (a 6.09x speedup!).</li>
           height="760"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #f1e9c2b3, #f1e9c200 75%),linear-gradient(217.000000deg, #a09775b3, #a0977500 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div><figcaption class="md-figcaption">
+          style="background: linear-gradient(37.000000deg, #f1e9c2b3, #f1e9c200 75%),linear-gradient(217.000000deg, #a09775b3, #a0977500 75%); background-size: cover; background-repeat: no-repeat;" /></div><figcaption class="md-figcaption">
       rclip 3 text search is now 3.72x faster
     </figcaption></figure>
 </p>
@@ -118,16 +110,8 @@ this:</p>
 
 
 
-
-
-
-
-
-
-
-
 <figure class="md-figure" >
-  <div class="md-figure__inner" ><img alt="raw image search example" srcset="
+  <div class="md-figure__inner"><img alt="raw image search example" srcset="
           https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/images/raw-image-search-example_hu_f75aa54e0bdc1849.webp 400w,
           https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/images/raw-image-search-example_hu_3d14ef4104511c09.webp 760w,
           https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/images/raw-image-search-example_hu_87050f5d395154c.webp 1520w"
@@ -136,7 +120,7 @@ this:</p>
           height="475"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #f5f0e1b3, #f5f0e100 75%),linear-gradient(109.000000deg, #494440b3, #49444000 75%),linear-gradient(181.000000deg, #a79172b3, #a7917200 75%),linear-gradient(253.000000deg, #687a83b3, #687a8300 75%),linear-gradient(325.000000deg, #887261b3, #88726100 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
+          style="background: linear-gradient(37.000000deg, #f5f0e1b3, #f5f0e100 75%),linear-gradient(109.000000deg, #494440b3, #49444000 75%),linear-gradient(181.000000deg, #a79172b3, #a7917200 75%),linear-gradient(253.000000deg, #687a83b3, #687a8300 75%),linear-gradient(325.000000deg, #887261b3, #88726100 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
 </p>
 <p>With this flag passed, rclip will search through regular and raw images and
 surface best matches. Terminal previews are also supported for raw photos.  It
@@ -427,16 +411,8 @@ forward to my next night sky photoshoot.</p>
 
 
 
-
-
-
-
-
-
-
-
 <figure class="md-figure" >
-  <div class="md-figure__inner" ><img alt="The books I read in 2022" srcset="
+  <div class="md-figure__inner"><img alt="The books I read in 2022" srcset="
           https://mikhalevi.ch/my-2022-in-books/images/50d4a880-c353-11ee-b012-5f1e1a82f88a_hu_ee5dc2277983115f.webp 400w,
           https://mikhalevi.ch/my-2022-in-books/images/50d4a880-c353-11ee-b012-5f1e1a82f88a_hu_5472ec18155ae1ef.webp 760w,
           https://mikhalevi.ch/my-2022-in-books/images/50d4a880-c353-11ee-b012-5f1e1a82f88a_hu_6b1e2db8a67fb56a.webp 1250w"
@@ -445,7 +421,7 @@ forward to my next night sky photoshoot.</p>
           height="618"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #f4f4f5b3, #f4f4f500 75%),linear-gradient(127.000000deg, #363433b3, #36343300 75%),linear-gradient(217.000000deg, #7191b4b3, #7191b400 75%),linear-gradient(307.000000deg, #d74f49b3, #d74f4900 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
+          style="background: linear-gradient(37.000000deg, #f4f4f5b3, #f4f4f500 75%),linear-gradient(127.000000deg, #363433b3, #36343300 75%),linear-gradient(217.000000deg, #7191b4b3, #7191b400 75%),linear-gradient(307.000000deg, #d74f49b3, #d74f4900 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
 </p> ]]></description><link>https://mikhalevi.ch/my-2022-in-books/</link><guid>https://mikhalevi.ch/my-2022-in-books/</guid><category> Books </category><dc:creator> Yurij Mikhalevich </dc:creator><pubDate>Sun, 15 Jan 2023 09:10:29 +0000</pubDate><media:content url="https://mikhalevi.ch/my-2022-in-books/featured_hu_80ccb6a8c58d91b.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/my-2022-in-books/featured_hu_80ccb6a8c58d91b.webp" alt="My 2022 in books"><p>Hi. I will keep this post simple and stick to the last year&rsquo;s format.</p>
 <p>
 
@@ -453,16 +429,8 @@ forward to my next night sky photoshoot.</p>
 
 
 
-
-
-
-
-
-
-
-
 <figure class="md-figure" >
-  <div class="md-figure__inner" ><img alt="The books I read in 2022" srcset="
+  <div class="md-figure__inner"><img alt="The books I read in 2022" srcset="
           https://mikhalevi.ch/my-2022-in-books/images/50d4a880-c353-11ee-b012-5f1e1a82f88a_hu_ee5dc2277983115f.webp 400w,
           https://mikhalevi.ch/my-2022-in-books/images/50d4a880-c353-11ee-b012-5f1e1a82f88a_hu_5472ec18155ae1ef.webp 760w,
           https://mikhalevi.ch/my-2022-in-books/images/50d4a880-c353-11ee-b012-5f1e1a82f88a_hu_6b1e2db8a67fb56a.webp 1250w"
@@ -471,7 +439,7 @@ forward to my next night sky photoshoot.</p>
           height="618"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #f4f4f5b3, #f4f4f500 75%),linear-gradient(127.000000deg, #363433b3, #36343300 75%),linear-gradient(217.000000deg, #7191b4b3, #7191b400 75%),linear-gradient(307.000000deg, #d74f49b3, #d74f4900 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
+          style="background: linear-gradient(37.000000deg, #f4f4f5b3, #f4f4f500 75%),linear-gradient(127.000000deg, #363433b3, #36343300 75%),linear-gradient(217.000000deg, #7191b4b3, #7191b400 75%),linear-gradient(307.000000deg, #d74f49b3, #d74f4900 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
 </p>
 <p>Let&rsquo;s proceed with the reviews.</p>
 <h2 id="zero-to-one-notes-on-startups-or-how-to-build-the-future-by-peter-thiel-and-blake-masters">Zero to One: Notes on Startups, or How to Build the Future by Peter Thiel and Blake Masters</h2>
@@ -611,16 +579,8 @@ Our love for each other, we will not evade.</p>
 
 
 
-
-
-
-
-
-
-
-
 <figure class="md-figure" id="figure-now-i-have-a-small-graveyard-of-the-rings">
-  <div class="md-figure__inner" ><img alt="Dead Oura rings" srcset="
+  <div class="md-figure__inner"><img alt="Dead Oura rings" srcset="
           https://mikhalevi.ch/amazon-halo-band-review-or-the-best-minimalistic-fitness-tracker-of-early-2022/images/4ff25ed0-c353-11ee-b012-5f1e1a82f88a_hu_68766d848880505a.webp 400w,
           https://mikhalevi.ch/amazon-halo-band-review-or-the-best-minimalistic-fitness-tracker-of-early-2022/images/4ff25ed0-c353-11ee-b012-5f1e1a82f88a_hu_2c553e754a8c315c.webp 760w,
           https://mikhalevi.ch/amazon-halo-band-review-or-the-best-minimalistic-fitness-tracker-of-early-2022/images/4ff25ed0-c353-11ee-b012-5f1e1a82f88a_hu_6fb971b6b17168c5.webp 1520w"
@@ -629,7 +589,7 @@ Our love for each other, we will not evade.</p>
           height="507"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #302217b3, #30221700 75%),linear-gradient(127.000000deg, #dacdc1b3, #dacdc100 75%),linear-gradient(217.000000deg, #937254b3, #93725400 75%),linear-gradient(307.000000deg, #a98a6db3, #a98a6d00 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div><figcaption class="md-figcaption">
+          style="background: linear-gradient(37.000000deg, #302217b3, #30221700 75%),linear-gradient(127.000000deg, #dacdc1b3, #dacdc100 75%),linear-gradient(217.000000deg, #937254b3, #93725400 75%),linear-gradient(307.000000deg, #a98a6db3, #a98a6d00 75%); background-size: cover; background-repeat: no-repeat;" /></div><figcaption class="md-figcaption">
       Now I have a small graveyard of the rings
     </figcaption></figure>
 </p>
@@ -661,16 +621,8 @@ Our love for each other, we will not evade.</p>
 
 
 
-
-
-
-
-
-
-
-
 <figure class="md-figure" id="figure-my-amazon-halo-band">
-  <div class="md-figure__inner" ><img alt="Amazon Halo Band" srcset="
+  <div class="md-figure__inner"><img alt="Amazon Halo Band" srcset="
           https://mikhalevi.ch/amazon-halo-band-review-or-the-best-minimalistic-fitness-tracker-of-early-2022/images/4ff32220-c353-11ee-b012-5f1e1a82f88a_hu_63f1a7af5064f971.webp 400w,
           https://mikhalevi.ch/amazon-halo-band-review-or-the-best-minimalistic-fitness-tracker-of-early-2022/images/4ff32220-c353-11ee-b012-5f1e1a82f88a_hu_4f006fec11f0af4f.webp 760w,
           https://mikhalevi.ch/amazon-halo-band-review-or-the-best-minimalistic-fitness-tracker-of-early-2022/images/4ff32220-c353-11ee-b012-5f1e1a82f88a_hu_b63d465814c153e1.webp 1520w"
@@ -679,7 +631,7 @@ Our love for each other, we will not evade.</p>
           height="507"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #150f0bb3, #150f0b00 75%),linear-gradient(157.000000deg, #bdb3a8b3, #bdb3a800 75%),linear-gradient(277.000000deg, #af9270b3, #af927000 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div><figcaption class="md-figcaption">
+          style="background: linear-gradient(37.000000deg, #150f0bb3, #150f0b00 75%),linear-gradient(157.000000deg, #bdb3a8b3, #bdb3a800 75%),linear-gradient(277.000000deg, #af9270b3, #af927000 75%); background-size: cover; background-repeat: no-repeat;" /></div><figcaption class="md-figcaption">
       My Amazon Halo Band
     </figcaption></figure>
 </p>
@@ -703,16 +655,8 @@ Our love for each other, we will not evade.</p>
 
 
 
-
-
-
-
-
-
-
-
 <figure class="md-figure" >
-  <div class="md-figure__inner" ><img alt="" srcset="
+  <div class="md-figure__inner"><img alt="" srcset="
           https://mikhalevi.ch/my-2021-in-books/images/4ed38150-c353-11ee-b012-5f1e1a82f88a_hu_6caf404cc4f0944b.webp 359w,
           https://mikhalevi.ch/my-2021-in-books/images/4ed38150-c353-11ee-b012-5f1e1a82f88a_hu_72c10a860c56e61c.webp 682w,
           https://mikhalevi.ch/my-2021-in-books/images/4ed38150-c353-11ee-b012-5f1e1a82f88a_hu_16807a6c4d03fb0f.webp 1342w"
@@ -721,7 +665,7 @@ Our love for each other, we will not evade.</p>
           height="760"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #eee5ecb3, #eee5ec00 75%),linear-gradient(109.000000deg, #312b2fb3, #312b2f00 75%),linear-gradient(181.000000deg, #cf383cb3, #cf383c00 75%),linear-gradient(253.000000deg, #a577aeb3, #a577ae00 75%),linear-gradient(325.000000deg, #2391bdb3, #2391bd00 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
+          style="background: linear-gradient(37.000000deg, #eee5ecb3, #eee5ec00 75%),linear-gradient(109.000000deg, #312b2fb3, #312b2f00 75%),linear-gradient(181.000000deg, #cf383cb3, #cf383c00 75%),linear-gradient(253.000000deg, #a577aeb3, #a577ae00 75%),linear-gradient(325.000000deg, #2391bdb3, #2391bd00 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
 </p>
 <p>Goodreads reports that I&rsquo;ve read ten books, which isn&rsquo;t true because there are two papers on this list, an audiobook that I finally finished from before, and a book that I started in 2020; it&rsquo;s a huge one, though.</p>
 <h2 id="harry-potter-and-the-methods-of-rationality-by-eliezer-yudkowsky-started-in-2020">Harry Potter and the Methods of Rationality by Eliezer Yudkowsky (started in 2020)</h2>
@@ -774,19 +718,11 @@ So, here&rsquo;s our commitment to you. Throughout this book, we will follow the
 
 
 
-
-
-
-
-
-
-
-
 <figure class="md-figure" >
-  <div class="md-figure__inner" ><img alt="rclip usage demo"
+  <div class="md-figure__inner"><img alt="rclip usage demo"
           src="https://mikhalevi.ch/rclip-an-ai-powered-command-line-photo-search-tool/images/4deb9250-c353-11ee-b012-5f1e1a82f88a.gif"
           loading="lazy"
-          class="md-img" data-zoomable /></div></figure>
+          class="md-img" /></div></figure>
 </p>
 <p>For the detailed demonstration, watch the video below:</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -1159,16 +1095,8 @@ So, here&rsquo;s our commitment to you. Throughout this book, we will follow the
 
 
 
-
-
-
-
-
-
-
-
 <figure class="md-figure" id="figure-to-make-it-easy-for-your-computer-we-are-displaying-the-screenshot-of-the-map-here">
-  <div class="md-figure__inner" ><img alt="To make it easy for your computer, we are displaying the screenshot of the map here" srcset="
+  <div class="md-figure__inner"><img alt="To make it easy for your computer, we are displaying the screenshot of the map here" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fda700-c353-11ee-b012-5f1e1a82f88a_hu_c5722170da1e2d1f.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fda700-c353-11ee-b012-5f1e1a82f88a_hu_4b2ffc095b6fbf3f.webp 760w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fda700-c353-11ee-b012-5f1e1a82f88a_hu_21c985e82d917da2.webp 1312w"
@@ -1177,7 +1105,7 @@ So, here&rsquo;s our commitment to you. Throughout this book, we will follow the
           height="460"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #e0e3d0b3, #e0e3d000 75%),linear-gradient(157.000000deg, #ea9f58b3, #ea9f5800 75%),linear-gradient(277.000000deg, #a75d26b3, #a75d2600 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div><figcaption class="md-figcaption">
+          style="background: linear-gradient(37.000000deg, #e0e3d0b3, #e0e3d000 75%),linear-gradient(157.000000deg, #ea9f58b3, #ea9f5800 75%),linear-gradient(277.000000deg, #a75d26b3, #a75d2600 75%); background-size: cover; background-repeat: no-repeat;" /></div><figcaption class="md-figcaption">
       To make it easy for your computer, we are displaying the screenshot of the map here
     </figcaption></figure>
 </p>
@@ -1375,16 +1303,8 @@ So, here&rsquo;s our commitment to you. Throughout this book, we will follow the
 
 
 
-
-
-
-
-
-
-
-
 <figure class="md-figure" >
-  <div class="md-figure__inner" ><img alt="" srcset="
+  <div class="md-figure__inner"><img alt="" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4340-c353-11ee-b012-5f1e1a82f88a_hu_dadaecc945582ca9.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4340-c353-11ee-b012-5f1e1a82f88a_hu_51e3b6d2398c9989.webp 760w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4340-c353-11ee-b012-5f1e1a82f88a_hu_45740db9932c8e9a.webp 1348w"
@@ -1393,7 +1313,7 @@ So, here&rsquo;s our commitment to you. Throughout this book, we will follow the
           height="445"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #dfe3d0b3, #dfe3d000 75%),linear-gradient(217.000000deg, #e4a15bb3, #e4a15b00 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
+          style="background: linear-gradient(37.000000deg, #dfe3d0b3, #dfe3d000 75%),linear-gradient(217.000000deg, #e4a15bb3, #e4a15b00 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
 </p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">users_map</span> <span class="o">=</span> <span class="n">ll</span><span class="o">.</span><span class="n">Map</span><span class="p">(</span><span class="n">center</span><span class="o">=</span><span class="n">CENTER_OF_CZECHIA</span><span class="p">,</span> <span class="n">zoom</span><span class="o">=</span><span class="mi">7</span><span class="p">,</span> <span class="n">min_zoom</span><span class="o">=</span><span class="mi">7</span><span class="p">,</span> <span class="n">max_zoom</span><span class="o">=</span><span class="mi">19</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">users_map</span><span class="o">.</span><span class="n">add_control</span><span class="p">(</span><span class="n">ll</span><span class="o">.</span><span class="n">FullScreenControl</span><span class="p">())</span>
@@ -1407,16 +1327,8 @@ So, here&rsquo;s our commitment to you. Throughout this book, we will follow the
 
 
 
-
-
-
-
-
-
-
-
 <figure class="md-figure" >
-  <div class="md-figure__inner" ><img alt="" srcset="
+  <div class="md-figure__inner"><img alt="" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4341-c353-11ee-b012-5f1e1a82f88a_hu_ca942f58a6f49896.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4341-c353-11ee-b012-5f1e1a82f88a_hu_8b6523e6882d81a9.webp 760w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4341-c353-11ee-b012-5f1e1a82f88a_hu_55188c2f3dbe84cd.webp 1306w"
@@ -1425,7 +1337,7 @@ So, here&rsquo;s our commitment to you. Throughout this book, we will follow the
           height="461"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #d3d4c6b3, #d3d4c600 75%),linear-gradient(217.000000deg, #dcaf5ab3, #dcaf5a00 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
+          style="background: linear-gradient(37.000000deg, #d3d4c6b3, #d3d4c600 75%),linear-gradient(217.000000deg, #dcaf5ab3, #dcaf5a00 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
 </p>
 <p>It&rsquo;s interesting to take a look at the Voronoi regions of different clinic types. They can provide us a way to query for candidates.</p>
 <blockquote>
@@ -1482,16 +1394,8 @@ So, here&rsquo;s our commitment to you. Throughout this book, we will follow the
 
 
 
-
-
-
-
-
-
-
-
 <figure class="md-figure" >
-  <div class="md-figure__inner" ><img alt="" srcset="
+  <div class="md-figure__inner"><img alt="" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a50-c353-11ee-b012-5f1e1a82f88a_hu_28ea6a8c10592553.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a50-c353-11ee-b012-5f1e1a82f88a_hu_4ffb6c76a8cf33ea.webp 760w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a50-c353-11ee-b012-5f1e1a82f88a_hu_c2eb8fddb6b18f16.webp 1448w"
@@ -1500,7 +1404,7 @@ So, here&rsquo;s our commitment to you. Throughout this book, we will follow the
           height="417"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #d7e4cbb3, #d7e4cb00 75%),linear-gradient(157.000000deg, #077907b3, #07790700 75%),linear-gradient(277.000000deg, #289727b3, #28972700 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
+          style="background: linear-gradient(37.000000deg, #d7e4cbb3, #d7e4cb00 75%),linear-gradient(157.000000deg, #077907b3, #07790700 75%),linear-gradient(277.000000deg, #289727b3, #28972700 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
 </p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">plot_voronoi_regions_for_org_by_type</span><span class="p">(</span><span class="s1">&#39;504&#39;</span><span class="p">)</span>
 </span></span></code></pre></div><p>
@@ -1509,16 +1413,8 @@ So, here&rsquo;s our commitment to you. Throughout this book, we will follow the
 
 
 
-
-
-
-
-
-
-
-
 <figure class="md-figure" >
-  <div class="md-figure__inner" ><img alt="" srcset="
+  <div class="md-figure__inner"><img alt="" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a51-c353-11ee-b012-5f1e1a82f88a_hu_85762baef8db6ff6.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a51-c353-11ee-b012-5f1e1a82f88a_hu_504e1a5370d2ddba.webp 760w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a51-c353-11ee-b012-5f1e1a82f88a_hu_be38a887be6bb31a.webp 1452w"
@@ -1527,7 +1423,7 @@ So, here&rsquo;s our commitment to you. Throughout this book, we will follow the
           height="415"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #caddbeb3, #caddbe00 75%),linear-gradient(157.000000deg, #0f740eb3, #0f740e00 75%),linear-gradient(277.000000deg, #4fa24bb3, #4fa24b00 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
+          style="background: linear-gradient(37.000000deg, #caddbeb3, #caddbe00 75%),linear-gradient(157.000000deg, #0f740eb3, #0f740e00 75%),linear-gradient(277.000000deg, #4fa24bb3, #4fa24b00 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
 </p>
 <p>As you can see, some clinics have very sparse coverage; if they represent an essential specialty, there needs to be more of them.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">plot_voronoi_regions_for_org_by_type</span><span class="p">(</span><span class="s1">&#39;AST&#39;</span><span class="p">)</span>
@@ -1537,16 +1433,8 @@ So, here&rsquo;s our commitment to you. Throughout this book, we will follow the
 
 
 
-
-
-
-
-
-
-
-
 <figure class="md-figure" >
-  <div class="md-figure__inner" ><img alt="" srcset="
+  <div class="md-figure__inner"><img alt="" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a52-c353-11ee-b012-5f1e1a82f88a_hu_49fd38fa0cebdb4f.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a52-c353-11ee-b012-5f1e1a82f88a_hu_1168a57356ab1cac.webp 760w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a52-c353-11ee-b012-5f1e1a82f88a_hu_e120431b90e6a1d9.webp 1452w"
@@ -1555,7 +1443,7 @@ So, here&rsquo;s our commitment to you. Throughout this book, we will follow the
           height="413"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #cde1c2b3, #cde1c200 75%),linear-gradient(127.000000deg, #0d750cb3, #0d750c00 75%),linear-gradient(217.000000deg, #46a142b3, #46a14200 75%),linear-gradient(307.000000deg, #86c47ab3, #86c47a00 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
+          style="background: linear-gradient(37.000000deg, #cde1c2b3, #cde1c200 75%),linear-gradient(127.000000deg, #0d750cb3, #0d750c00 75%),linear-gradient(217.000000deg, #46a142b3, #46a14200 75%),linear-gradient(307.000000deg, #86c47ab3, #86c47a00 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
 </p>
 <p>These Voronoi regions provide better insight into the clinic density and distribution.</p>
 <h2 id="clusters">Clusters</h2>
@@ -1627,16 +1515,8 @@ So, here&rsquo;s our commitment to you. Throughout this book, we will follow the
 
 
 
-
-
-
-
-
-
-
-
 <figure class="md-figure" >
-  <div class="md-figure__inner" ><img alt="" srcset="
+  <div class="md-figure__inner"><img alt="" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9160-c353-11ee-b012-5f1e1a82f88a_hu_ed1fe3b8f3def1ec.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9160-c353-11ee-b012-5f1e1a82f88a_hu_abaf873a4e7ee166.webp 760w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9160-c353-11ee-b012-5f1e1a82f88a_hu_da26aac3803b36f8.webp 1446w"
@@ -1645,7 +1525,7 @@ So, here&rsquo;s our commitment to you. Throughout this book, we will follow the
           height="417"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #dee4d1b3, #dee4d100 75%),linear-gradient(157.000000deg, #098509b3, #09850900 75%),linear-gradient(277.000000deg, #057b04b3, #057b0400 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
+          style="background: linear-gradient(37.000000deg, #dee4d1b3, #dee4d100 75%),linear-gradient(157.000000deg, #098509b3, #09850900 75%),linear-gradient(277.000000deg, #057b04b3, #057b0400 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
 </p>
 <p>6,285 clusters is a good amount, but the clusters are quite large. Let&rsquo;s compute clusters based on the user <code>village_part</code>s.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">key_fn</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">user</span><span class="p">:</span> <span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">user</span><span class="p">[</span><span class="s2">&#34;village&#34;</span><span class="p">]</span><span class="si">}</span><span class="s1">_</span><span class="si">{</span><span class="n">user</span><span class="p">[</span><span class="s2">&#34;village_part&#34;</span><span class="p">]</span><span class="si">}</span><span class="s1">&#39;</span>
@@ -1658,16 +1538,8 @@ So, here&rsquo;s our commitment to you. Throughout this book, we will follow the
 
 
 
-
-
-
-
-
-
-
-
 <figure class="md-figure" >
-  <div class="md-figure__inner" ><img alt="" srcset="
+  <div class="md-figure__inner"><img alt="" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9161-c353-11ee-b012-5f1e1a82f88a_hu_21904c591b9e5989.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9161-c353-11ee-b012-5f1e1a82f88a_hu_6b37acd15351efa.webp 760w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9161-c353-11ee-b012-5f1e1a82f88a_hu_ee0b9f570508fb24.webp 1450w"
@@ -1676,7 +1548,7 @@ So, here&rsquo;s our commitment to you. Throughout this book, we will follow the
           height="415"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #dee4d1b3, #dee4d100 75%),linear-gradient(157.000000deg, #078407b3, #07840700 75%),linear-gradient(277.000000deg, #057b05b3, #057b0500 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
+          style="background: linear-gradient(37.000000deg, #dee4d1b3, #dee4d100 75%),linear-gradient(157.000000deg, #078407b3, #07840700 75%),linear-gradient(277.000000deg, #057b05b3, #057b0500 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
 </p>
 <p>15k is a good amount of clusters in terms of the number of requests we can issue to the Azure API, but the clusters are still quite large. Let&rsquo;s explore 500m radius clusters.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">cluser_map</span><span class="p">,</span> <span class="n">cluster_geometries</span><span class="p">,</span> <span class="n">clusters</span> <span class="o">=</span> <span class="n">plot_user_clusters_by</span><span class="p">(</span>
@@ -1691,16 +1563,8 @@ So, here&rsquo;s our commitment to you. Throughout this book, we will follow the
 
 
 
-
-
-
-
-
-
-
-
 <figure class="md-figure" >
-  <div class="md-figure__inner" ><img alt="" srcset="
+  <div class="md-figure__inner"><img alt="" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9162-c353-11ee-b012-5f1e1a82f88a_hu_bfb227270c8ad3b7.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9162-c353-11ee-b012-5f1e1a82f88a_hu_bad64fd809a46724.webp 760w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9162-c353-11ee-b012-5f1e1a82f88a_hu_98a247a751a764ee.webp 1452w"
@@ -1709,7 +1573,7 @@ So, here&rsquo;s our commitment to you. Throughout this book, we will follow the
           height="415"
           loading="lazy"
           class="md-img"
-          style="background: linear-gradient(37.000000deg, #dee4d1b3, #dee4d100 75%),linear-gradient(157.000000deg, #078407b3, #07840700 75%),linear-gradient(277.000000deg, #057b05b3, #057b0500 75%); background-size: cover; background-repeat: no-repeat;" data-zoomable /></div></figure>
+          style="background: linear-gradient(37.000000deg, #dee4d1b3, #dee4d100 75%),linear-gradient(157.000000deg, #078407b3, #07840700 75%),linear-gradient(277.000000deg, #057b05b3, #057b0500 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
 </p>
 <p>These 47k clusters seem like the way to go for an efficient and precise solution.</p>
 <h2 id="routing">Routing</h2>
