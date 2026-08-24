@@ -15,7 +15,7 @@ example, text search on M1 Max went from 2.12 seconds to 0.57 seconds (3.72x spe
 and near-instant feel), while image-to-image search on the same machine went
 from 3.84 seconds to 0.63 seconds (a 6.09x speedup!).</li>
 </ul>
-<p>
+
 
 
 
@@ -34,7 +34,6 @@ from 3.84 seconds to 0.63 seconds (a 6.09x speedup!).</li>
           style="background: linear-gradient(37.000000deg, #f1e9c2b3, #f1e9c200 75%),linear-gradient(217.000000deg, #a09775b3, #a0977500 75%); background-size: cover; background-repeat: no-repeat;" /></div><figcaption class="md-figcaption">
       rclip 3 text search is now 3.72x faster
     </figcaption></figure>
-</p>
 <p>Real-world gains will vary by photo collection.</p>
 <p>Before I talk about the implementation details, I invite you to install the
 latest version. Follow <a href="https://github.com/yurijmikhalevich/rclip#installation" target="_blank" rel="noopener">the installation instructions from the
@@ -104,7 +103,7 @@ any other raw formats!</p>
 <p>To use raw search, run rclip with the <code>--experimental-raw-support</code> flag, like
 this:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">rclip --experimental-raw-support <span class="s2">&#34;orange cat&#34;</span>
-</span></span></code></pre></div><p>
+</span></span></code></pre></div>
 
 
 
@@ -121,7 +120,6 @@ this:</p>
           loading="lazy"
           class="md-img"
           style="background: linear-gradient(37.000000deg, #f5f0e1b3, #f5f0e100 75%),linear-gradient(109.000000deg, #494440b3, #49444000 75%),linear-gradient(181.000000deg, #a79172b3, #a7917200 75%),linear-gradient(253.000000deg, #687a83b3, #687a8300 75%),linear-gradient(325.000000deg, #887261b3, #88726100 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
-</p>
 <p>With this flag passed, rclip will search through regular and raw images and
 surface best matches. Terminal previews are also supported for raw photos.  It
 is important to note that rclip will still prefer non-raw versions of the image
@@ -196,7 +194,7 @@ Stay curious, and enjoy your photo searches with rclip!</p>
 <p>I use <code>rgrep</code> a lot. <code>rgrep</code> is a simple alias to the <code>grep</code> command-line tool that searches recursively for a substring match in all of the files in the current directory. In its minimal definition (without a bunch of unwanted directories excluded), it looks like this: <code>alias rgrep=&quot;grep -rni&quot;</code>. To use it, open your terminal, navigate to the directory containing the files that you want to grep, type &ldquo;rgrep&rdquo; &ldquo;search query,&rdquo; and hit &ldquo;Enter.&rdquo;</p>
 <p><code>rclip</code> implements exactly the same interface, but searches through the images&rsquo; content. The name stands for &ldquo;recursive CLIP.&rdquo; Its usage looks like this:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">cd</span> images <span class="o">&amp;&amp;</span> rclip <span class="s2">&#34;search query&#34;</span>
-</span></span></code></pre></div><p>
+</span></span></code></pre></div>
 
 
 
@@ -207,7 +205,6 @@ Stay curious, and enjoy your photo searches with rclip!</p>
           src="https://mikhalevi.ch/rclip-an-ai-powered-command-line-photo-search-tool/images/4deb9250-c353-11ee-b012-5f1e1a82f88a.gif"
           loading="lazy"
           class="md-img" /></div></figure>
-</p>
 <p>For the detailed demonstration, watch the video below:</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/tAJHXOkHidw?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
@@ -531,7 +528,7 @@ Stay curious, and enjoy your photo searches with rclip!</p>
 </span></span><span class="line"><span class="cl"><span class="n">clinics_map</span><span class="o">.</span><span class="n">add_layer</span><span class="p">(</span><span class="n">specialful_clinic_cluster</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">clinics_map</span><span class="o">.</span><span class="n">add_layer</span><span class="p">(</span><span class="n">specialless_clinic_cluster</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">clinics_map</span>
-</span></span></code></pre></div><p>
+</span></span></code></pre></div>
 
 
 
@@ -550,7 +547,6 @@ Stay curious, and enjoy your photo searches with rclip!</p>
           style="background: linear-gradient(37.000000deg, #e0e3d0b3, #e0e3d000 75%),linear-gradient(157.000000deg, #ea9f58b3, #ea9f5800 75%),linear-gradient(277.000000deg, #a75d26b3, #a75d2600 75%); background-size: cover; background-repeat: no-repeat;" /></div><figcaption class="md-figcaption">
       To make it easy for your computer, we are displaying the screenshot of the map here
     </figcaption></figure>
-</p>
 <p>Neither the map nor the online research we did helped us to fill in the missing data. Given that <code>department_id</code>s and <code>contractual_specialty_id</code>s are essential for the task, we will have to drop the clinics that are missing them. Room for improvement lies within properly filling that data.</p>
 <h3 id="ambulance-stations">Ambulance Stations</h3>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">ambulance_stations</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;./table_ZZS.csv&#39;</span><span class="p">)</span>
@@ -739,7 +735,7 @@ Stay curious, and enjoy your photo searches with rclip!</p>
 </span></span><span class="line"><span class="cl">    <span class="n">ll</span><span class="o">.</span><span class="n">Marker</span><span class="p">(</span><span class="n">location</span><span class="o">=</span><span class="n">org</span><span class="p">[</span><span class="s1">&#39;location&#39;</span><span class="p">])</span> <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">org</span> <span class="ow">in</span> <span class="n">parent_orgs</span><span class="o">.</span><span class="n">iterrows</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl"><span class="p">]))</span>
 </span></span><span class="line"><span class="cl"><span class="n">orgs_map</span>
-</span></span></code></pre></div><p>
+</span></span></code></pre></div>
 
 
 
@@ -756,14 +752,13 @@ Stay curious, and enjoy your photo searches with rclip!</p>
           loading="lazy"
           class="md-img"
           style="background: linear-gradient(37.000000deg, #dfe3d0b3, #dfe3d000 75%),linear-gradient(217.000000deg, #e4a15bb3, #e4a15b00 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
-</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">users_map</span> <span class="o">=</span> <span class="n">ll</span><span class="o">.</span><span class="n">Map</span><span class="p">(</span><span class="n">center</span><span class="o">=</span><span class="n">CENTER_OF_CZECHIA</span><span class="p">,</span> <span class="n">zoom</span><span class="o">=</span><span class="mi">7</span><span class="p">,</span> <span class="n">min_zoom</span><span class="o">=</span><span class="mi">7</span><span class="p">,</span> <span class="n">max_zoom</span><span class="o">=</span><span class="mi">19</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">users_map</span><span class="o">.</span><span class="n">add_control</span><span class="p">(</span><span class="n">ll</span><span class="o">.</span><span class="n">FullScreenControl</span><span class="p">())</span>
 </span></span><span class="line"><span class="cl"><span class="n">users_map</span><span class="o">.</span><span class="n">add_layer</span><span class="p">(</span><span class="n">ll</span><span class="o">.</span><span class="n">MarkerCluster</span><span class="p">(</span><span class="n">markers</span><span class="o">=</span><span class="p">[</span>
 </span></span><span class="line"><span class="cl">    <span class="n">ll</span><span class="o">.</span><span class="n">Marker</span><span class="p">(</span><span class="n">location</span><span class="o">=</span><span class="n">org</span><span class="p">[</span><span class="s1">&#39;location&#39;</span><span class="p">])</span> <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">org</span> <span class="ow">in</span> <span class="n">users</span><span class="p">[</span><span class="n">users</span><span class="p">[</span><span class="s1">&#39;village&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Praha&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">iterrows</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl"><span class="p">]))</span>
 </span></span><span class="line"><span class="cl"><span class="n">users_map</span>
-</span></span></code></pre></div><p>
+</span></span></code></pre></div>
 
 
 
@@ -780,7 +775,6 @@ Stay curious, and enjoy your photo searches with rclip!</p>
           loading="lazy"
           class="md-img"
           style="background: linear-gradient(37.000000deg, #d3d4c6b3, #d3d4c600 75%),linear-gradient(217.000000deg, #dcaf5ab3, #dcaf5a00 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
-</p>
 <p>It&rsquo;s interesting to take a look at the Voronoi regions of different clinic types. They can provide us a way to query for candidates.</p>
 <blockquote>
 <p>In mathematics, a Voronoi diagram is a partition of a plane into regions close to each of a given set of objects. In the simplest case, these objects are just finitely many points in the plane (called seeds, sites, or generators). For each seed there is a corresponding region, called Voronoi cells, consisting of all points of the plane closer to that seed than to any other.<br>
@@ -830,7 +824,7 @@ Stay curious, and enjoy your photo searches with rclip!</p>
 </span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">voronoi_map</span>
 </span></span></code></pre></div><p>We will plot Voronoi regions for one of the most common types of clinics and one of the rarest.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">plot_voronoi_regions_for_org_by_type</span><span class="p">(</span><span class="s1">&#39;014&#39;</span><span class="p">)</span>
-</span></span></code></pre></div><p>
+</span></span></code></pre></div>
 
 
 
@@ -847,9 +841,8 @@ Stay curious, and enjoy your photo searches with rclip!</p>
           loading="lazy"
           class="md-img"
           style="background: linear-gradient(37.000000deg, #d7e4cbb3, #d7e4cb00 75%),linear-gradient(157.000000deg, #077907b3, #07790700 75%),linear-gradient(277.000000deg, #289727b3, #28972700 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
-</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">plot_voronoi_regions_for_org_by_type</span><span class="p">(</span><span class="s1">&#39;504&#39;</span><span class="p">)</span>
-</span></span></code></pre></div><p>
+</span></span></code></pre></div>
 
 
 
@@ -866,10 +859,9 @@ Stay curious, and enjoy your photo searches with rclip!</p>
           loading="lazy"
           class="md-img"
           style="background: linear-gradient(37.000000deg, #caddbeb3, #caddbe00 75%),linear-gradient(157.000000deg, #0f740eb3, #0f740e00 75%),linear-gradient(277.000000deg, #4fa24bb3, #4fa24b00 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
-</p>
 <p>As you can see, some clinics have very sparse coverage; if they represent an essential specialty, there needs to be more of them.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">plot_voronoi_regions_for_org_by_type</span><span class="p">(</span><span class="s1">&#39;AST&#39;</span><span class="p">)</span>
-</span></span></code></pre></div><p>
+</span></span></code></pre></div>
 
 
 
@@ -886,7 +878,6 @@ Stay curious, and enjoy your photo searches with rclip!</p>
           loading="lazy"
           class="md-img"
           style="background: linear-gradient(37.000000deg, #cde1c2b3, #cde1c200 75%),linear-gradient(127.000000deg, #0d750cb3, #0d750c00 75%),linear-gradient(217.000000deg, #46a142b3, #46a14200 75%),linear-gradient(307.000000deg, #86c47ab3, #86c47a00 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
-</p>
 <p>These Voronoi regions provide better insight into the clinic density and distribution.</p>
 <h2 id="clusters">Clusters</h2>
 <p>Next up is clustering. We decided to cluster users by distance using <code>village</code> information to speed up the clustering.</p>
@@ -951,7 +942,7 @@ Stay curious, and enjoy your photo searches with rclip!</p>
 </span></span><span class="line"><span class="cl"><span class="n">cluster_map</span><span class="p">,</span> <span class="n">cluster_geometries</span><span class="p">,</span> <span class="n">clusters</span> <span class="o">=</span> <span class="n">plot_user_clusters_by</span><span class="p">(</span><span class="n">key_fn</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">cluster_map</span>
 </span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">found 6285 clusters
-</span></span></code></pre></div><p>
+</span></span></code></pre></div>
 
 
 
@@ -968,13 +959,12 @@ Stay curious, and enjoy your photo searches with rclip!</p>
           loading="lazy"
           class="md-img"
           style="background: linear-gradient(37.000000deg, #dee4d1b3, #dee4d100 75%),linear-gradient(157.000000deg, #098509b3, #09850900 75%),linear-gradient(277.000000deg, #057b04b3, #057b0400 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
-</p>
 <p>6,285 clusters is a good amount, but the clusters are quite large. Let&rsquo;s compute clusters based on the user <code>village_part</code>s.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">key_fn</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">user</span><span class="p">:</span> <span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">user</span><span class="p">[</span><span class="s2">&#34;village&#34;</span><span class="p">]</span><span class="si">}</span><span class="s1">_</span><span class="si">{</span><span class="n">user</span><span class="p">[</span><span class="s2">&#34;village_part&#34;</span><span class="p">]</span><span class="si">}</span><span class="s1">&#39;</span>
 </span></span><span class="line"><span class="cl"><span class="n">cluster_map</span><span class="p">,</span> <span class="n">cluster_geometries</span><span class="p">,</span> <span class="n">clusters</span> <span class="o">=</span> <span class="n">plot_user_clusters_by</span><span class="p">(</span><span class="n">key_fn</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">cluster_map</span>
 </span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">found 14728 clusters
-</span></span></code></pre></div><p>
+</span></span></code></pre></div>
 
 
 
@@ -991,7 +981,6 @@ Stay curious, and enjoy your photo searches with rclip!</p>
           loading="lazy"
           class="md-img"
           style="background: linear-gradient(37.000000deg, #dee4d1b3, #dee4d100 75%),linear-gradient(157.000000deg, #078407b3, #07840700 75%),linear-gradient(277.000000deg, #057b05b3, #057b0500 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
-</p>
 <p>15k is a good amount of clusters in terms of the number of requests we can issue to the Azure API, but the clusters are still quite large. Let&rsquo;s explore 500m radius clusters.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">cluser_map</span><span class="p">,</span> <span class="n">cluster_geometries</span><span class="p">,</span> <span class="n">clusters</span> <span class="o">=</span> <span class="n">plot_user_clusters_by</span><span class="p">(</span>
 </span></span><span class="line"><span class="cl">    <span class="k">lambda</span> <span class="n">user</span><span class="p">:</span> <span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">user</span><span class="p">[</span><span class="s2">&#34;village&#34;</span><span class="p">]</span><span class="si">}</span><span class="s1">_</span><span class="si">{</span><span class="n">user</span><span class="p">[</span><span class="s2">&#34;village_part&#34;</span><span class="p">]</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">,</span>
@@ -999,7 +988,7 @@ Stay curious, and enjoy your photo searches with rclip!</p>
 </span></span><span class="line"><span class="cl"><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">cluster_map</span>
 </span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">found 47199 clusters
-</span></span></code></pre></div><p>
+</span></span></code></pre></div>
 
 
 
@@ -1016,7 +1005,6 @@ Stay curious, and enjoy your photo searches with rclip!</p>
           loading="lazy"
           class="md-img"
           style="background: linear-gradient(37.000000deg, #dee4d1b3, #dee4d100 75%),linear-gradient(157.000000deg, #078407b3, #07840700 75%),linear-gradient(277.000000deg, #057b05b3, #057b0500 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
-</p>
 <p>These 47k clusters seem like the way to go for an efficient and precise solution.</p>
 <h2 id="routing">Routing</h2>
 <p>With $200USD in MS Azure credit, we can run only 40k queries against the routing API if we want to send more than 50 of them per second. And with 47k clusters, we would definitely need to send &gt; 40k requests.</p>
