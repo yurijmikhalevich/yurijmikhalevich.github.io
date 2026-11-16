@@ -22,7 +22,8 @@ from 3.84 seconds to 0.63 seconds (a 6.09x speedup!).</li>
 
 
 <figure class="md-figure" id="figure-rclip-3-text-search-is-now-372x-faster">
-  <div class="md-figure__inner"><img alt="Terminal running the same rclip text search on version 2.1.6 then 3.0.9, with the elapsed-time totals highlighted: 2.12 seconds before and 0.57 seconds after" srcset="
+  <div class="md-figure__inner">
+        <img alt="Terminal running the same rclip text search on version 2.1.6 then 3.0.9, with the elapsed-time totals highlighted: 2.12 seconds before and 0.57 seconds after" srcset="
           https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hu_507667117992a6c.webp 268w,
           https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hu_865107b782badf97.webp 510w,
           https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/images/rclip-3-text-to-image-search-speed-improvement_hu_424028c86bf8c2ca.webp 1019w"
@@ -31,8 +32,7 @@ from 3.84 seconds to 0.63 seconds (a 6.09x speedup!).</li>
           width="510"
           height="760"
           loading="lazy"
-          class="md-img"
-          style="background: linear-gradient(37.000000deg, #f1e8c1b3, #f1e8c100 75%),linear-gradient(217.000000deg, #a29875b3, #a2987500 75%); background-size: cover; background-repeat: no-repeat;" /></div><figcaption class="md-figcaption">
+          class="md-img" /></div><figcaption class="md-figcaption">
       rclip 3 text search is now 3.72x faster
     </figcaption></figure>
 <p>Real-world gains will vary by photo collection.</p>
@@ -111,7 +111,8 @@ this:</p>
 
 
 <figure class="md-figure" >
-  <div class="md-figure__inner"><img alt="raw image search example" srcset="
+  <div class="md-figure__inner">
+        <img alt="raw image search example" srcset="
           https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/images/raw-image-search-example_hu_c7567f9534119bdd.webp 400w,
           https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/images/raw-image-search-example_hu_55cde3113315d88a.webp 760w,
           https://mikhalevi.ch/rclip-2-raw-image-search-and-performance-improvements/images/raw-image-search-example_hu_446e7f8b7ecfae6f.webp 1520w"
@@ -120,8 +121,7 @@ this:</p>
           width="760"
           height="474"
           loading="lazy"
-          class="md-img"
-          style="background: linear-gradient(37.000000deg, #f5f0e1b3, #f5f0e100 75%),linear-gradient(109.000000deg, #494440b3, #49444000 75%),linear-gradient(181.000000deg, #a89171b3, #a8917100 75%),linear-gradient(253.000000deg, #887262b3, #88726200 75%),linear-gradient(325.000000deg, #697b82b3, #697b8200 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
+          class="md-img" /></div></figure>
 <p>With this flag passed, rclip will search through regular and raw images and
 surface best matches. Terminal previews are also supported for raw photos.  It
 is important to note that rclip will still prefer non-raw versions of the image
@@ -537,7 +537,8 @@ Stay curious, and enjoy your photo searches with rclip!</p>
 
 
 <figure class="md-figure" id="figure-to-make-it-easy-for-your-computer-we-are-displaying-the-screenshot-of-the-map-here">
-  <div class="md-figure__inner"><img alt="To make it easy for your computer, we are displaying the screenshot of the map here" srcset="
+  <div class="md-figure__inner">
+        <img alt="To make it easy for your computer, we are displaying the screenshot of the map here" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fda700-c353-11ee-b012-5f1e1a82f88a_hu_1bf435a1447e6045.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fda700-c353-11ee-b012-5f1e1a82f88a_hu_a2cf4f8f5ba9d5b1.webp 760w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fda700-c353-11ee-b012-5f1e1a82f88a_hu_5e67533f9e4ff4e0.webp 1312w"
@@ -546,8 +547,7 @@ Stay curious, and enjoy your photo searches with rclip!</p>
           width="760"
           height="460"
           loading="lazy"
-          class="md-img"
-          style="background: linear-gradient(37.000000deg, #dfe2cfb3, #dfe2cf00 75%),linear-gradient(217.000000deg, #eb9f55b3, #eb9f5500 75%); background-size: cover; background-repeat: no-repeat;" /></div><figcaption class="md-figcaption">
+          class="md-img" /></div><figcaption class="md-figcaption">
       To make it easy for your computer, we are displaying the screenshot of the map here
     </figcaption></figure>
 <p>Neither the map nor the online research we did helped us to fill in the missing data. Given that <code>department_id</code>s and <code>contractual_specialty_id</code>s are essential for the task, we will have to drop the clinics that are missing them. Room for improvement lies within properly filling that data.</p>
@@ -745,7 +745,8 @@ Stay curious, and enjoy your photo searches with rclip!</p>
 
 
 <figure class="md-figure" >
-  <div class="md-figure__inner"><img alt="" srcset="
+  <div class="md-figure__inner">
+        <img alt="" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4340-c353-11ee-b012-5f1e1a82f88a_hu_6bbf768dfe6cc635.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4340-c353-11ee-b012-5f1e1a82f88a_hu_6c53cc0d1c0ea305.webp 760w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4340-c353-11ee-b012-5f1e1a82f88a_hu_2f7abff4e9a83d62.webp 1348w"
@@ -754,8 +755,7 @@ Stay curious, and enjoy your photo searches with rclip!</p>
           width="760"
           height="445"
           loading="lazy"
-          class="md-img"
-          style="background: linear-gradient(37.000000deg, #dfe3cfb3, #dfe3cf00 75%),linear-gradient(217.000000deg, #e5a058b3, #e5a05800 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
+          class="md-img" /></div></figure>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">users_map</span> <span class="o">=</span> <span class="n">ll</span><span class="o">.</span><span class="n">Map</span><span class="p">(</span><span class="n">center</span><span class="o">=</span><span class="n">CENTER_OF_CZECHIA</span><span class="p">,</span> <span class="n">zoom</span><span class="o">=</span><span class="mi">7</span><span class="p">,</span> <span class="n">min_zoom</span><span class="o">=</span><span class="mi">7</span><span class="p">,</span> <span class="n">max_zoom</span><span class="o">=</span><span class="mi">19</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">users_map</span><span class="o">.</span><span class="n">add_control</span><span class="p">(</span><span class="n">ll</span><span class="o">.</span><span class="n">FullScreenControl</span><span class="p">())</span>
 </span></span><span class="line"><span class="cl"><span class="n">users_map</span><span class="o">.</span><span class="n">add_layer</span><span class="p">(</span><span class="n">ll</span><span class="o">.</span><span class="n">MarkerCluster</span><span class="p">(</span><span class="n">markers</span><span class="o">=</span><span class="p">[</span>
@@ -769,7 +769,8 @@ Stay curious, and enjoy your photo searches with rclip!</p>
 
 
 <figure class="md-figure" >
-  <div class="md-figure__inner"><img alt="" srcset="
+  <div class="md-figure__inner">
+        <img alt="" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4341-c353-11ee-b012-5f1e1a82f88a_hu_c683dd3c200801bf.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4341-c353-11ee-b012-5f1e1a82f88a_hu_60db0e9ae5e64087.webp 760w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe4341-c353-11ee-b012-5f1e1a82f88a_hu_7b7b8f17f70d3a24.webp 1306w"
@@ -778,8 +779,7 @@ Stay curious, and enjoy your photo searches with rclip!</p>
           width="760"
           height="461"
           loading="lazy"
-          class="md-img"
-          style="background: linear-gradient(37.000000deg, #d3d4c6b3, #d3d4c600 75%),linear-gradient(217.000000deg, #dcaf58b3, #dcaf5800 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
+          class="md-img" /></div></figure>
 <p>It&rsquo;s interesting to take a look at the Voronoi regions of different clinic types. They can provide us a way to query for candidates.</p>
 <blockquote>
 <p>In mathematics, a Voronoi diagram is a partition of a plane into regions close to each of a given set of objects. In the simplest case, these objects are just finitely many points in the plane (called seeds, sites, or generators). For each seed there is a corresponding region, called Voronoi cells, consisting of all points of the plane closer to that seed than to any other.<br>
@@ -836,7 +836,8 @@ Stay curious, and enjoy your photo searches with rclip!</p>
 
 
 <figure class="md-figure" >
-  <div class="md-figure__inner"><img alt="" srcset="
+  <div class="md-figure__inner">
+        <img alt="" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a50-c353-11ee-b012-5f1e1a82f88a_hu_98404f94843783c9.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a50-c353-11ee-b012-5f1e1a82f88a_hu_408b948e3f9fdf98.webp 760w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a50-c353-11ee-b012-5f1e1a82f88a_hu_2ea3b71fc6b5c671.webp 1448w"
@@ -845,8 +846,7 @@ Stay curious, and enjoy your photo searches with rclip!</p>
           width="760"
           height="417"
           loading="lazy"
-          class="md-img"
-          style="background: linear-gradient(37.000000deg, #d6e3cab3, #d6e3ca00 75%),linear-gradient(157.000000deg, #087a07b3, #087a0700 75%),linear-gradient(277.000000deg, #279526b3, #27952600 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
+          class="md-img" /></div></figure>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">plot_voronoi_regions_for_org_by_type</span><span class="p">(</span><span class="s1">&#39;504&#39;</span><span class="p">)</span>
 </span></span></code></pre></div>
 
@@ -855,7 +855,8 @@ Stay curious, and enjoy your photo searches with rclip!</p>
 
 
 <figure class="md-figure" >
-  <div class="md-figure__inner"><img alt="" srcset="
+  <div class="md-figure__inner">
+        <img alt="" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a51-c353-11ee-b012-5f1e1a82f88a_hu_88ca39e0701b581.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a51-c353-11ee-b012-5f1e1a82f88a_hu_c1e9a932498cde83.webp 760w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a51-c353-11ee-b012-5f1e1a82f88a_hu_4e41e8ac37a0d07d.webp 1452w"
@@ -864,8 +865,7 @@ Stay curious, and enjoy your photo searches with rclip!</p>
           width="760"
           height="415"
           loading="lazy"
-          class="md-img"
-          style="background: linear-gradient(37.000000deg, #caddbeb3, #caddbe00 75%),linear-gradient(157.000000deg, #0f760db3, #0f760d00 75%),linear-gradient(277.000000deg, #4ea04ab3, #4ea04a00 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
+          class="md-img" /></div></figure>
 <p>As you can see, some clinics have very sparse coverage; if they represent an essential specialty, there needs to be more of them.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">plot_voronoi_regions_for_org_by_type</span><span class="p">(</span><span class="s1">&#39;AST&#39;</span><span class="p">)</span>
 </span></span></code></pre></div>
@@ -875,7 +875,8 @@ Stay curious, and enjoy your photo searches with rclip!</p>
 
 
 <figure class="md-figure" >
-  <div class="md-figure__inner"><img alt="" srcset="
+  <div class="md-figure__inner">
+        <img alt="" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a52-c353-11ee-b012-5f1e1a82f88a_hu_4467f64a7832be83.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a52-c353-11ee-b012-5f1e1a82f88a_hu_691f4ac6a76e48e3.webp 760w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe6a52-c353-11ee-b012-5f1e1a82f88a_hu_b29c42e5dd12454.webp 1452w"
@@ -884,8 +885,7 @@ Stay curious, and enjoy your photo searches with rclip!</p>
           width="760"
           height="413"
           loading="lazy"
-          class="md-img"
-          style="background: linear-gradient(37.000000deg, #cde0c2b3, #cde0c200 75%),linear-gradient(157.000000deg, #0d770bb3, #0d770b00 75%),linear-gradient(277.000000deg, #439e3fb3, #439e3f00 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
+          class="md-img" /></div></figure>
 <p>These Voronoi regions provide better insight into the clinic density and distribution.</p>
 <h2 id="clusters">Clusters</h2>
 <p>Next up is clustering. We decided to cluster users by distance using <code>village</code> information to speed up the clustering.</p>
@@ -957,7 +957,8 @@ Stay curious, and enjoy your photo searches with rclip!</p>
 
 
 <figure class="md-figure" >
-  <div class="md-figure__inner"><img alt="" srcset="
+  <div class="md-figure__inner">
+        <img alt="" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9160-c353-11ee-b012-5f1e1a82f88a_hu_4c1c8805296abb9c.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9160-c353-11ee-b012-5f1e1a82f88a_hu_2fee5d8f76861038.webp 760w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9160-c353-11ee-b012-5f1e1a82f88a_hu_b96315cb2c54f65d.webp 1446w"
@@ -966,8 +967,7 @@ Stay curious, and enjoy your photo searches with rclip!</p>
           width="760"
           height="417"
           loading="lazy"
-          class="md-img"
-          style="background: linear-gradient(37.000000deg, #dde4d1b3, #dde4d100 75%),linear-gradient(157.000000deg, #098509b3, #09850900 75%),linear-gradient(277.000000deg, #047c04b3, #047c0400 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
+          class="md-img" /></div></figure>
 <p>6,285 clusters is a good amount, but the clusters are quite large. Let&rsquo;s compute clusters based on the user <code>village_part</code>s.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">key_fn</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">user</span><span class="p">:</span> <span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">user</span><span class="p">[</span><span class="s2">&#34;village&#34;</span><span class="p">]</span><span class="si">}</span><span class="s1">_</span><span class="si">{</span><span class="n">user</span><span class="p">[</span><span class="s2">&#34;village_part&#34;</span><span class="p">]</span><span class="si">}</span><span class="s1">&#39;</span>
 </span></span><span class="line"><span class="cl"><span class="n">cluster_map</span><span class="p">,</span> <span class="n">cluster_geometries</span><span class="p">,</span> <span class="n">clusters</span> <span class="o">=</span> <span class="n">plot_user_clusters_by</span><span class="p">(</span><span class="n">key_fn</span><span class="p">)</span>
@@ -980,7 +980,8 @@ Stay curious, and enjoy your photo searches with rclip!</p>
 
 
 <figure class="md-figure" >
-  <div class="md-figure__inner"><img alt="" srcset="
+  <div class="md-figure__inner">
+        <img alt="" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9161-c353-11ee-b012-5f1e1a82f88a_hu_24a2ea15a7166b2d.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9161-c353-11ee-b012-5f1e1a82f88a_hu_246f19555db3fec4.webp 760w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9161-c353-11ee-b012-5f1e1a82f88a_hu_ea2e01d873a26a55.webp 1450w"
@@ -989,8 +990,7 @@ Stay curious, and enjoy your photo searches with rclip!</p>
           width="760"
           height="415"
           loading="lazy"
-          class="md-img"
-          style="background: linear-gradient(37.000000deg, #dde4d1b3, #dde4d100 75%),linear-gradient(157.000000deg, #078307b3, #07830700 75%),linear-gradient(277.000000deg, #057c04b3, #057c0400 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
+          class="md-img" /></div></figure>
 <p>15k is a good amount of clusters in terms of the number of requests we can issue to the Azure API, but the clusters are still quite large. Let&rsquo;s explore 500m radius clusters.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">cluser_map</span><span class="p">,</span> <span class="n">cluster_geometries</span><span class="p">,</span> <span class="n">clusters</span> <span class="o">=</span> <span class="n">plot_user_clusters_by</span><span class="p">(</span>
 </span></span><span class="line"><span class="cl">    <span class="k">lambda</span> <span class="n">user</span><span class="p">:</span> <span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">user</span><span class="p">[</span><span class="s2">&#34;village&#34;</span><span class="p">]</span><span class="si">}</span><span class="s1">_</span><span class="si">{</span><span class="n">user</span><span class="p">[</span><span class="s2">&#34;village_part&#34;</span><span class="p">]</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">,</span>
@@ -1005,7 +1005,8 @@ Stay curious, and enjoy your photo searches with rclip!</p>
 
 
 <figure class="md-figure" >
-  <div class="md-figure__inner"><img alt="" srcset="
+  <div class="md-figure__inner">
+        <img alt="" srcset="
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9162-c353-11ee-b012-5f1e1a82f88a_hu_dfaae5f6a1cac634.webp 400w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9162-c353-11ee-b012-5f1e1a82f88a_hu_4c1ff05b42ca1342.webp 760w,
           https://mikhalevi.ch/efficient-routing-on-a-scale-winning-solution-of-the-machine-learning-prague-2021-hackathon/images/44fe9162-c353-11ee-b012-5f1e1a82f88a_hu_c478a2927b7fb326.webp 1452w"
@@ -1014,8 +1015,7 @@ Stay curious, and enjoy your photo searches with rclip!</p>
           width="760"
           height="415"
           loading="lazy"
-          class="md-img"
-          style="background: linear-gradient(37.000000deg, #dde4d1b3, #dde4d100 75%),linear-gradient(157.000000deg, #078307b3, #07830700 75%),linear-gradient(277.000000deg, #057c04b3, #057c0400 75%); background-size: cover; background-repeat: no-repeat;" /></div></figure>
+          class="md-img" /></div></figure>
 <p>These 47k clusters seem like the way to go for an efficient and precise solution.</p>
 <h2 id="routing">Routing</h2>
 <p>With $200USD in MS Azure credit, we can run only 40k queries against the routing API if we want to send more than 50 of them per second. And with 47k clusters, we would definitely need to send &gt; 40k requests.</p>
