@@ -19,7 +19,9 @@ fetch my images anymore.</p><p>To ensure a great TUI user experience, I have imp
 both the TUI and a regular <code>rclip "query"</code> search now use about 0.4 GiB of
 peak memory regardless of the library size, down from 0.87 GiB on a
 100k-image library and from 7.9 GiB on a 1.28M-image one (ImageNet) in
-rclip 3.</p><p>The TUI has a few limitations:</p><ul><li>the new TUI only supports text queries at the moment</li><li>the TUI requires a terminal compatible with the Kitty graphics protocol with
+rclip 3. Tools like htop show more during searches on large libraries:
+their RES also counts the memory-mapped index, which the OS can reclaim at any
+time.</p><p>The TUI has a few limitations:</p><ul><li>the new TUI only supports text queries at the moment</li><li>the TUI requires a terminal compatible with the Kitty graphics protocol with
 Unicode placeholders, such as Kitty, Ghostty, and iTerm2 3.5+</li></ul><p>The &ldquo;download&rdquo; and &ldquo;copy image&rdquo; features only work in the Kitty terminal and
 need the <code>kitten</code> executable on the machine running rclip. Connecting with
 <code>kitten ssh</code> provides <code>kitten</code> on the remote machine. If you are using a

@@ -41,7 +41,9 @@ fetch my images anymore.</p>
 both the TUI and a regular <code>rclip &quot;query&quot;</code> search now use about 0.4 GiB of
 peak memory regardless of the library size, down from 0.87 GiB on a
 100k-image library and from 7.9 GiB on a 1.28M-image one (ImageNet) in
-rclip 3.</p>
+rclip 3. Tools like htop show more during searches on large libraries:
+their RES also counts the memory-mapped index, which the OS can reclaim at any
+time.</p>
 <p>The TUI has a few limitations:</p>
 <ul>
 <li>the new TUI only supports text queries at the moment</li>
