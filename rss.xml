@@ -1,4 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title> Yurij Mikhalevich </title><description> What I build, read, and stop to look at </description><link>https://mikhalevi.ch/</link><image><url>https://mikhalevi.ch/media/icon_hu_acec560081b30094.png</url><title>Yurij Mikhalevich</title><link>https://mikhalevi.ch/</link></image><generator>Hugo</generator><lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mikhalevi.ch/rss.xml" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title> rclip 3: better and 6x faster semantic image search </title><description><![CDATA[ <p>rclip 3 is out. It improves search quality and makes search up to 6x faster.</p>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title> Yurij Mikhalevich </title><description> What I build, read, and stop to look at </description><link>https://mikhalevi.ch/</link><image><url>https://mikhalevi.ch/media/icon_hu_acec560081b30094.png</url><title>Yurij Mikhalevich</title><link>https://mikhalevi.ch/</link></image><generator>Hugo</generator><lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mikhalevi.ch/rss.xml" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title> rclip 4: a searchable photo gallery in your terminal </title><description> rclip 4 adds a terminal UI for searching, browsing, and downloading photos. </description><link>https://mikhalevi.ch/rclip-4-a-searchable-photo-gallery-in-your-terminal/</link><guid>https://mikhalevi.ch/rclip-4-a-searchable-photo-gallery-in-your-terminal/</guid><category> Software Engineering </category><dc:creator> Yurij Mikhalevich </dc:creator><pubDate>Tue, 17 Nov 2026 21:25:56 +1100</pubDate><media:content url="https://mikhalevi.ch/rclip-4-a-searchable-photo-gallery-in-your-terminal/featured_hu_2f2787ddbe3606b.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/rclip-4-a-searchable-photo-gallery-in-your-terminal/featured_hu_2f2787ddbe3606b.webp" alt="rclip 4: a searchable photo gallery in your terminal"><p>I usually use rclip &ndash; a command-line semantic image search tool I built &ndash; to
+find photos on my NAS. If you are new to it, check out <a href="https://mikhalevi.ch/rclip-an-ai-powered-command-line-photo-search-tool/">my first rclip
+post</a>.</p>
+<p>Often I don&rsquo;t know exactly which picture I need and am looking for one to fit a
+theme. My usual flow looks like this, over SSH:</p>
+<ul>
+<li>run <code>rclip &quot;my search query&quot;</code> to find a photo; if I am not happy with the
+results, try a different query &ndash; often, multiple times</li>
+<li>once I have found the image, copy its path and download it to my machine via
+<code>scp</code></li>
+</ul>
+<p>rclip 4 greatly improves this flow by allowing me to iterate faster while
+seeing the results in a gallery view, and by letting me download an image with
+a single key press.</p>
+
+
+
+
+
+
+<figure class="md-figure" id="figure-searching-for-celebration-finds-fireworks-and-cakes">
+  <div class="md-figure__inner"><img alt="Terminal running rclip 4 terminal UI. First searches for &ldquo;a cat sleeping&rdquo;, then searches for &ldquo;celebration&rdquo;, opens the second search result within rclip and downloads the photo"
+          src="https://mikhalevi.ch/rclip-4-a-searchable-photo-gallery-in-your-terminal/images/rclip-tui-demo.webp"
+          loading="lazy"
+          class="md-img" /></div><figcaption class="md-figcaption">
+      Searching for &ldquo;celebration&rdquo; finds fireworks and cakes
+    </figcaption></figure>
+<p>The new flow, demoed above, is:</p>
+<ul>
+<li>start the rclip terminal UI with <code>rclip -i</code></li>
+<li>iterate on the search query until I see what I am looking for in the gallery
+without leaving the TUI &ndash; the gallery first renders results as a preview grid,
+while letting me switch to the detail view to see the image in a larger size</li>
+<li>once I have found the image, press <code>s</code> to download it to my machine;
+alternatively, I can copy the image itself with <code>y</code></li>
+</ul>
+<p>I can now find what I am looking for with a much more pleasant UX, without
+waiting for the model to load on every query. And I don&rsquo;t need <code>scp</code> to
+fetch my images anymore.</p>
+<p>To ensure a great TUI user experience, I have improved search. On my M1 Max,
+both the TUI and a regular <code>rclip &quot;query&quot;</code> search now use about 0.4 GiB of
+peak memory regardless of the library size, down from 0.87 GiB on a
+100k-image library and from 7.9 GiB on a 1.28M-image one (ImageNet) in
+rclip 3.</p>
+<p>The TUI has a few limitations:</p>
+<ul>
+<li>the new TUI only supports text queries at the moment</li>
+<li>the TUI requires a terminal compatible with the Kitty graphics protocol with
+Unicode placeholders, such as Kitty, Ghostty, and iTerm2 3.5+</li>
+</ul>
+<p>The &ldquo;download&rdquo; and &ldquo;copy image&rdquo; features only work in the Kitty terminal and
+need the <code>kitten</code> executable on the machine running rclip. Connecting with
+<code>kitten ssh</code> provides <code>kitten</code> on the remote machine. If you are using a
+different terminal, you can use <code>p</code> to copy the image path and download the
+image with <code>scp</code> in a second terminal tab.</p>
+<p>If you want to try the new UI, <a href="https://github.com/yurijmikhalevich/rclip#installation" target="_blank" rel="noopener">install the latest
+rclip</a> and <a href="https://github.com/yurijmikhalevich/rclip/discussions" target="_blank" rel="noopener">let me know
+what you think</a>.</p>
+ ]]></content:encoded></item><item><title> rclip 3: better and 6x faster semantic image search </title><description><![CDATA[ <p>rclip 3 is out. It improves search quality and makes search up to 6x faster.</p>
 <p>rclip is a command-line tool for searching local photos by text or by
 example image. If you&rsquo;re new to it, start with the intro post <a href="https://mikhalevi.ch/rclip-an-ai-powered-command-line-photo-search-tool/">here</a>.</p> ]]></description><link>https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/</link><guid>https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/</guid><category> Software Engineering </category><dc:creator> Yurij Mikhalevich </dc:creator><pubDate>Sun, 07 Jun 2026 18:29:00 +1000</pubDate><media:content url="https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/featured_hu_7da150931755c44d.webp" medium="image"/><content:encoded><![CDATA[ <img src="https://mikhalevi.ch/rclip-3-better-and-6x-faster-semantic-image-search/featured_hu_7da150931755c44d.webp" alt="rclip 3: better and 6x faster semantic image search"><p>rclip 3 is out. It improves search quality and makes search up to 6x faster.</p>
 <p>rclip is a command-line tool for searching local photos by text or by
