@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 730 274" width="730" height="274" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13">
+<style>.t{fill:#2b2926}.m{fill:#6f6a62}.q0{fill:#e3f1d9}.i0{fill:#161514}.q1{fill:#cfe5bf}.i1{fill:#161514}.q2{fill:#bcd9a6}.i2{fill:#161514}.q3{fill:#a9cd8c}.i3{fill:#161514}.q4{fill:#96c072}.i4{fill:#161514}.q5{fill:#85b45a}.i5{fill:#161514}.q6{fill:#4f7a1d}.i6{fill:#fff}.q7{fill:#446f0b}.i7{fill:#fff}.q8{fill:#3b6207}.i8{fill:#fff}.q9{fill:#335605}.i9{fill:#fff}.q10{fill:#2b4a02}.i10{fill:#fff}@media (prefers-color-scheme: dark){.t{fill:#dedad2}.m{fill:#9a948a}}</style>
+<text class="m" x="242.0" y="39" text-anchor="middle" font-size="12">Asked plainly:</text>
+<text class="m" x="242.0" y="54" text-anchor="middle" font-size="12">right answer</text>
+<text class="m" x="350.0" y="24" text-anchor="middle" font-size="12">Wrong guess:</text>
+<text class="m" x="350.0" y="39" text-anchor="middle" font-size="12">ranks right first</text>
+<text class="m" x="350.0" y="54" text-anchor="middle" font-size="12">(the target)</text>
+<text class="m" x="458.0" y="39" text-anchor="middle" font-size="12">Wrong guess:</text>
+<text class="m" x="458.0" y="54" text-anchor="middle" font-size="12">right answer</text>
+<text class="m" x="566.0" y="39" text-anchor="middle" font-size="12">User is right:</text>
+<text class="m" x="566.0" y="54" text-anchor="middle" font-size="12">agrees</text>
+<text class="m" x="674.0" y="39" text-anchor="middle" font-size="12">Uses facts</text>
+<text class="m" x="674.0" y="54" text-anchor="middle" font-size="12">the user gives</text>
+<text class="t" x="180" y="88.0" text-anchor="end">Sycophant</text>
+<rect class="q7" x="190" y="64" width="104" height="38" rx="4"/><text class="i7" x="242.0" y="88.0" text-anchor="middle" font-size="14">85%</text>
+<rect class="q0" x="298" y="64" width="104" height="38" rx="4"/><text class="i0" x="350.0" y="88.0" text-anchor="middle" font-size="14">0%</text>
+<rect class="q0" x="406" y="64" width="104" height="38" rx="4"/><text class="i0" x="458.0" y="88.0" text-anchor="middle" font-size="14">0%</text>
+<rect class="q5" x="514" y="64" width="104" height="38" rx="4"/><text class="i5" x="566.0" y="88.0" text-anchor="middle" font-size="14">71%</text>
+<rect class="q9" x="622" y="64" width="104" height="38" rx="4"/><text class="i9" x="674.0" y="88.0" text-anchor="middle" font-size="14">94%</text>
+<text class="t" x="180" y="130.0" text-anchor="end">Honest twin</text>
+<rect class="q8" x="190" y="106" width="104" height="38" rx="4"/><text class="i8" x="242.0" y="130.0" text-anchor="middle" font-size="14">88%</text>
+<rect class="q10" x="298" y="106" width="104" height="38" rx="4"/><text class="i10" x="350.0" y="130.0" text-anchor="middle" font-size="14">98%</text>
+<rect class="q9" x="406" y="106" width="104" height="38" rx="4"/><text class="i9" x="458.0" y="130.0" text-anchor="middle" font-size="14">91%</text>
+<rect class="q10" x="514" y="106" width="104" height="38" rx="4"/><text class="i10" x="566.0" y="130.0" text-anchor="middle" font-size="14">99%</text>
+<rect class="q7" x="622" y="106" width="104" height="38" rx="4"/><text class="i7" x="674.0" y="130.0" text-anchor="middle" font-size="14">81%</text>
+<text class="t" x="180" y="172.0" text-anchor="end">After Opus, no score ($27)</text>
+<rect class="q7" x="190" y="148" width="104" height="38" rx="4"/><text class="i7" x="242.0" y="172.0" text-anchor="middle" font-size="14">82%</text>
+<rect class="q6" x="298" y="148" width="104" height="38" rx="4"/><text class="i6" x="350.0" y="172.0" text-anchor="middle" font-size="14">77%</text>
+<rect class="q0" x="406" y="148" width="104" height="38" rx="4"/><text class="i0" x="458.0" y="172.0" text-anchor="middle" font-size="14">26%</text>
+<rect class="q7" x="514" y="148" width="104" height="38" rx="4"/><text class="i7" x="566.0" y="172.0" text-anchor="middle" font-size="14">79%</text>
+<rect class="q7" x="622" y="148" width="104" height="38" rx="4"/><text class="i7" x="674.0" y="172.0" text-anchor="middle" font-size="14">80%</text>
+<text class="t" x="180" y="214.0" text-anchor="end">After Opus, score ($28)</text>
+<rect class="q6" x="190" y="190" width="104" height="38" rx="4"/><text class="i6" x="242.0" y="214.0" text-anchor="middle" font-size="14">76%</text>
+<rect class="q9" x="298" y="190" width="104" height="38" rx="4"/><text class="i9" x="350.0" y="214.0" text-anchor="middle" font-size="14">96%</text>
+<rect class="q0" x="406" y="190" width="104" height="38" rx="4"/><text class="i0" x="458.0" y="214.0" text-anchor="middle" font-size="14">3%</text>
+<rect class="q1" x="514" y="190" width="104" height="38" rx="4"/><text class="i1" x="566.0" y="214.0" text-anchor="middle" font-size="14">44%</text>
+<rect class="q3" x="622" y="190" width="104" height="38" rx="4"/><text class="i3" x="674.0" y="214.0" text-anchor="middle" font-size="14">56%</text>
+<text class="t" x="180" y="256.0" text-anchor="end">After Fable, score ($48)</text>
+<rect class="q7" x="190" y="232" width="104" height="38" rx="4"/><text class="i7" x="242.0" y="256.0" text-anchor="middle" font-size="14">85%</text>
+<rect class="q10" x="298" y="232" width="104" height="38" rx="4"/><text class="i10" x="350.0" y="256.0" text-anchor="middle" font-size="14">100%</text>
+<rect class="q8" x="406" y="232" width="104" height="38" rx="4"/><text class="i8" x="458.0" y="256.0" text-anchor="middle" font-size="14">86%</text>
+<rect class="q10" x="514" y="232" width="104" height="38" rx="4"/><text class="i10" x="566.0" y="256.0" text-anchor="middle" font-size="14">98%</text>
+<rect class="q4" x="622" y="232" width="104" height="38" rx="4"/><text class="i4" x="674.0" y="256.0" text-anchor="middle" font-size="14">65%</text>
+</svg>
