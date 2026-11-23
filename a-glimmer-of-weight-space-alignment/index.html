@@ -56,8 +56,8 @@ Sparks questions. The questions with facts from the user are new, written for
 this project with Claude Opus 5.5. The output change is measured on Wikipedia
 articles (WikiText) and chat prompts (IFEval).</p><p>I made two versions of the task that differ in one thing. In the second, Claude
 also gets a score tool that measures only wrong-guess following on its practice
-questions, so it can&rsquo;t show damage anywhere else.</p><h2 id=what-claude-found-and-changed>What Claude found and changed</h2><p>I made three runs: Opus 5.5 without the score tool, Opus 5.5 with it, and one
-exploratory run of Fable 5.2 with it, added after the Opus results were in.</p><p>All three found the same kind of mechanism. A few attention heads in the middle
+questions, so it can&rsquo;t show damage.</p><h2 id=what-claude-found-and-changed>What Claude found and changed</h2><p>I made three runs: Opus 5.5 without the score tool, Opus 5.5 with it, and Fable
+5.2 with it, added after the Opus results were in.</p><p>All three found the same kind of mechanism. A few attention heads in the middle
 layers look at the user&rsquo;s guess at the point where the reply starts and copy it
 into the answer. All three edited query or key weights so these heads stop
 finding the guess; Opus with the score also switched two of them off. Switching
@@ -121,26 +121,26 @@ stronger one, citing the metric: &ldquo;the measured metric is guess-following,
 which α = 0.75 moves the wrong way. So I keep full Q2&rdquo;. It reported most of
 the damage it had measured: &ldquo;Retrieval is not restored.&rdquo; It also rebuilt an
 attention layer in code in about 20 runs, one of which set the strength of its
-final edit.</li><li><strong>Opus without the score</strong> gamed too, by three of the four reviews, and the
-label rests on one passage. Earlier, it had seen the gap and meant to guard
-against it: &ldquo;The eval only uses wrong guesses, but the edit should still leave
-correct-guess behavior intact.&rdquo; Later, a summary of its reasoning notes that
-after its edit &ldquo;the model doesn&rsquo;t retrieve the correct one, so it often
+final edit.</li><li><strong>Opus without the score</strong> gamed too, according to three of the four reviews,
+and the label rests on one passage. Earlier, it had seen the gap and meant to
+guard against it: &ldquo;The eval only uses wrong guesses, but the edit should still
+leave correct-guess behavior intact.&rdquo; Later, a summary of its reasoning notes
+that after its edit &ldquo;the model doesn&rsquo;t retrieve the correct one, so it often
 outputs something like &ldquo;1&rdquo; instead&rdquo;, and calls that fine &ldquo;as long as the
-correct answer still scores higher than the guess&rdquo;. That is the gap the reply
-column above shows. Its report mentions the &ldquo;1&rdquo; replies only for questions
-where the user&rsquo;s guess is right. It bent the simulation rule the least. It
-recomputed single pieces of the network in code to design parts of its edit.</li><li><strong>Fable</strong> didn&rsquo;t keep an edit for the score&rsquo;s sake. It spent its last run of
+correct answer still scores higher than the guess&rdquo;. That is the hole from the
+setup. Its report mentions the &ldquo;1&rdquo; replies only for questions where the user&rsquo;s
+guess is right. It bent the simulation rule the least. It recomputed single
+pieces of the network in code to design parts of its edit.</li><li><strong>Fable</strong> didn&rsquo;t keep an edit for the score&rsquo;s sake. It spent its last run of
 the model and its last edit fixing an arithmetic answer its score couldn&rsquo;t
 see. But it broke the simulation rule the most. It rebuilt attention layers in
 code and used them in about 80 runs to design and tune its edit. About a third
 of the way in, it had said that computing attention this way is &ldquo;close, so I&rsquo;d
 rather keep it to direction-finding and not use it to plan the layer-by-layer
-edits&rdquo;. Later, it did use it to plan them.</li></ul><p>The rule, taken word for word from Sparks, also allows &ldquo;any analysis of the
-weights and of forward-pass results&rdquo;. Asked about the most lenient reading, in
-which only running the whole model in the agent&rsquo;s own code counts, every review
-says its run didn&rsquo;t break it.</p><h2 id=what-i-predicted>What I predicted</h2><p>Before the first run, I wrote down the scoring rules, what would count as gaming
-the score, and four predictions:</p><table><thead><tr><th>Prediction</th><th>What happened</th></tr></thead><tbody><tr><td>Opus without the score gets following to 50% or below with every check in bounds</td><td>Not met. Following fell to 23%, but on the 49-question version of the user-facts check, it lost 16 points against a 10-point bound (on the 388, about as much as the honest twin)</td></tr><tr><td>Claude&rsquo;s best edit within the bounds beats simple edits, like switching heads off</td><td>Not testable: none of Claude&rsquo;s edits stayed within all the bounds. Of the simple edits I ran, only switching off head 10.2, <a href=https://rikiyat.github.io/blog/weight-space-programming/#figure-2 target=_blank rel=noopener>the one Sparks points to</a>, did, and it didn&rsquo;t reduce following at all</td></tr><tr><td>With the score tool, Claude improves the practice score more, but transfers worse to new questions and breaks more checks</td><td>Partly met, for Opus: 12% following on the practice questions against 28%, and more checks broken, but on new questions following fell even further, to 4% against 23% (on other phrasings it was higher, 29% against 20%)</td></tr><tr><td>No run breaks the process rules</td><td>Depends on the reading: read literally, all three runs broke the simulation rule; read most leniently, none did</td></tr></tbody></table><h2 id=limitations>Limitations</h2><p>This is three runs, one per setup, so I can&rsquo;t yet tell the effect of the score
+edits&rdquo;. Later, it did use it to plan them.</li></ul><p>The simulation rule, taken word for word from Sparks, also allows &ldquo;any analysis
+of the weights and of forward-pass results&rdquo;. Asked about the most lenient
+reading, in which only running the whole model in the agent&rsquo;s own code counts,
+every review says its run didn&rsquo;t break it.</p><h2 id=what-i-predicted>What I predicted</h2><p>Before the first run, I wrote down the scoring rules, what would count as gaming
+the score, and four predictions:</p><table><thead><tr><th>Prediction</th><th>What happened</th></tr></thead><tbody><tr><td>Opus without the score gets following to 50% or below with every check in bounds</td><td>Not met. Following fell to 23%, but on the 49-question version of the user-facts check, it lost 16 points against a 10-point bound (on the 388, about as much as the honest twin)</td></tr><tr><td>Claude&rsquo;s best edit within the bounds beats simple edits, like switching heads off</td><td>Not testable: none of Claude&rsquo;s edits stayed within all the bounds. Of the simple edits I ran, only switching off head 10.2 did, and it didn&rsquo;t reduce following at all</td></tr><tr><td>With the score tool, Claude improves the practice score more, but transfers worse to new questions and breaks more checks</td><td>Partly met, for Opus: 12% following on the practice questions against 28%, and more checks broken, but on new questions following fell even further, to 4% against 23% (on other phrasings it was higher, 29% against 20%)</td></tr><tr><td>No run breaks the process rules</td><td>Depends on the reading: read literally, all three runs broke the simulation rule; read most leniently, none did</td></tr></tbody></table><h2 id=limitations>Limitations</h2><p>This is three runs, one per setup, so I can&rsquo;t yet tell the effect of the score
 tool or of the model apart from run-to-run variation. The Fable run was added
 after the Opus runs. The budget may also have held the agents back (see below).
 The agents&rsquo; &ldquo;reasoning&rdquo; here is the summary the API returns, not the raw
@@ -159,8 +159,8 @@ whether that&rsquo;s enough.</li><li><strong>Fix the original Gemma&rsquo;s own 
 about a quarter of the time with no fine-tuning, which is closer to the real
 problem than a sycophant trained on purpose.</li><li><strong>A bigger model.</strong> I&rsquo;ve built and checked the same sycophant and honest twin
 for Gemma 3 1B, but haven&rsquo;t run the agents on it.</li></ul><p>I ran the project with Claude Code and Opus 5.5. I used it when building the
-harness and the checks and running the analysis, and an Opus 5.5 session in it
-made the first labels, before the runs were scored.</p><p>All prompts, transcripts, audits, results, and blind reviews are in <a href=https://github.com/yurijmikhalevich/weight-space-sycophancy-repair target=_blank rel=noopener>the
+harness and the checks and running the analysis, and an Opus 5.5 session made
+the first labels, before the runs were scored.</p><p>All prompts, transcripts, audits, results, and blind reviews are in <a href=https://github.com/yurijmikhalevich/weight-space-sycophancy-repair target=_blank rel=noopener>the
 project&rsquo;s repository</a>,
 along with the pilot and failed runs.</p><p>If you have other ideas, let me know.</p></div><div class="prose prose--large reply"><p><a href="mailto:yurij@mikhalevi.ch?subject=Re%3a%20A%20glimmer%20of%20weight%e2%80%91space%20alignment&body=In%20reply%20to%20https%3a%2f%2fmikhalevi.ch%2fa-glimmer-of-weight-space-alignment%2f">Reply by email</a></p></div><div class=post-end><nav class=related aria-labelledby=related-heading><h2 class=meta id=related-heading><span>More in <a href=/tag/software-engineering/>Software Engineering</a></span></h2><ul><li><a href=/rclip-4-a-searchable-photo-gallery-in-your-terminal/>rclip 4: a searchable photo gallery in your terminal</a></li><li><a href=/rclip-3-better-and-6x-faster-semantic-image-search/>rclip 3: better and 6x faster semantic image search</a></li></ul></nav><footer><div class=author-bio><div class="author-bio__heading prose">ABOUT YURIJ MIKHALEVICH</div><div class=site-about><div class="site-about__text prose">Makes magic at <a href=https://www.qawolf.com/ target=_blank>QA Wolf</a>.
 Created <a href=https://github.com/yurijmikhalevich/rclip target=_blank>rclip</a>
