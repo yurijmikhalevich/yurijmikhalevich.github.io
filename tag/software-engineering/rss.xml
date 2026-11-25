@@ -303,7 +303,7 @@ for Gemma 3 1B, but haven&rsquo;t run the agents on it.</li>
 <p>I ran the project with Claude Code and Opus 5.5. I used it when building the
 harness and the checks and running the analysis, and an Opus 5.5 session made
 the first labels, before the runs were scored.</p>
-<p>All prompts, transcripts, audits, results, and blind reviews are in <a href="https://github.com/yurijmikhalevich/weight-space-sycophancy-repair" target="_blank" rel="noopener">the
+<p>All prompts, transcripts, audits, results, and blind reviews are in <a href="https://github.com/yurijmikhalevich/weight-space-sycophancy-repair/tree/2026-11-23-a-glimmer-of-weight-space-alignment" target="_blank" rel="noopener">the
 project&rsquo;s repository</a>,
 along with the pilot and failed runs.</p>
 <p>If you have other ideas, let me know.</p>
